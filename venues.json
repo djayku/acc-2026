@@ -1808,11 +1808,11 @@
         "rating": "Best JINS for evening + Poké combo"
       },
       {
-        "id": "saved-baseball-day1-skip-note",
-        "name": "Baseball (Re-Birth / Asakusa Batting) — SKIPPED Day 1",
+        "id": "saved-baseball-skip-note",
+        "name": "Re-Birth (Baseball) — SKIPPED this trip",
         "category": "Note",
-        "concierge": "Re-Birth Kamata (your usual) is CLOSED WEDNESDAYS — Oct 14 is Wed, so it's out. Asakusa Batting Stadium is 35 min train each way from Shinjuku (Tsukuba Express to Asakusa). Total round-trip ~70 min + 15-30 min batting = 85-100 min. Doesn't fit Day 1 evening (dinner + JINS + PARCO 6F = already 4h of evening).",
-        "tip": "Day 1 evening is tight: 17:00 done check-in, 17:30-19:00 dinner, 19:00-21:00 PARCO (JINS + Poké), 21:00 lights out. No room for batting. Day 3 has no time either (Ameyoko 15:00-16:30 + Poké DX 16:50 + yakitori 17:45 + NEX 18:30). If you really want batting, you can do a 30-min DAY 2 LUNCH BREAK (12:30-13:45) at Asakusa: 12:30 train 35 min, 13:05 batting 30 min, 13:35 train 35 min, 14:10 back at conference. But that's tight + conference resumes 13:45 so you'd miss the start.",
+        "concierge": "Re-Birth Kamata (your usual): OPEN Thu/Fri/Sat/Sun 12:00-20:00 / 11:00-19:00, CLOSED Tue+Wed. Oct 14 = Wed (closed). Re-Birth Koenji: 11-20 weekdays / 10-20 weekends, CLOSED Tue+Wed. Re-Birth Futako-Tamagawa: closed Mon/Wed/Thu. Re-Birth Tama-Nagayama: closed Tue/Thu. Distance: Hatsudai (your conference) → Kamata = 35 min each way (Keio → JR Yamanote at Shinjuku).",
+        "tip": "❌ DOESN'T FIT THIS TRIP:\n - Day 1 evening (Wed Oct 14): Re-Birth Kamata CLOSED Wed\n - Day 2 lunch 12:30-13:45 (Thu Oct 15): technically possible but you'd miss 13:45 conference session\n - Day 2 morning 07:00: Re-Birth opens 12:00 — can't go early\n - Day 2 evening 18:00-20:00: locked for group dinner\n - Day 3 morning 07:00: Re-Birth opens 12:00 weekdays — can't go early. Day 3 evening is NEX transit\n - Asakusa Batting 10:30-23:00: doable after Day 1 dinner but kills PARCO 6F (Poké + Nintendo for kids > your 30 min nostalgia)\n\n✅ YOUR PRIORITY (Hinoya + JBJ + Sasugaya) is locked for Day 3 Ameyoko loop 15:00-16:30. That's the heritage shopping focus this trip.\n\n📅 NEXT TRIP: Book Re-Birth on a Mon/Thu/Fri/Sat/Sun (any day except Tue/Wed). Pair with a morning visit since the doors open at 12:00. Recommended: morning Re-Birth Kamata + lunch at Kamata's old-town yakitori alleys + train to Ueno for HINOYA in the afternoon.",
         "hours": "Asakusa: 10:30-23:00 daily. Re-Birth: varies by location (most closed Wed)",
         "rating": "Not feasible Day 1"
       }
