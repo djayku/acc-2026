@@ -365,26 +365,26 @@
         "duration": "30 min"
       },
       {
-        "id": "d1-aoki",
+        "id": "d1-buffer",
         "time": "17:00",
-        "name": "AOKI Shinjuku West Main (menswear, 30 min)",
-        "venue": "aoki-shinjuku-west",
-        "concierge": "AOKI Shinjuku West Main, 1-8-5 Nishi-Shinjuku. 1 min walk from WPUE. Open 10:00-21:00. Business shirts, casual jackets, suits, pajama suits. 3 floors. Tax-free with passport.",
-        "tip": "30 min is enough. Tell staff upfront: 'business shirt OR jacket, ¥5,000-15,000, tax-free'. They'll guide you. Floor 2F = menswear. Don't browse, ask directly. Pajama suits are a Japanese classic — fun gift.",
+        "name": "Buffer: shower, change, walk LUMINE for Imabari towel",
+        "venue": "hotel",
+        "concierge": "Take 30 min to actually decompress from 1.5h car service + flight. Quick shower, change into walking clothes. Then optional: 5 min walk to LUMINE Classico to grab an Imabari towel set (wife gift).",
+        "tip": "You just landed. Don't rush. The 30 min you save here goes to a more relaxed JINS + more comfortable dinner. If you want, swing by LUMINE Classico (1F, 5 min walk) for the wife gift.",
         "energy": 1,
-        "travel": "1 min walk from WPUE",
+        "travel": "WPUE → LUMINE 1F Classico = 5 min",
         "duration": "30 min"
       },
       {
         "id": "d1-jins",
         "time": "17:30",
-        "name": "JINS LUMINE Shinjuku — ULTRA-FAST (25 min)",
+        "name": "JINS LUMINE Shinjuku (30 min)",
         "venue": "jins-lumine",
-        "concierge": "LUMINE 1, 1F. 1 min walk from WPUE. Bring prescription file (Jay_Ku_Glasses_Prescription_2026-05-04.txt). 25 min tight: skip exam (show HK script), pick standard frame fast, fill form, get pickup slip. Pickup Day 2 12:30 (LUMINE same-day cutoff 16:00).",
-        "tip": "⚡ 25 MIN IS VERY TIGHT. No browsing, no dilly-dallying. Pre-decide: do you want sunglasses or regular glasses? Pick from the 5-6 standard JINS frames on the wall (¥6,600+ with lenses). Polarized upgrade ¥1,500-3,000 if sunglasses. Tax-free at counter.",
+        "concierge": "LUMINE 1, 1F. 1 min walk from WPUE. Bring prescription file. 30 min relaxed: skip exam (show HK script), pick standard frame, fill form, get pickup slip. Pickup Day 2 12:30 (LUMINE same-day cutoff 16:00).",
+        "tip": "30 min is comfortable. Show your HK prescription. Pick from the 5-6 standard JINS frames on the wall (¥6,600+ with lenses). Polarized upgrade ¥1,500-3,000 if sunglasses. Tax-free at counter. Pickup Day 2 12:30 lunch break.",
         "energy": 1,
         "travel": "1 min walk from AOKI",
-        "duration": "25 min"
+        "duration": "30 min"
       },
       {
         "id": "d1-train-parco",
@@ -1759,6 +1759,33 @@
         "tip": "If you want the Ghibli-feel indigo jacket experience, this is the place. Smaller selection than AOKI but every piece is special. 20-30 min. Open ~12:00-19:00 typical.",
         "hours": "12:00-19:00 typical",
         "rating": "Artisan indigo, unique"
+      },
+      {
+        "id": "saved-beams-harajuku",
+        "name": "BEAMS Harajuku (3-24-7 Jingumae)",
+        "category": "Menswear",
+        "concierge": "BEAMS flagship founded 1976. 1-2F, 3-24-7 Jingumae, Shibuya-ku. 12:00-20:00 weekdays / 11:00-20:00 weekends. The original Beams — full menswear lifestyle. Carries BEAMS, BEAMS PLUS, BEAMS T, skating category.",
+        "tip": "🎯 The Beams that started it all. 5 min walk from Harajuku Stn. If you want THE Beams experience (not the Shibuya one), this is it. Open 12:00 so Day 1 evening is too late. Best on Day 3 lunch break 12:30-13:45 (75 min, enough for 1F + 2F browse).",
+        "hours": "12:00-20:00 (Mon-Fri) / 11:00-20:00 (Sat-Sun)",
+        "rating": "Original Beams flagship, must-visit"
+      },
+      {
+        "id": "saved-beams-plus-harajuku",
+        "name": "BEAMS PLUS Harajuku (3-25-12 Jingumae)",
+        "category": "Menswear",
+        "concierge": "1F, 3-25-12 Jingumae, Shibuya. 12:00-20:00 typical. The Japanese take on American heritage: military-inspired jackets, workwear, prep staples. Compact space, staff who know every piece.",
+        "tip": "🎯 If you want the Beams heritage workwear style (like Hinoya but in menswear form), this is the spot. Military jackets + vintage-style pieces + current collabs. 5 min from Harajuku Stn. Better for you than AOKI's salaryman style.",
+        "hours": "12:00-20:00",
+        "rating": "Heritage workwear, the Beams version of Hinoya"
+      },
+      {
+        "id": "saved-beams-men-shibuya",
+        "name": "BEAMS MEN Shibuya (1-15-1 Jinnan)",
+        "category": "Menswear",
+        "concierge": "1-2F, 1-15-1 Jinnan, Shibuya-ku. 11:00-20:00 daily. Flagship for BEAMS men's casual label. Carries BEAMS, BEAMS PLUS, BEAMS T, skating. Walking distance from Shibuya PARCO (5 min).",
+        "tip": "Closest Beams to your Day 1 evening. If you want to add a Beams stop on Day 1 (after PARCO, before/after dinner), this is 5 min from PARCO. 30 min enough for one floor. Open 11:00 so easy fit. Same vibe as AOKI but more curated.",
+        "hours": "11:00-20:00",
+        "rating": "Beams men's casual, walking distance from PARCO"
       }
     ]
   },
