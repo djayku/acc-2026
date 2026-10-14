@@ -364,25 +364,25 @@
         "energy": 4
       },
       {
-        "id": "d1-lumine-walk",
-        "time": "16:45",
-        "name": "Quick LUMINE pass: Imabari towel check (Classico)",
-        "venue": "lumine-classico",
-        "concierge": "LUMINE 1F Classico stocks boxed Imabari bath towel sets (Uchino, Ikeuchi Organic). 5 min from WPUE. Tax-free with passport.",
-        "tip": "If they have the right set, grab it. If not, skip — Isetan Shinjuku 5F (10 min walk) has the bigger selection. We're tight on time tonight.",
+        "id": "d1-jins",
+        "time": "16:40",
+        "name": "JINS LUMINE Shinjuku (eyeglasses) — ULTRA-FAST",
+        "venue": "jins-lumine",
+        "concierge": "Prescription exam free, 20-30 min. Frame selection 15-20 min. Frame + lenses from ¥6,600. Tax-free with passport. Pickup NEXT DAY (JINS-LUMINE cutoff is 16:00 for same-day). 1 min walk from WPUE.",
+        "tip": "⚡ TIGHT 35 MIN WINDOW. Bring your prescription (the file we just saved) on phone. Skip the exam if your HK prescription is <2 years old — just show it. Pick frame FAST: JINS standard frames only, 5-6 styles. No time for browsing. Pickup will be Day 2 12:30 (we'll add it).",
         "energy": 1,
         "travel": "1 min walk",
-        "duration": "10 min"
+        "duration": "35 min"
       },
       {
-        "id": "d1-cab-to-okamo",
-        "time": "16:55",
+        "id": "d1-cab-okamo",
+        "time": "17:15",
         "name": "Cab to Shibuya for Okamo Club",
         "venue": "transit",
-        "concierge": "Shinjuku → Shibuya by cab, ~12 min in evening traffic. Or JR Yamanote 2 stops, 5 min. Cab recommended for ease + luggage-free.",
-        "tip": "Have the address in Japanese ready: 東京都渋谷区宇田川町13-4 国際ビルC棟. Show to driver.",
+        "concierge": "Shinjuku → Shibuya by cab, ~12 min in evening. Have address ready: 東京都渋谷区宇田川町13-4 国際ビルC棟.",
+        "tip": "JR Yamanote is 2 stops, 5 min — actually faster and same price zone. Cab is ¥1,500.",
         "energy": 1,
-        "travel": "12 min cab",
+        "travel": "12 min",
         "duration": "12 min"
       },
       {
@@ -391,25 +391,36 @@
         "name": "Okamo Club Shibuya (colleague dinner)",
         "venue": "okamo-club-shibuya",
         "concierge": "酒場の店 おかもクラブ. Kokusai Building C-Bldg, 13-4 Udagawacho, Shibuya-ku. 3 min from Shibuya Stn. 14:00-23:00 hours. NO RESERVATIONS — everyone queues equally. ¥3,000-4,000 all-in per person.",
-        "tip": "What to order: Assorted sashimi ¥1,000/pp (the headline dish), rare fried horse mackerel ¥630, grilled shellfish ¥590, sushi from ¥150 for 2pc. Everything is fresh market. Open seating — grab whatever's free. Cash recommended (some places don't take cards for the small tabs).",
+        "tip": "What to order: Assorted sashimi ¥1,000/pp (the headline dish), rare fried horse mackerel ¥630, grilled shellfish ¥590, sushi from ¥150 for 2pc. Everything is fresh market. Cash recommended.",
         "energy": 2,
         "travel": "Already there",
         "duration": "2.5 hours"
       },
       {
-        "id": "d1-shibuya-walk",
+        "id": "d1-shibuya-parco",
         "time": "20:00",
-        "name": "Optional: Shibuya Crossing + Shibuya Sky",
-        "venue": "shibuya-crossing",
-        "concierge": "Hachiko exit, 2 min walk from Okamo. Shibuya Sky observation deck (Shibuya Scramble Square 47F) is 5 min walk — but last entry 21:30, ¥2,500. If energy permits, worth it.",
-        "tip": "If you want a Tokyo night view, this is the closest one to the dinner. The crossing itself is free to see (just stand on the scramble crossing corner). Skip if you're tired.",
+        "name": "Shibuya PARCO 6F (Nintendo, Pokémon, JUMP, more)",
+        "venue": "shibuya-parco",
+        "concierge": "Shibuya PARCO 6F is 'CYBERSPACE SHIBUYA' — 9 shops, 7 of them anime/game/character. Open 10:00-21:00 (last hour is quietest, 20:00-21:00). Tax-free in PARCO shops that have it. 3 min walk from Okamo.",
+        "tip": "🎯 BEST SHOPPING IN TOKYO FOR YOU. Priority list: (1) Nintendo TOKYO — exclusive merch, (2) Pokémon Center Shibuya — better stock than Tokyo Stn 'Store' (Shibuya is the full Center, 5F parco). 45 min is enough for 2-3 shops. Skip the cafes/floors 1-5 unless you want fashion.",
         "energy": 2,
         "travel": "3 min walk from Okamo",
+        "duration": "45 min"
+      },
+      {
+        "id": "d1-donki",
+        "time": "20:45",
+        "name": "MEGA Don Quijote Shibuya (24h, snacks/souvenirs)",
+        "venue": "mega-donki-shibuya",
+        "concierge": "28-6 Udagawacho, Shibuya-ku. Open 24 hours. 5 min walk from PARCO. Lower floors: snacks/cosmetics/electronics. Upper floors: character goods/cosplay. Lower floors run food — matcha sweets, instant noodles, snacks.",
+        "tip": "Use Donki as a 1-stop souvenir shop. Top floor (5F) has the anime/cosplay character goods. Lower floors have the Japanese snacks to bring home. If you need Imabari/Uchino towels, they have a small selection in the home goods section. Skip if you're exhausted — this is optional.",
+        "energy": 1,
+        "travel": "5 min walk",
         "duration": "30 min"
       },
       {
         "id": "d1-back-to-hotel",
-        "time": "20:30",
+        "time": "21:15",
         "name": "Cab back to WPUE",
         "venue": "transit",
         "concierge": "Shibuya → Shinjuku by cab, ~15 min in evening. ¥1,500-2,000.",
@@ -420,11 +431,11 @@
       },
       {
         "id": "d1-lights-out",
-        "time": "21:00",
+        "time": "21:30",
         "name": "Lights out",
         "venue": "wpue",
-        "concierge": "Day 1 done. Hotel is 5 min from LUMINE (so JINS Day 2 morning is easy).",
-        "tip": "Set 3 alarms for 06:30 (Thursday Day 2 JINS + Paul Bassett + conference).",
+        "concierge": "Day 1 done.",
+        "tip": "Set 3 alarms for 06:30 (Thursday Day 2 JINS pickup at 12:30 + Paul Bassett + conference 09:00).",
         "energy": 1,
         "travel": "—",
         "duration": "—"
@@ -522,7 +533,8 @@
         "name": "Lunch + JINS pickup",
         "venue": "opera_city",
         "concierge": "—",
-        "energy": 3
+        "energy": 3,
+        "tip": "Quick 5-min JINS pickup at LUMINE (2 min walk from Opera City). Then eat — Opera City B1 has 10+ fast options (Tsukiji Shokudo B1 for sashimi ¥1,000-1,500, ramen, bakery). Conference resumes 13:45."
       },
       {
         "id": "d2-9",
@@ -1692,6 +1704,33 @@
         "tip": "If your kid is a Pokémon superfan, this is the splurge. Reservation opens exactly 31 days before your visit date at 18:00 JST — book the second you can if you want it. Otherwise skip — it's 90 min in the middle of your Day 3 shopping flow.",
         "hours": "10:30-21:00 (reservation-only)",
         "rating": "4.3+ Tabelog, reservation required"
+      },
+      {
+        "id": "saved-okamo-club-shibuya",
+        "name": "Okamo Club Shibuya (酒場の店 おかもクラブ)",
+        "category": "Dinner",
+        "concierge": "酒場の店 おかもクラブ. Kokusai Building C-Bldg, 13-4 Udagawacho, Shibuya-ku, Tokyo. 3 min from Shibuya Stn. 14:00-23:00. NO RESERVATIONS — everyone queues equally. ¥3,000-4,000 all-in per person.",
+        "tip": "Best for: colleague dinners, seafood lovers, anti-fancy. Order: assorted sashimi ¥1,000/pp, rare fried horse mackerel ¥630, grilled shellfish ¥590, sushi from ¥150/2pc. Standing-style counter. Cash preferred.",
+        "hours": "14:00-23:00 daily",
+        "rating": "4.5+ Tabelog"
+      },
+      {
+        "id": "saved-shibuya-parco-6f",
+        "name": "Shibuya PARCO 6F (Nintendo, Pokémon, JUMP, more)",
+        "category": "Character Shopping",
+        "concierge": "Shibuya PARCO 6F: Nintendo TOKYO (10:00-21:00), Pokémon Center Shibuya (10:00-21:00, full Center not Store), CAPCOM STORE TOKYO, JUMP SHOP (One Piece, MHA, etc.), SEGA STORE TOKYO, Godzilla Store, JoJo World, THE GUEST CAFE. Tax-free in Pokémon Center + CAPCOM. 5 min from Shibuya Stn Hachiko exit.",
+        "tip": "🎯 BEST NIGHT SHOPPING IN TOKYO. Open until 21:00 — last hour (20:00-21:00) is the quietest. Don't be fooled: Pokémon Center Shibuya is the FULL Center (5F PARCO 6F), not the small 'Store' at Tokyo Stn. Nintendo TOKYO has exclusive merch. JUMP SHOP has One Piece + MHA. Skip the lower floors unless you want fashion.",
+        "hours": "10:00-21:00 daily",
+        "rating": "Top character shopping in central Tokyo"
+      },
+      {
+        "id": "saved-mega-donki-shibuya",
+        "name": "MEGA Don Quijote Shibuya (24h)",
+        "category": "Souvenirs",
+        "concierge": "28-6 Udagawacho, Shibuya-ku. Open 24 hours, no closed days. 5 min from Shibuya Stn. Lower floors: snacks/cosmetics/electronics. 5F: character goods/cosplay.",
+        "tip": "1-stop souvenir shop. Top floor (5F) is the anime/cosplay floor. Lower floors have Japanese snacks. Also has tax-free for foreign tourists on ¥5,000+ purchases. If you're shopping at 21:00+ this is one of the only places still open.",
+        "hours": "24 hours",
+        "rating": "Standard Don Quijote — chaotic but everything"
       }
     ]
   },
