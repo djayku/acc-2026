@@ -356,87 +356,87 @@
       {
         "id": "d1-checkin",
         "time": "16:30 JST",
-        "name": "Check in at WPUE (30 min, with bags)",
+        "name": "Check in at WPUE (30 min)",
         "venue": "wpue",
         "concierge": "Front desk English. Pre-arranged upgrade email — confirm at check-in. High-floor east-facing room = Fuji view on clear days.",
-        "tip": "Drop bags immediately. You have 90 min before dinner to shop. Priority: AOKI 30 min → JINS 25 min → cab to Shibuya.",
+        "tip": "Drop bags immediately. You have 30 min before dinner.",
         "energy": 1,
         "travel": "Car service drops at door",
         "duration": "30 min"
       },
       {
-        "id": "d1-buffer",
+        "id": "d1-imabari-quick",
         "time": "17:00",
-        "name": "Buffer: shower, change, walk LUMINE for Imabari towel",
-        "venue": "hotel",
-        "concierge": "Take 30 min to actually decompress from 1.5h car service + flight. Quick shower, change into walking clothes. Then optional: 5 min walk to LUMINE Classico to grab an Imabari towel set (wife gift).",
-        "tip": "You just landed. Don't rush. The 30 min you save here goes to a more relaxed JINS + more comfortable dinner. If you want, swing by LUMINE Classico (1F, 5 min walk) for the wife gift.",
+        "name": "Quick LUMINE Classico (Imabari towel) — 20 min",
+        "venue": "lumine-classico",
+        "concierge": "LUMINE 1, 1F Classico. 5 min walk from WPUE. Stocks boxed Imabari bath towel sets (Uchino, Ikeuchi Organic) for wife gift. Tax-free with passport.",
+        "tip": "If they have the right set, grab it (10 min). If not, skip — Isetan Shinjuku 5F (10 min walk) has the bigger selection, but you don't have time today. Better to find on Day 2 or 3.",
         "energy": 1,
-        "travel": "WPUE → LUMINE 1F Classico = 5 min",
-        "duration": "30 min"
+        "travel": "5 min walk each way",
+        "duration": "20 min"
       },
       {
-        "id": "d1-jins",
-        "time": "17:30",
-        "name": "JINS LUMINE Shinjuku (30 min)",
-        "venue": "jins-lumine",
-        "concierge": "LUMINE 1, 1F. 1 min walk from WPUE. Bring prescription file. 30 min relaxed: skip exam (show HK script), pick standard frame, fill form, get pickup slip. Pickup Day 2 12:30 (LUMINE same-day cutoff 16:00).",
-        "tip": "30 min is comfortable. Show your HK prescription. Pick from the 5-6 standard JINS frames on the wall (¥6,600+ with lenses). Polarized upgrade ¥1,500-3,000 if sunglasses. Tax-free at counter. Pickup Day 2 12:30 lunch break.",
-        "energy": 1,
-        "travel": "1 min walk from AOKI",
-        "duration": "30 min"
-      },
-      {
-        "id": "d1-train-parco",
-        "time": "17:55",
-        "name": "Train to Shibuya PARCO",
+        "id": "d1-cab-okamo",
+        "time": "17:25",
+        "name": "Cab/Metro to Shibuya for Okamo Club",
         "venue": "transit",
-        "concierge": "Shinjuku → Shibuya by JR Yamanote, 2 stops, 8 min. Then 5 min walk from Shibuya Stn Hachiko exit to PARCO.",
-        "tip": "Or cab: 12 min, ¥1,500. Train is the move.",
+        "concierge": "Walk to Shinjuku Stn (5 min) → JR Yamanote to Shibuya (8 min) → walk to Okamo (3 min) = 16 min total. Or cab direct: 12 min, ¥1,500.",
+        "tip": "JR Yamanote is 2 stops, 8 min. Cheaper than cab.",
         "energy": 1,
-        "travel": "13 min total",
-        "duration": "13 min"
-      },
-      {
-        "id": "d1-parco-6f",
-        "time": "18:10",
-        "name": "Shibuya PARCO 6F (1.5h — Pokémon + Nintendo)",
-        "venue": "shibuya-parco",
-        "concierge": "Shibuya PARCO 6F 'CYBERSPACE SHIBUYA': Nintendo TOKYO, Pokémon Center SHIBUYA (FULL Center, not Tokyo Stn Store), CAPCOM STORE TOKYO, JUMP SHOP (One Piece, MHA), SEGA, Godzilla Store, JoJo World. Open 10:00-21:00. Last 30 min (20:30-21:00) is quietest.",
-        "tip": "🎯 PRIORITY (1.5h budget): (1) Pokémon Center Shibuya first — 30-40 min, biggest selection + TCG. (2) Nintendo TOKYO — 20-30 min, exclusive merch. (3) JUMP SHOP if One Piece fan. Skip CAPCOM/Sega/JoJo/Godzilla unless you're a fan. Tax-free in Pokémon + CAPCOM. The Pokémon Center is the SHIBUYA one — not the smaller Tokyo Stn store. If you only have 30 min, do Pokémon Center only.",
-        "energy": 2,
-        "travel": "Already at PARCO",
-        "duration": "1.5 hours"
+        "travel": "16 min",
+        "duration": "16 min"
       },
       {
         "id": "d1-okamo-dinner",
-        "time": "19:30",
-        "name": "Okamo Club Shibuya (colleague dinner, 1.5h) — PUSHED from 17:30",
+        "time": "17:30",
+        "name": "Okamo Club Shibuya (colleague dinner, 1.5h)",
         "venue": "okamo-club-shibuya",
-        "concierge": "酒場の店 おかもクラブ. Kokusai Building C-Bldg, 13-4 Udagawacho, Shibuya-ku. 3 min walk from PARCO. 14:00-23:00. NO RESERVATIONS — walk-in. ¥3,000-4,000 all-in per person.",
-        "tip": "🎯 TELL THE COLLEAGUE: 'Let's push to 19:30 — I'm checking in at 16:30 and need a couple hours for shopping.' Okamo is walk-in so 19:30 is fine — the queue at 19:30 is shorter than 17:30 anyway (office workers still at work). Order: assorted sashimi ¥1,000/pp (the headline), rare fried horse mackerel ¥630, grilled shellfish ¥590, sushi from ¥150/2pc. 1.5h is enough.",
+        "concierge": "酒場の店 おかもクラブ. Kokusai Building C-Bldg, 13-4 Udagawacho, Shibuya-ku. 3 min from PARCO. 14:00-23:00. NO RESERVATIONS. ¥3,000-4,000 all-in per person.",
+        "tip": "What to order: Assorted sashimi ¥1,000/pp (the headline), rare fried horse mackerel ¥630, grilled shellfish ¥590, sushi from ¥150/2pc. 1.5h is enough. Cash preferred.",
         "energy": 2,
-        "travel": "3 min walk from PARCO",
+        "travel": "Already there",
         "duration": "1.5 hours"
+      },
+      {
+        "id": "d1-jins-parco",
+        "time": "19:00",
+        "name": "JINS Shibuya PARCO (5F, 40 min) — IN THE SAME BUILDING as PARCO 6F",
+        "venue": "jins-shibuya-parco",
+        "concierge": "JINS Shibuya PARCO, Shibuya PARCO 5F (NOT the B1 Pokémon floor). 10:00-21:00. Full JINS experience with multilingual staff + free eye exams. Same-day 30-min pickup if you order before 20:30. Tax-free with passport. 3 min walk from Okamo.",
+        "tip": "🎯 PERFECT post-dinner JINS. Bring your prescription file (Jay_Ku_Glasses_Prescription_2026-05-04.txt) on phone. Show HK script → skip the exam. Pick JINS standard frame (5-6 styles, ¥6,600+ with lenses). Polarized upgrade if sunglasses. Pickup 30 min later (can collect before leaving the building). Tax-free at counter. Multilingual staff available.",
+        "energy": 1,
+        "travel": "3 min walk from Okamo",
+        "duration": "40 min"
+      },
+      {
+        "id": "d1-parco-6f",
+        "time": "19:50",
+        "name": "Shibuya PARCO 6F (1h 10min — Pokémon + Nintendo)",
+        "venue": "shibuya-parco",
+        "concierge": "Shibuya PARCO 6F 'CYBERSPACE SHIBUYA': Nintendo TOKYO, Pokémon Center SHIBUYA (FULL Center, not Tokyo Stn Store), CAPCOM, JUMP SHOP, SEGA, Godzilla, JoJo. Open 10:00-21:00 SHARP. Last 10 min is rushed. 6F is directly above the JINS 5F.",
+        "tip": "🎯 PRIORITY (1h 10min): (1) Pokémon Center Shibuya first — 30-40 min, biggest selection + TCG. (2) Nintendo TOKYO — 20-30 min, exclusive merch. (3) JUMP SHOP if One Piece fan. Skip CAPCOM/Sega/JoJo/Godzilla unless fan. Tax-free in Pokémon + CAPCOM. PARCO 6F closes 21:00 SHARP — back to escalator by 20:55.",
+        "energy": 2,
+        "travel": "1 floor up via escalator from JINS 5F",
+        "duration": "1h 10min"
       },
       {
         "id": "d1-shibuya-walk",
         "time": "21:00",
         "name": "Optional: Shibuya Crossing night walk",
         "venue": "shibuya-crossing",
-        "concierge": "Hachiko exit, 2 min walk from Okamo. Free to see (just stand on scramble crossing corner). Or Shibuya Sky observation deck (Shibuya Scramble Square 47F) — last entry 21:30, ¥2,500. Likely closed by the time you finish dinner.",
-        "tip": "Skip Shibuya Sky (last entry 21:30, dinner ends 21:00). Just walk the crossing, take a photo, then head back. ¥0.",
+        "concierge": "Hachiko exit, 2 min walk from PARCO. Free to see (just stand on scramble crossing corner). Shibuya Sky (47F) last entry 21:30, but dinner+JINS+PARCO too rushed for it.",
+        "tip": "Skip Shibuya Sky. Walk the crossing, take a photo, then head back.",
         "energy": 1,
         "travel": "3 min walk",
-        "duration": "15 min"
+        "duration": "10 min"
       },
       {
         "id": "d1-back-to-hotel",
-        "time": "21:15",
+        "time": "21:10",
         "name": "Train back to WPUE",
         "venue": "transit",
         "concierge": "Shibuya → Shinjuku by JR Yamanote, 8 min. ¥200. Walk 5 min to WPUE.",
-        "tip": "Last train is ~00:30, so no rush.",
+        "tip": "Last train ~00:30.",
         "energy": 1,
         "travel": "13 min total",
         "duration": "13 min"
@@ -446,8 +446,8 @@
         "time": "21:30",
         "name": "Lights out at WPUE",
         "venue": "wpue",
-        "concierge": "Day 1 done. JINS done, AOKI done, PARCO done, dinner done.",
-        "tip": "Set 3 alarms for 06:30 (Day 2: JINS pickup 12:30 + Paul Bassett + conference 09:00).",
+        "concierge": "Day 1 done. JINS done, PARCO done, dinner done.",
+        "tip": "Set 3 alarms for 06:30 (Day 2: Paul Bassett + JINS pickup at 12:30 + conference 09:00).",
         "energy": 1,
         "travel": "—",
         "duration": "—"
@@ -542,11 +542,11 @@
       {
         "id": "d2-8",
         "time": "12:30",
-        "name": "Lunch + JINS pickup",
+        "name": "Lunch",
         "venue": "opera_city",
         "concierge": "—",
         "energy": 3,
-        "tip": "Quick 5-min JINS pickup at LUMINE (2 min walk from Opera City). Then eat — Opera City B1 has 10+ fast options (Tsukiji Shokudo B1 for sashimi ¥1,000-1,500, ramen, bakery). Conference resumes 13:45."
+        "tip": "Opera City B1 has 10+ fast options (Tsukiji Shokudo B1 for sashimi ¥1,000-1,500, ramen, bakery). Conference resumes 13:45. Your JINS was already picked up Day 1 evening at PARCO."
       },
       {
         "id": "d2-9",
@@ -1786,6 +1786,15 @@
         "tip": "Closest Beams to your Day 1 evening. If you want to add a Beams stop on Day 1 (after PARCO, before/after dinner), this is 5 min from PARCO. 30 min enough for one floor. Open 11:00 so easy fit. Same vibe as AOKI but more curated.",
         "hours": "11:00-20:00",
         "rating": "Beams men's casual, walking distance from PARCO"
+      },
+      {
+        "id": "saved-jins-shibuya-parco",
+        "name": "JINS Shibuya PARCO (5F)",
+        "category": "Eyewear",
+        "concierge": "JINS Shibuya PARCO, Shibuya PARCO 5F, 15-1 Udagawa-cho, Shibuya-ku. 10:00-21:00. Multilingual staff + free eye exam + 30-min same-day pickup. Tax-free with passport. Same building as Pokémon Center SHIBUYA (6F).",
+        "tip": "🎯 BEST JINS LOCATION FOR YOUR DAY 1 EVENING. Open until 21:00 (LUMINE closes 16:00 for same-day pickup). In the same building as PARCO 6F. Bring your HK prescription file. Multilingual staff available. 30-min pickup is faster than LUMINE.",
+        "hours": "10:00-21:00",
+        "rating": "Best JINS for evening + Poké combo"
       }
     ]
   },
