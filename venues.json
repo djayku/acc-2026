@@ -707,10 +707,14 @@
       {
         "id": "d3-walk-to-nex",
         "time": "16:50",
-        "name": "JR Shinjuku → JR Tokyo Stn → Pokémon Store → NEX platform",
+        "name": "Pokémon Center TOKYO DX (Nihonbashi)",
         "tag": "Transit",
-        "concierge": "JR Yamanote Shinjuku → Tokyo Stn (15 min). Pokémon Store Tokyo Station in First Avenue B1 (5 min walk from JR Tokyo Stn). 15-min focused browse. Then walk to JR Tokyo Stn NEX platform (5 min). NO hotel return — bags forwarded to NRT T2 this morning.",
-        "energy": 1
+        "concierge": "5F Nihonbashi Takashimaya S.C. East Building. 5-min walk from Tokyo Stn Yaesu North exit, OR zero weather via Nihombashi Stn B2 exit direct. Tax-free. Bigger store, station-exclusives PLUS the only Pokémon Cafe in eastern Japan (reservation-only).",
+        "energy": 3,
+        "tip": "Pokémon Store Tokyo Station is a small souvenir store (1F First Ave, closes 20:30). TOKYO DX is the real Center (5F Takashimaya, open 10:30-21:00). It has bigger plush wall, full TCG selection, station-exclusives, AND Pokémon Cafe next door. 5-min walk extra is worth it.",
+        "travel": "Tokyo Stn → Nihombashi 5 min",
+        "duration": "45 min",
+        "venue": "pokemon-center-tokyo-dx"
       },
       {
         "id": "d3-13",
