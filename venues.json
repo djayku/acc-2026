@@ -364,93 +364,70 @@
         "energy": 4
       },
       {
-        "id": "d1-5a",
+        "id": "d1-lumine-walk",
         "time": "16:45",
-        "name": "Drop bags, freshen up",
-        "tag": "Hotel",
-        "venue": "wpue_hotel",
-        "concierge": "Hot shower, change into walking clothes. Hotel coin laundry if needed.",
-        "energy": 3
-      },
-      {
-        "id": "d1-5b",
-        "time": "17:00",
-        "name": "JINS LUMINE Shinjuku — get glasses",
-        "tag": "Shopping",
-        "venue": "jins_lumine",
-        "concierge": "1 min walk from hotel. Bring your prescription (or get exam in-store, free). Frame ¥6,600+ with lenses included. Tax-free with passport. Ask for the night voucher (free lens cloth) if you stay past 17:00.",
-        "travel": "1 min walk",
-        "energy": 2,
-        "duration": "30 min exam + 30 min wait"
-      },
-      {
-        "id": "d1-5c",
-        "time": "17:45",
-        "name": "Menswear at AOKI Shinjuku West",
-        "tag": "Shopping",
-        "venue": "aoki_nishiguchi",
-        "concierge": "Pick up a business shirt, casual jacket, or full suit. Quality Japanese tailoring at value prices. Walk-in welcome. Sign-language service. Tax-free.",
-        "travel": "1 min walk from JINS",
-        "energy": 2,
-        "duration": "30-45 min"
-      },
-      {
-        "id": "d1-5d",
-        "time": "18:30",
-        "name": "Pick up JINS glasses, head to dinner",
-        "tag": "Shopping",
-        "venue": "jins_lumine",
-        "concierge": "Quick fit check + case + cleaning cloth. Glasses in hand. Now go eat.",
-        "travel": "5 min back to hotel area",
-        "energy": 1
-      },
-      {
-        "id": "d1-single-o",
-        "time": "18:40",
-        "name": "Single O Shibuya (coffee bag #2 — gift/backup)",
-        "tag": "Coffee",
-        "venue": "saved-single-o",
-        "concierge": "5 min walk from AOKI area. Standing coffee bar (no seats = 5-10 min in/out). Aussie specialty roaster. **This is bag #2** — your main bag is Paul Bassett Day 2 morning. Pick up a 2nd bag here as a gift/backup or to try a different roaster's beans. Batch brew on tap + retail beans (¥1,200-2,000/bag).",
+        "name": "Quick LUMINE pass: Imabari towel check (Classico)",
+        "venue": "lumine-classico",
+        "concierge": "LUMINE 1F Classico stocks boxed Imabari bath towel sets (Uchino, Ikeuchi Organic). 5 min from WPUE. Tax-free with passport.",
+        "tip": "If they have the right set, grab it. If not, skip — Isetan Shinjuku 5F (10 min walk) has the bigger selection. We're tight on time tonight.",
         "energy": 1,
-        "duration": "10-15 min"
+        "travel": "1 min walk",
+        "duration": "10 min"
       },
       {
-        "id": "d1-sushiya",
-        "time": "19:30",
-        "name": "Namae no Nai Sushi-ya (locals-only walk-in sushi)",
-        "tag": "Dinner",
-        "venue": "saved-namae-sushi",
-        "concierge": "Locals-only sushi, ¥10/sushi (cheapest in Shinjuku). Backstreets of Kabukicho. No sign, no reservation. Arrive 16:50 to skip the queue. Cash only. The opposite of Hatsume: standing, fast, no ceremony — just very good cheap sushi. Opens 17:00 typical.",
-        "duration": "45-60 min",
-        "energy": 2
+        "id": "d1-cab-to-okamo",
+        "time": "16:55",
+        "name": "Cab to Shibuya for Okamo Club",
+        "venue": "transit",
+        "concierge": "Shinjuku → Shibuya by cab, ~12 min in evening traffic. Or JR Yamanote 2 stops, 5 min. Cab recommended for ease + luggage-free.",
+        "tip": "Have the address in Japanese ready: 東京都渋谷区宇田川町13-4 国際ビルC棟. Show to driver.",
+        "energy": 1,
+        "travel": "12 min cab",
+        "duration": "12 min"
       },
       {
-        "id": "d1-6",
-        "time": "20:30 (after Namae)",
-        "name": "Golden Gai nightcap",
-        "tag": "Drinks",
-        "venue": "golden_gai",
-        "concierge": "After sushi, walk 5 min to Golden Gai for a drink. Pick a bar with English on the door. Try Alacarte. Order the highball. No cover after 21:00.",
-        "duration": "1-1.5h",
-        "energy": 1
+        "id": "d1-okamo-dinner",
+        "time": "17:30",
+        "name": "Okamo Club Shibuya (colleague dinner)",
+        "venue": "okamo-club-shibuya",
+        "concierge": "酒場の店 おかもクラブ. Kokusai Building C-Bldg, 13-4 Udagawacho, Shibuya-ku. 3 min from Shibuya Stn. 14:00-23:00 hours. NO RESERVATIONS — everyone queues equally. ¥3,000-4,000 all-in per person.",
+        "tip": "What to order: Assorted sashimi ¥1,000/pp (the headline dish), rare fried horse mackerel ¥630, grilled shellfish ¥590, sushi from ¥150 for 2pc. Everything is fresh market. Open seating — grab whatever's free. Cash recommended (some places don't take cards for the small tabs).",
+        "energy": 2,
+        "travel": "Already there",
+        "duration": "2.5 hours"
       },
       {
-        "id": "d1-7a",
-        "time": "22:30 (optional)",
-        "name": "Asakusa Batting cages (if energy left)",
-        "tag": "Optional",
-        "venue": "saved-asakusa-batting",
-        "concierge": "Open until 01:00. 35 min from Shinjuku via Ginza Line to Asakusa. Speeds 70-150 km/h. ¥400/game, cash only. 2F with giant glove sign. Real Tokyo experience.",
-        "energy": 4
+        "id": "d1-shibuya-walk",
+        "time": "20:00",
+        "name": "Optional: Shibuya Crossing + Shibuya Sky",
+        "venue": "shibuya-crossing",
+        "concierge": "Hachiko exit, 2 min walk from Okamo. Shibuya Sky observation deck (Shibuya Scramble Square 47F) is 5 min walk — but last entry 21:30, ¥2,500. If energy permits, worth it.",
+        "tip": "If you want a Tokyo night view, this is the closest one to the dinner. The crossing itself is free to see (just stand on the scramble crossing corner). Skip if you're tired.",
+        "energy": 2,
+        "travel": "3 min walk from Okamo",
+        "duration": "30 min"
       },
       {
-        "id": "d1-8",
-        "time": "23:00",
+        "id": "d1-back-to-hotel",
+        "time": "20:30",
+        "name": "Cab back to WPUE",
+        "venue": "transit",
+        "concierge": "Shibuya → Shinjuku by cab, ~15 min in evening. ¥1,500-2,000.",
+        "tip": "Or JR Yamanote Shibuya → Shinjuku, 8 min. Save the cab money.",
+        "energy": 1,
+        "travel": "15 min",
+        "duration": "15 min"
+      },
+      {
+        "id": "d1-lights-out",
+        "time": "21:00",
         "name": "Lights out",
-        "tag": "Rest",
-        "venue": "wpue_hotel",
-        "concierge": "Set 3 alarms (07:00, 07:10, 07:20). Jet lag will forgive you once. Tomorrow: full day on stage.",
-        "energy": 1
+        "venue": "wpue",
+        "concierge": "Day 1 done. Hotel is 5 min from LUMINE (so JINS Day 2 morning is easy).",
+        "tip": "Set 3 alarms for 06:30 (Thursday Day 2 JINS + Paul Bassett + conference).",
+        "energy": 1,
+        "travel": "—",
+        "duration": "—"
       }
     ],
     "day2": [
@@ -464,22 +441,27 @@
         "energy": 3
       },
       {
-        "id": "d2-1",
-        "time": "07:30",
-        "name": "Breakfast at WPUE",
-        "venue": "wpue_hotel",
-        "concierge": "—",
-        "energy": 3
+        "id": "d2-jins",
+        "time": "07:00",
+        "name": "JINS LUMINE Shinjuku (eyeglasses)",
+        "venue": "jins-lumine",
+        "concierge": "Prescription exam free, 20-30 min. Frame selection 15-20 min. Frame + lenses from ¥6,600. Tax-free with passport. 30-min pickup available. 1 min walk from WPUE.",
+        "tip": "Bring your prescription (the file we just saved: Jay_Ku_Glasses_Prescription_2026-05-04.txt) on your phone. You can also just ask for a fresh exam — they re-check for free. If you want Rx sunglasses, ask for the polarized upgrade on top of the 1.56 UV grey tint base.",
+        "energy": 1,
+        "travel": "1 min walk",
+        "duration": "45 min"
       },
       {
         "id": "d2-paul-bassett",
-        "time": "07:45",
+        "time": "08:00",
         "name": "Paul Bassett (specialty coffee + buy beans bag #1)",
         "tag": "Coffee",
         "venue": "saved-paul-bassett",
         "concierge": "4 min walk from hotel. 3x World Barista Champion's Tokyo shop. **This is bag #1 — your main personal bag** (200g, ¥1,500-2,500). Single-origin + blend espresso, fresh-roasted beans retail. Then walk back, then head to Hatsudai for the 9am conference. Coffee itself is the breakfast.",
         "energy": 1,
-        "duration": "30 min total (4 min walk + 20 min visit + 4 min walk back)"
+        "duration": "20 min",
+        "travel": "10 min walk from LUMINE",
+        "tip": "Coffee + bag #1 of beans. Quick 20 min stop. Conference starts 09:00, you have 30 min buffer. 1F Nishi-Shinjuku, near Shinjuku NS Building."
       },
       {
         "id": "d2-2",
@@ -536,8 +518,8 @@
       },
       {
         "id": "d2-8",
-        "time": "12:15",
-        "name": "Lunch",
+        "time": "12:30",
+        "name": "Lunch + JINS pickup",
         "venue": "opera_city",
         "concierge": "—",
         "energy": 3
@@ -607,13 +589,23 @@
     ],
     "day3": [
       {
-        "id": "d3-1",
+        "id": "d3-17",
+        "time": "01:55 HKT (Sat)",
+        "name": "Land HKG T1 — trip complete",
+        "tag": "Home",
+        "concierge": "Immigration + bag + cab home. You're back.",
+        "energy": 1
+      },
+      {
+        "id": "d3-aoki",
         "time": "07:30",
-        "name": "Early breakfast",
-        "tag": "On stage tomorrow",
-        "venue": "wpue_hotel",
-        "concierge": "Eat well — last conference day. Light on the grease; you want to be sharp.",
-        "energy": 2
+        "name": "AOKI Shinjuku West (menswear)",
+        "venue": "aoki-shinjuku-west",
+        "concierge": "Business shirts, casual jackets, full suits. Japanese tailoring at value prices. Tax-free. 5 min walk from WPUE.",
+        "tip": "If you want a business shirt or jacket for home use, this is the spot. 30 min enough. If you don't need anything, skip and add 30 min to breakfast.",
+        "energy": 1,
+        "travel": "5 min walk",
+        "duration": "30 min"
       },
       {
         "id": "d3-bag-forward",
@@ -749,14 +741,6 @@
         "tag": "In flight",
         "venue": "cat_bus",
         "concierge": "4h 55m flight. Dinner served. Pre-order the noodles if you can. Eye mask in amenity kit.",
-        "energy": 1
-      },
-      {
-        "id": "d3-17",
-        "time": "01:55 HKT (Sat)",
-        "name": "Land HKG T1 — trip complete",
-        "tag": "Home",
-        "concierge": "Immigration + bag + cab home. You're back.",
         "energy": 1
       }
     ]
