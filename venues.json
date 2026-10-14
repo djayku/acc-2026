@@ -354,90 +354,91 @@
         "energy": 1
       },
       {
-        "id": "d1-5",
+        "id": "d1-checkin",
         "time": "16:30 JST",
         "name": "Check in at WPUE",
-        "tag": "Hotel",
-        "venue": "wpue_hotel",
+        "venue": "wpue",
         "concierge": "Front desk speaks English. Pre-arranged upgrade email — confirm at check-in. High-floor east-facing room = Fuji view on clear days.",
-        "travel": "From car to room ~10 min",
-        "energy": 4
+        "tip": "Drop bags immediately. 10 min until JINS.",
+        "energy": 1,
+        "travel": "Car service drops at door",
+        "duration": "10 min"
       },
       {
         "id": "d1-jins",
         "time": "16:40",
-        "name": "JINS LUMINE Shinjuku (eyeglasses) — ULTRA-FAST",
+        "name": "JINS LUMINE Shinjuku — ULTRA-FAST (40 min)",
         "venue": "jins-lumine",
-        "concierge": "Prescription exam free, 20-30 min. Frame selection 15-20 min. Frame + lenses from ¥6,600. Tax-free with passport. Pickup NEXT DAY (JINS-LUMINE cutoff is 16:00 for same-day). 1 min walk from WPUE.",
-        "tip": "⚡ TIGHT 35 MIN WINDOW. Bring your prescription (the file we just saved) on phone. Skip the exam if your HK prescription is <2 years old — just show it. Pick frame FAST: JINS standard frames only, 5-6 styles. No time for browsing. Pickup will be Day 2 12:30 (we'll add it).",
+        "concierge": "Prescription exam free (20-30 min) OR show HK script (5 min). Frame selection 15-20 min. Frame + lenses from ¥6,600. Tax-free with passport. Pickup Day 2 12:30 (LUMINE same-day cutoff is 16:00). 1 min walk from WPUE.",
+        "tip": "⚡ TIGHT 40 MIN WINDOW. Bring your prescription file (Jay_Ku_Glasses_Prescription_2026-05-04.txt) on phone. Skip exam (HK script <2 yrs old, fully transferable). Pick JINS standard frame FAST (5-6 styles, no browsing). Tax-free with passport at counter.",
         "energy": 1,
         "travel": "1 min walk",
-        "duration": "35 min"
+        "duration": "40 min"
       },
       {
-        "id": "d1-cab-okamo",
-        "time": "17:15",
-        "name": "Cab to Shibuya for Okamo Club",
+        "id": "d1-cab-parco",
+        "time": "17:20",
+        "name": "Cab/Metro to Shibuya PARCO",
         "venue": "transit",
-        "concierge": "Shinjuku → Shibuya by cab, ~12 min in evening. Have address ready: 東京都渋谷区宇田川町13-4 国際ビルC棟.",
-        "tip": "JR Yamanote is 2 stops, 5 min — actually faster and same price zone. Cab is ¥1,500.",
+        "concierge": "Shinjuku → Shibuya. JR Yamanote is 2 stops, 8 min (recommended). Cab is 12 min, ¥1,500.",
+        "tip": "Take Yamanote — same time, less money. 5 min walk from Shibuya Stn to PARCO.",
         "energy": 1,
-        "travel": "12 min",
-        "duration": "12 min"
+        "travel": "8 min train + 5 min walk",
+        "duration": "13 min"
+      },
+      {
+        "id": "d1-parco-6f",
+        "time": "17:30",
+        "name": "Shibuya PARCO 6F — Pokémon + Nintendo (1.5h)",
+        "venue": "shibuya-parco",
+        "concierge": "Shibuya PARCO 6F 'CYBERSPACE SHIBUYA': Nintendo TOKYO, Pokémon Center SHIBUYA (FULL Center, not the small Store at Tokyo Stn), CAPCOM STORE TOKYO, JUMP SHOP (One Piece, MHA), SEGA STORE TOKYO, Godzilla Store, JoJo World. Open 10:00-21:00 SHARP. Last hour 20:00-21:00 is quietest. 3 min from Shibuya Stn Hachiko exit.",
+        "tip": "🎯 PRIORITY (you have 1.5h): (1) Pokémon Center Shibuya first — full Center with all exclusives, plush wall, TCG, station-master Pikachu. (2) Nintendo TOKYO second — Zelda, Mario, Splatoon merch. (3) JUMP SHOP if you're into One Piece. Skip CAPCOM/Sega/Godzilla unless you're a fan. Tax-free in Pokémon + CAPCOM.",
+        "energy": 2,
+        "travel": "Already at PARCO",
+        "duration": "1.5 hours"
       },
       {
         "id": "d1-okamo-dinner",
-        "time": "17:30",
-        "name": "Okamo Club Shibuya (colleague dinner)",
+        "time": "19:00",
+        "name": "Okamo Club Shibuya (colleague dinner, 1.5h)",
         "venue": "okamo-club-shibuya",
-        "concierge": "酒場の店 おかもクラブ. Kokusai Building C-Bldg, 13-4 Udagawacho, Shibuya-ku. 3 min from Shibuya Stn. 14:00-23:00 hours. NO RESERVATIONS — everyone queues equally. ¥3,000-4,000 all-in per person.",
-        "tip": "What to order: Assorted sashimi ¥1,000/pp (the headline dish), rare fried horse mackerel ¥630, grilled shellfish ¥590, sushi from ¥150 for 2pc. Everything is fresh market. Cash recommended.",
+        "concierge": "酒場の店 おかもクラブ. Kokusai Building C-Bldg, 13-4 Udagawacho, Shibuya-ku. 3 min from PARCO. 14:00-23:00. NO RESERVATIONS. ¥3,000-4,000 all-in per person. 1.5h is the right window for a colleague dinner here — not 2.5h.",
+        "tip": "Walk-in at 19:00 — should be a short queue. Order: assorted sashimi ¥1,000/pp (the headline), rare fried horse mackerel ¥630, grilled shellfish ¥590, sushi from ¥150/2pc. 1.5h is enough for 4-5 dishes + 1-2 drinks. Cash preferred.",
         "energy": 2,
-        "travel": "Already there",
-        "duration": "2.5 hours"
+        "travel": "3 min walk from PARCO",
+        "duration": "1.5 hours"
       },
       {
-        "id": "d1-shibuya-parco",
-        "time": "20:00",
-        "name": "Shibuya PARCO 6F (Nintendo, Pokémon, JUMP, more)",
-        "venue": "shibuya-parco",
-        "concierge": "Shibuya PARCO 6F is 'CYBERSPACE SHIBUYA' — 9 shops, 7 of them anime/game/character. Open 10:00-21:00 (last hour is quietest, 20:00-21:00). Tax-free in PARCO shops that have it. 3 min walk from Okamo.",
-        "tip": "🎯 BEST SHOPPING IN TOKYO FOR YOU. Priority list: (1) Nintendo TOKYO — exclusive merch, (2) Pokémon Center Shibuya — better stock than Tokyo Stn 'Store' (Shibuya is the full Center, 5F parco). 45 min is enough for 2-3 shops. Skip the cafes/floors 1-5 unless you want fashion.",
-        "energy": 2,
-        "travel": "3 min walk from Okamo",
-        "duration": "45 min"
-      },
-      {
-        "id": "d1-donki",
-        "time": "20:45",
-        "name": "MEGA Don Quijote Shibuya (24h, snacks/souvenirs)",
-        "venue": "mega-donki-shibuya",
-        "concierge": "28-6 Udagawacho, Shibuya-ku. Open 24 hours. 5 min walk from PARCO. Lower floors: snacks/cosmetics/electronics. Upper floors: character goods/cosplay. Lower floors run food — matcha sweets, instant noodles, snacks.",
-        "tip": "Use Donki as a 1-stop souvenir shop. Top floor (5F) has the anime/cosplay character goods. Lower floors have the Japanese snacks to bring home. If you need Imabari/Uchino towels, they have a small selection in the home goods section. Skip if you're exhausted — this is optional.",
-        "energy": 1,
-        "travel": "5 min walk",
-        "duration": "30 min"
-      },
-      {
-        "id": "d1-back-to-hotel",
-        "time": "21:15",
-        "name": "Cab back to WPUE",
+        "id": "d1-back-to-aoki",
+        "time": "20:30",
+        "name": "Train back to Shinjuku for AOKI",
         "venue": "transit",
-        "concierge": "Shibuya → Shinjuku by cab, ~15 min in evening. ¥1,500-2,000.",
-        "tip": "Or JR Yamanote Shibuya → Shinjuku, 8 min. Save the cab money.",
+        "concierge": "Shibuya → Shinjuku by JR Yamanote, 8 min. OR cab 15 min, ¥1,500.",
+        "tip": "Train. Save money.",
         "energy": 1,
-        "travel": "15 min",
-        "duration": "15 min"
+        "travel": "8 min train",
+        "duration": "8 min"
+      },
+      {
+        "id": "d1-aoki",
+        "time": "20:40",
+        "name": "AOKI Shinjuku West Main (menswear, 20 min)",
+        "venue": "aoki-shinjuku-west",
+        "concierge": "AOKI Shinjuku West Main, 1-8-5 Nishi-Shinjuku. 1 min walk from WPUE. 10:00-21:00 (close 21:00 sharp). Business shirts, casual jackets, full suits, pajama suits. Tax-free. 3 floors: menswear 2F, formal 1F, women's 3F.",
+        "tip": "⚠️ TIGHT 20 MIN — AOKI closes 21:00 SHARP. Already in store by 20:45, ask staff directly. Tell them you want: 1-2 business shirts OR 1 casual jacket OR 1 suit. They're efficient. No browsing. Tax-free at counter.",
+        "energy": 1,
+        "travel": "5 min walk from station",
+        "duration": "20 min"
       },
       {
         "id": "d1-lights-out",
-        "time": "21:30",
-        "name": "Lights out",
+        "time": "21:00",
+        "name": "Lights out at WPUE",
         "venue": "wpue",
-        "concierge": "Day 1 done.",
-        "tip": "Set 3 alarms for 06:30 (Thursday Day 2 JINS pickup at 12:30 + Paul Bassett + conference 09:00).",
+        "concierge": "Day 1 done. AOKI close call but done. No time for Donki tonight — skip it.",
+        "tip": "Set 3 alarms for 06:30 (Day 2: Paul Bassett + JINS pickup 12:30 + conference 09:00).",
         "energy": 1,
-        "travel": "—",
+        "travel": "5 min walk to hotel",
         "duration": "—"
       }
     ],
@@ -607,17 +608,6 @@
         "tag": "Home",
         "concierge": "Immigration + bag + cab home. You're back.",
         "energy": 1
-      },
-      {
-        "id": "d3-aoki",
-        "time": "07:30",
-        "name": "AOKI Shinjuku West (menswear)",
-        "venue": "aoki-shinjuku-west",
-        "concierge": "Business shirts, casual jackets, full suits. Japanese tailoring at value prices. Tax-free. 5 min walk from WPUE.",
-        "tip": "If you want a business shirt or jacket for home use, this is the spot. 30 min enough. If you don't need anything, skip and add 30 min to breakfast.",
-        "energy": 1,
-        "travel": "5 min walk",
-        "duration": "30 min"
       },
       {
         "id": "d3-bag-forward",
@@ -1731,6 +1721,33 @@
         "tip": "1-stop souvenir shop. Top floor (5F) is the anime/cosplay floor. Lower floors have Japanese snacks. Also has tax-free for foreign tourists on ¥5,000+ purchases. If you're shopping at 21:00+ this is one of the only places still open.",
         "hours": "24 hours",
         "rating": "Standard Don Quijote — chaotic but everything"
+      },
+      {
+        "id": "saved-beams-japan-shibuya",
+        "name": "BEAMS JAPAN Shibuya",
+        "category": "Menswear",
+        "concierge": "BEAMS JAPAN Shibuya, Tokyu Plaza 2F, 1-2-3 Dogenzaka, Shibuya. Japanese menswear institution. Contemporary pieces + traditional jinbei/samue. Knowledgeable staff, no pressure.",
+        "tip": "If you want a curated Japanese-curation menswear piece (jacket, shirt, or accessory) that has more story than AOKI. 30-45 min. Open 11:00-20:00. 5 min from Shibuya Stn.",
+        "hours": "11:00-20:00",
+        "rating": "Top Japanese menswear boutique"
+      },
+      {
+        "id": "saved-brycelands-tokyo",
+        "name": "Bryceland's Tokyo (Harajuku)",
+        "category": "Menswear",
+        "concierge": "3-15-4 Jingumae, Shibuya-ku. Australian founder Ethan Newton's menswear gallery: house-made selvedge denim, saw-tooth shirts, tailored suits, Saint Crispin's shoes. Intimate 'mini museum' vibe.",
+        "tip": "Higher-end than AOKI/BEAMS (¥30,000+ per piece). For serious wardrobe investment. 20-30 min browse. Open 12:00-20:00. 5 min from Harajuku Stn.",
+        "hours": "12:00-20:00",
+        "rating": "Premium menswear, ¥30k+ per piece"
+      },
+      {
+        "id": "saved-okura-sarugakucho",
+        "name": "Okura (Sarugakucho, Shibuya)",
+        "category": "Menswear",
+        "concierge": "20-11 Sarugakucho, Shibuya. Old Japanese wooden house converted to indigo denim shop. 'Studio Ghibli-esque atmosphere.' Handmade quilted indigo jackets, handkerchiefs, traditional dyeing methods. On-site alterations.",
+        "tip": "If you want the Ghibli-feel indigo jacket experience, this is the place. Smaller selection than AOKI but every piece is special. 20-30 min. Open ~12:00-19:00 typical.",
+        "hours": "12:00-19:00 typical",
+        "rating": "Artisan indigo, unique"
       }
     ]
   },
