@@ -379,8 +379,8 @@
         "id": "d1-walk-okamo-shinjuku",
         "time": "17:20",
         "name": "Walk to Okamo Club Shinjuku (8-10 min)",
-        "venue": "transit",
-        "concierge": "WPUE is in Nishi-Shinjuku. Okamo Shinjuku is 3 min from Shinjuku-Sanchome Stn (Marunouchi/Fukutoshin/Shinjuku lines). Walk: 8-10 min via Shinjuku West Exit → through underground → Sanchome. OR cab: 5 min, ¥1,000.",
+        "venue": "okamo-club-shinjuku",
+        "concierge": "Address: 新宿3-31-5 新宿ペガサス館 B1F (Shinjuku Pegasus Bldg B1F), Shinjuku-ku. Phone 03-6457-4733. Open 16:00-23:30 (L.O. food 22:30, drinks 23:00). 5 min walk from WPUE. ¥3,000-4,000 all-in. NO RESERVATIONS — walk-in.",
         "tip": "WALK EVERYTHING: WPUE → LUMINE (6 min) → JINS LUMINE if doing pre-dinner (same building, 1F) → walk to Okamo (8-10 min total). OR do LUMINE + JINS LUMINE pre-dinner then 1.5h Okamo. OR current plan: LUMINE pre-dinner, JINS Shibuya PARCO post-dinner.",
         "energy": 1,
         "travel": "8-10 min walk",
@@ -390,8 +390,8 @@
         "id": "d1-okamo-dinner",
         "time": "17:30",
         "name": "Okamo Club Shinjuku (colleague dinner, 1.5h)",
-        "venue": "okamo-club-shibuja",
-        "concierge": "魚の店 オカモ倶楽部 新宿店. 3 min from Shinjuku-Sanchome Stn (Marunouchi/Fukutoshin). NO RESERVATIONS — walk-in. ¥3,000-4,000 all-in per person. Sushi 1 piece ~¥70-150. Seafood izakaya.",
+        "venue": "okamo-club-shinjuku",
+        "concierge": "Address: 新宿3-31-5 新宿ペガサス館 B1F (Shinjuku Pegasus Bldg B1F), Shinjuku-ku. Phone 03-6457-4733. Open 16:00-23:30 (L.O. food 22:30, drinks 23:00). 5 min walk from WPUE. ¥3,000-4,000 all-in. NO RESERVATIONS — walk-in.",
         "tip": "🎯 SHINJUKU LOCATION (not Shibuya as I had it). Order: assorted sashimi, sushi from ¥70/pc, 'nama aji rare fry' (生あじレアフライ, their signature, ~¥630), grilled shellfish, oden, dashi soup. Green tea highball + sake. 1.5h is enough. Cash preferred.",
         "energy": 2,
         "travel": "Already there",
@@ -425,7 +425,7 @@
         "name": "Shibuya PARCO 6F (1h — Pokémon + Nintendo)",
         "venue": "shibuya-parco",
         "concierge": "Shibuya PARCO 6F 'CYBERSPACE SHIBUYA': Nintendo TOKYO, Pokémon Center SHIBUYA (FULL Center, not Tokyo Stn Store), CAPCOM, JUMP SHOP, SEGA, Godzilla, JoJo. Open 10:00-21:00 SHARP. PARCO 6F closes 21:00.",
-        "tip": "🎯 TIGHT 1h WINDOW. Priority: (1) Pokémon Center Shibuya (30-40 min) — biggest selection + TCG. (2) Nintendo TOKYO (15-20 min) — exclusive merch. Skip everything else unless fan. Tax-free in Pokémon + CAPCOM.",
+        "tip": "🎯 TIGHT 1h WINDOW. Priority: (1) Pokémon Center Shibuya (30-40 min) — biggest selection + TCG. (2) Nintendo TOKYO (15-20 min) — exclusive merch. Skip everything else unless fan. Tax-free in Pokémon + CAPCOM.\n\n[Tip from earlier] If you want Hinoya-style menswear, JOHN LAWRENCE SULLIVAN is on 3F (not 4F) — 15-20 min browse. ¥15-30k typical.",
         "energy": 2,
         "travel": "1 floor up via escalator from JINS 5F",
         "duration": "1 hour"
@@ -721,8 +721,9 @@
         "name": "Ameyoko loop: HINOYA × 3 + JBJ + Sasugaya",
         "tag": "Shopping",
         "venue": "wpue_hotel",
-        "concierge": "JR from Opera City → JR Ueno (15 min). Walk Ameyoko block (everything within 2 min): HINOYA flagship → HINOYA ONE → HINOYA PLUS MART → JBJ Ueno (4-8-22) → Sasugaya Outlet (6-4-7, Ameyoko Welcome Mall 1F). Tax-free at all stops. 60 min focused.",
-        "energy": 3
+        "concierge": "JR from Opera City → JR Ueno (15 min). Ameyoko block walk (all 5 stores within 2-3 min of each other):\n  1) HINOYA 本店: 6-10-14 Ueno, Taito-ku. 10:30-20:10. Heritage denim institution (Buzz Rickson's, Momotaro, Sugar Cane, Pure Blue Japan).\n  2) HINOYA ONE (SUN HOUSE 2nd): 6-10-22 Ueno. 10:30-20:10. Boncoura, Warehouse brands.\n  3) HINOYA PLUS MART (SUN HOUSE): 6-9-5 Ueno. 10:30-20:10. Outlet pricing.\n  4) Japan Blue Jeans (JBJ) Ueno: in the same Ameyoko block. 10:00-20:00 typical. Momotaro parent company.\n  5) Sasugaya Outlet: 6-4-7 Ueno, Ameyoko Welcome Mall 1F. Phone 03-6806-0577. CLOSES 18:30 SHARP (11:00-18:30). Hit this FIRST if you want knives/bags.",
+        "energy": 3,
+        "tip": "⚠️  CRITICAL: Sasugaya Outlet closes 18:30 SHARP. Hit it FIRST before the other stores if you want knives (¥1,500-8,000) or bags. Tax-free needs ¥5,000+ at one store for tourist refund. Cash recommended (knife + scissor purchases can be cash-only). Tax-free threshold: ¥5,000+ in single receipt. For Sasugaya knives: ask for a 'petty' (small chef's knife) or 'santoku' (all-purpose) — bigger knives need practice to use safely."
       },
       {
         "id": "d3-walk-to-nex",
@@ -1725,7 +1726,7 @@
         "id": "saved-okamo-club-shinjuku",
         "name": "Okamo Club Shinjuku (魚の店 オカモ倶楽部 新宿店)",
         "category": "Dinner",
-        "concierge": "3 min from Shinjuku-Sanchome Stn (Marunouchi/Fukutoshin). NO RESERVATIONS. ¥3,000-4,000 all-in. Sushi 1 piece ~¥70-150. Same chain as Shibuya branch.",
+        "concierge": "Address: 新宿3-31-5 新宿ペガサス館 B1F (Shinjuku Pegasus Building B1F), Shinjuku-ku. Phone 03-6457-4733. Open 16:00-23:30 daily (L.O. food 22:30, drinks 23:00). Seafood izakaya, sushi from ¥70-150/pc. ¥3,000-4,000 all-in. NO RESERVATIONS.",
         "tip": "🎯 YOUR COLLEAGUE'S BOOKING. Order: assorted sashimi, sushi from ¥70/pc, 'nama aji rare fry' (signature, ~¥630), grilled shellfish, oden. Green tea highball + sake. 1.5h is enough.",
         "hours": "14:00-23:00 daily",
         "rating": "4.5+ Tabelog"
@@ -1743,8 +1744,8 @@
         "id": "saved-mega-donki-shibuya",
         "name": "MEGA Don Quijote Shibuya (24h)",
         "category": "Souvenirs",
-        "concierge": "28-6 Udagawacho, Shibuya-ku. Open 24 hours, no closed days. 5 min from Shibuya Stn. Lower floors: snacks/cosmetics/electronics. 5F: character goods/cosplay.",
-        "tip": "1-stop souvenir shop. Top floor (5F) is the anime/cosplay floor. Lower floors have Japanese snacks. Also has tax-free for foreign tourists on ¥5,000+ purchases. If you're shopping at 21:00+ this is one of the only places still open.",
+        "concierge": "Sunshine City alpa 2F, 3-1-2 Higashi-Ikebukuro, Toshima-ku. Phone 03-5927-9290. **REOPENED Aug 24 2026** (was temporarily closed). Hours 10:00-20:00 daily. Pokémon Card Station + Pokémon GO Lab. on the same floor. Pikachu Sweets by Pokémon Cafe (takeout, no reservation, 10:00-20:00).",
+        "tip": "**OPEN NOW** (reopened Aug 24 2026). World's biggest Pokémon Center. Has the only card battle station in a Pokémon Center + Pokémon GO Lab. 3 min walk from Higashi-Ikebukuro Stn (Yurakucho Line). 8 min from Ikebukuro Stn. Tax-free confirmed. Note: alpa mall closes for inspection on 24 Feb 2027 — this store is moving/renovating by then.",
         "hours": "24 hours",
         "rating": "Standard Don Quijote — chaotic but everything"
       },
@@ -1819,6 +1820,15 @@
         "tip": "❌ DOESN'T FIT THIS TRIP:\n - Day 1 evening (Wed Oct 14): Re-Birth Kamata CLOSED Wed\n - Day 2 lunch 12:30-13:45 (Thu Oct 15): technically possible but you'd miss 13:45 conference session\n - Day 2 morning 07:00: Re-Birth opens 12:00 — can't go early\n - Day 2 evening 18:00-20:00: locked for group dinner\n - Day 3 morning 07:00: Re-Birth opens 12:00 weekdays — can't go early. Day 3 evening is NEX transit\n - Asakusa Batting 10:30-23:00: doable after Day 1 dinner but kills PARCO 6F (Poké + Nintendo for kids > your 30 min nostalgia)\n\n✅ YOUR PRIORITY (Hinoya + JBJ + Sasugaya) is locked for Day 3 Ameyoko loop 15:00-16:30. That's the heritage shopping focus this trip.\n\n📅 NEXT TRIP: Book Re-Birth on a Mon/Thu/Fri/Sat/Sun (any day except Tue/Wed). Pair with a morning visit since the doors open at 12:00. Recommended: morning Re-Birth Kamata + lunch at Kamata's old-town yakitori alleys + train to Ueno for HINOYA in the afternoon.",
         "hours": "Asakusa: 10:30-23:00 daily. Re-Birth: varies by location (most closed Wed)",
         "rating": "Not feasible Day 1"
+      },
+      {
+        "id": "saved-jls-parco",
+        "name": "JOHN LAWRENCE SULLIVAN (Shibuya PARCO 3F)",
+        "category": "Menswear",
+        "concierge": "Shibuya PARCO 3F, 15-1 Udagawacho, Shinjuku-ku. Phone 03-6416-5338. Hours 11:00-21:00. Vintage Americana workwear, masculine-elegant style. Direct-managed store, full mens + womens line.",
+        "tip": "★ CLOSEST to Hinoya style inside PARCO Shibuya. Vintage Americana, workwear, military references. ¥15-30k typical per piece. Moved to London collection in 2017. Quick 15-20 min browse.",
+        "hours": "11:00-21:00",
+        "rating": "Vintage Americana, Hinoya-adjacent"
       }
     ]
   },
