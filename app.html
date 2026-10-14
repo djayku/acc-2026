@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1c1916">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Tokyo · ACC">
+<title>Tokyo · ACC 2026</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+/* === TOKYO APP v4 — EDITORIAL CONCIERGE === */
+/* Swiss grid + Aman restraint + editorial concierge */
+
+:root {
+  --ink: #1c1916;
+  --ink-deep: #0e0d0a;
+  --ink-soft: #313131;
+  --ink-muted: #585858;
+  --ink-faint: #8a8a8a;
+  --linen: #f3eee7;
+  --linen-2: #ece5d8;
+  --paper: #ffffff;
+  --bone: #e8e2d5;
+  --line: rgba(28,25,22,0.10);
+  --line-2: rgba(28,25,22,0.22);
+  --gold: #a4894f;
+  --gold-deep: #7a5a1f;
+  --gold-soft: #c9a875;
+  --accent: #8b2c2c;
+  --green: #4a5d3e;
+  --blue: #1f3a5f;
+  --serif: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --s1: 4px; --s2: 8px; --s3: 12px; --s4: 16px; --s5: 24px; --s6: 32px; --s7: 48px; --s8: 64px; --s9: 96px;
+}
+
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body {
+  margin: 0; padding: 0; background: var(--linen); color: var(--ink);
+  font-family: var(--sans); font-size: 15px; line-height: 1.55;
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+  overscroll-behavior-y: none;
+}
+body { padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom); }
+
+/* Type system — Swiss + editorial */
+.serif { font-family: var(--serif); font-style: italic; font-weight: 400; }
+.display { font-family: var(--serif); font-weight: 400; letter-spacing: -0.01em; line-height: 1.05; }
+.kicker { font-size: 10px; font-weight: 500; letter-spacing: 0.24em; text-transform: uppercase; color: var(--ink-muted); }
+.label { font-size: 11px; font-weight: 500; letter-spacing: 0.16em; text-transform: uppercase; color: var(--ink-muted); }
+.body-l { font-size: 17px; line-height: 1.55; color: var(--ink-soft); }
+.body { font-size: 14px; line-height: 1.5; color: var(--ink-soft); }
+.body-s { font-size: 12px; line-height: 1.4; color: var(--ink-muted); }
+.tab-num { font-variant-numeric: tabular-nums; }
+
+/* Top header */
+header.top {
+  position: sticky; top: 0; z-index: 50;
+  background: var(--ink-deep); color: var(--linen);
+  padding: max(12px, env(safe-area-inset-top)) 20px 12px;
+  border-bottom: 1px solid rgba(243,238,231,0.06);
+}
+header.top .row1 {
+  display: flex; align-items: center; justify-content: space-between;
+  margin-bottom: 8px;
+}
+header.top .mark {
+  font-family: var(--serif); font-size: 18px; font-weight: 400;
+  letter-spacing: 0.02em; line-height: 1;
+}
+header.top .mark small {
+  display: block; font-family: var(--sans); font-size: 8px;
+  letter-spacing: 0.3em; text-transform: uppercase; opacity: 0.5;
+  margin-top: 3px;
+}
+header.top .actions { display: flex; gap: 4px; }
+header.top .icon-btn {
+  background: none; border: 1px solid rgba(243,238,231,0.14); color: var(--linen);
+  width: 32px; height: 32px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-family: inherit; font-size: 12px;
+}
+header.top .row2 {
+  display: flex; gap: 16px; align-items: baseline;
+  border-top: 1px solid rgba(243,238,231,0.06);
+  padding-top: 8px;
+}
+header.top .stat { display: flex; flex-direction: column; gap: 1px; }
+header.top .stat .kicker { color: rgba(243,238,231,0.5); }
+header.top .stat .val { font-size: 12px; font-weight: 500; color: var(--linen); }
+
+/* Main content area */
+main { padding: 0 0 70px; min-height: 100vh; }
+.tab-pane { display: none; padding: 0 0 110px; }
+.tab-pane.active { display: block; }
+.tab-pane#tab-map.active { display: flex; }
+
+/* === PLAN TAB === */
+.section-head {
+  display: flex; align-items: baseline; justify-content: space-between;
+  margin: var(--s7) 20px var(--s4);
+  padding-bottom: var(--s3);
+  border-bottom: 1px solid var(--line);
+}
+.section-head h2 {
+  font-family: var(--serif); font-size: 28px; font-weight: 400;
+  margin: 0; letter-spacing: -0.01em;
+}
+.section-head .meta { font-size: 11px; color: var(--ink-muted); letter-spacing: 0.1em; text-transform: uppercase; }
+
+.day-block {
+  margin: var(--s6) 20px 0;
+  border-top: 1px solid var(--line);
+  padding-top: var(--s4);
+}
+.day-block:first-of-type { margin-top: var(--s5); border-top: none; padding-top: 0; }
+
+.day-head {
+  display: grid; grid-template-columns: 56px 1fr; gap: var(--s4);
+  align-items: baseline; margin-bottom: var(--s4);
+}
+.day-head .num {
+  font-family: var(--serif); font-style: italic; font-size: 36px;
+  color: var(--gold-deep); line-height: 1;
+}
+.day-head h3 {
+  font-family: var(--serif); font-size: 19px; font-weight: 400;
+  margin: 0; line-height: 1.2; color: var(--ink);
+}
+.day-head .sub { font-size: 12px; color: var(--ink-muted); margin-top: 4px; }
+
+.item {
+  display: grid; grid-template-columns: 80px 1fr 28px; gap: var(--s3);
+  align-items: start;
+  padding: var(--s3) 0;
+  border-top: 1px dashed var(--line);
+  cursor: pointer; transition: background 0.15s;
+}
+.item:hover, .item:active { background: var(--linen-2); }
+.item:first-child { border-top: none; }
+.item .time {
+  font-size: 11px; font-weight: 500; color: var(--ink-muted);
+  padding-top: 2px; letter-spacing: 0.05em;
+  display: flex; flex-direction: column; gap: 4px; min-width: 60px;
+}
+.item .body { min-width: 0; }
+.item .name {
+  font-size: 14px; font-weight: 500; color: var(--ink);
+  line-height: 1.35; margin-bottom: 2px;
+}
+.item .desc {
+  font-size: 12px; color: var(--ink-muted); line-height: 1.45;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.item .item-meta {
+  display: flex; gap: var(--s3); flex-wrap: wrap;
+  margin-top: 4px; margin-bottom: 2px;
+}
+.item .item-meta .meta-bit {
+  font-size: 10px; color: var(--ink-faint);
+  letter-spacing: 0.04em;
+}
+.item .energy {
+  display: inline-block;
+  width: 22px; height: 4px;
+  background: var(--line);
+  position: relative;
+  margin-top: 2px;
+}
+.item .energy-1 { background: linear-gradient(to right, var(--green) 20%, var(--line) 20%); }
+.item .energy-2 { background: linear-gradient(to right, var(--green) 40%, var(--line) 40%); }
+.item .energy-3 { background: linear-gradient(to right, var(--gold) 60%, var(--line) 60%); }
+.item .energy-4 { background: linear-gradient(to right, #c1272d 80%, var(--line) 80%); }
+.item .energy-5 { background: linear-gradient(to right, #c1272d 100%, var(--line) 100%); }
+.item .tag {
+  display: inline-block; font-size: 9px; font-weight: 500;
+  letter-spacing: 0.16em; text-transform: uppercase;
+  padding: 2px 6px; margin-top: 4px;
+  border: 1px solid currentColor;
+}
+
+.pace-badge {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  font-size: 8px; letter-spacing: 0.16em; text-transform: uppercase;
+  padding: 6px 8px; border: 1px solid var(--line-2);
+  color: var(--ink-muted);
+  flex-shrink: 0;
+}
+.pace-badge.pace-busy { color: #c1272d; border-color: #c1272d; }
+.pace-badge.pace-balanced { color: var(--gold-deep); border-color: var(--gold); }
+.pace-badge.pace-leisure { color: var(--green); border-color: var(--green); }
+.tag.gold { color: var(--gold-deep); }
+.tag.green { color: var(--green); }
+.tag.accent { color: var(--accent); }
+.tag.blue { color: var(--blue); }
+.tag.muted { color: var(--ink-muted); }
+.item .check {
+  width: 22px; height: 22px; border: 1px solid var(--line-2);
+  background: transparent; cursor: pointer; margin-top: 1px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 12px; color: var(--ink-muted);
+}
+.item .check.on { background: var(--ink); color: var(--linen); border-color: var(--ink); }
+.item.you .body .name { font-weight: 600; }
+.item.you .body .name::before {
+  content: '★ ';
+  color: var(--gold);
+}
+
+/* === PLACES TAB === */
+.category-band {
+  padding: var(--s6) 20px var(--s3);
+  border-top: 1px solid var(--line);
+}
+.category-band:first-child { border-top: none; }
+.category-band .head {
+  display: flex; align-items: baseline; justify-content: space-between;
+  margin-bottom: var(--s3);
+}
+.category-band h3 {
+  font-family: var(--serif); font-style: italic; font-size: 17px;
+  font-weight: 400; margin: 0; color: var(--ink);
+}
+.category-band .count {
+  font-size: 10px; color: var(--ink-faint); letter-spacing: 0.2em;
+}
+.venue-row {
+  display: grid; grid-template-columns: 32px 1fr 20px; gap: var(--s3);
+  align-items: center; padding: var(--s3) 0;
+  border-top: 1px dashed var(--line);
+  cursor: pointer;
+}
+.venue-row:first-child { border-top: none; }
+.venue-row:hover, .venue-row:active { background: var(--linen-2); }
+.venue-row .icon {
+  width: 28px; height: 28px; border: 1px solid var(--line-2);
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px;
+}
+.venue-row .name { font-size: 14px; font-weight: 500; color: var(--ink); }
+.venue-row .sub { font-size: 11px; color: var(--ink-muted); margin-top: 2px; }
+.venue-row .arrow { color: var(--ink-faint); font-size: 14px; text-align: right; }
+
+/* === SAVED TAB === */
+.saved-intro {
+  padding: var(--s5) 20px;
+  border-bottom: 1px solid var(--line);
+  background: var(--linen-2);
+}
+.saved-intro .kicker { font-size: 10px; }
+.saved-intro .sub { font-size: 12px; color: var(--ink-muted); margin-top: var(--s2); }
+.saved-add {
+  margin: var(--s4) 20px;
+  padding: var(--s3) var(--s4);
+  background: var(--paper);
+  border: 1px solid var(--line-2);
+  font: inherit; font-size: 13px;
+  color: var(--ink); cursor: pointer;
+  display: flex; align-items: center; justify-content: space-between;
+}
+.saved-add:active { background: var(--linen-2); }
+.saved-add .plus { color: var(--gold); font-size: 18px; font-weight: 300; }
+
+.saved-card {
+  margin: var(--s3) 20px;
+  padding: var(--s4);
+  background: var(--paper);
+  border: 1px solid var(--line-2);
+  border-left: 3px solid var(--gold);
+}
+.saved-card .row1 {
+  display: flex; justify-content: space-between; align-items: baseline;
+  margin-bottom: 4px;
+}
+.saved-card .name { font-size: 14px; font-weight: 500; }
+.saved-card .icon {
+  font-size: 16px; color: var(--gold);
+}
+.saved-card .sub { font-size: 12px; color: var(--ink-muted); margin-bottom: var(--s2); }
+.saved-card .meta {
+  display: grid; grid-template-columns: auto 1fr; gap: 4px var(--s3);
+  font-size: 11px; margin-top: var(--s3);
+  padding-top: var(--s3);
+  border-top: 1px dashed var(--line);
+}
+.saved-card .meta .k { color: var(--ink-faint); letter-spacing: 0.08em; text-transform: uppercase; }
+.saved-card .meta .v { color: var(--ink-soft); }
+.saved-card .meta .v a { color: var(--gold); text-decoration: none; border-bottom: 1px solid var(--gold); }
+.saved-card .concierge { font-size: 12px; color: var(--ink-soft); margin-top: var(--s2); line-height: 1.5; }
+.saved-card .tip { font-size: 11px; color: var(--ink-faint); margin-top: 6px; }
+.saved-empty {
+  padding: var(--s7) 20px; text-align: center;
+  color: var(--ink-muted);
+}
+.saved-empty .num { font-size: 48px; color: var(--gold); font-family: var(--serif); font-weight: 300; }
+
+/* === WEATHER TAB === */
+.weather-now {
+  padding: var(--s7) 20px;
+  text-align: center;
+  border-bottom: 1px solid var(--line);
+}
+.weather-now .city {
+  font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--ink-muted); margin-bottom: var(--s3);
+}
+.weather-now .temp {
+  font-family: var(--serif); font-size: 96px; font-weight: 300;
+  line-height: 1; color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+.weather-now .cond { font-size: 14px; color: var(--ink-muted); margin-top: var(--s2); }
+.weather-now .stats {
+  display: flex; justify-content: center; gap: var(--s5);
+  margin-top: var(--s4); padding-top: var(--s4);
+  border-top: 1px dashed var(--line);
+}
+.weather-now .stat { text-align: center; }
+.weather-now .stat .kicker { font-size: 9px; letter-spacing: 0.2em; }
+.weather-now .stat .v { font-size: 14px; font-weight: 500; margin-top: 2px; }
+
+.forecast-day {
+  display: grid; grid-template-columns: 70px 1fr auto auto;
+  align-items: center; gap: var(--s3);
+  padding: var(--s3) 20px;
+  border-top: 1px solid var(--line);
+}
+.forecast-day .day { font-size: 12px; font-weight: 500; }
+.forecast-day .desc { font-size: 12px; color: var(--ink-muted); }
+.forecast-day .hi { font-size: 14px; font-weight: 500; }
+.forecast-day .lo { font-size: 12px; color: var(--ink-muted); font-weight: 400; }
+.forecast-day .rain { font-size: 10px; color: var(--blue); letter-spacing: 0.1em; }
+
+.fx-grid {
+  margin: var(--s5) 20px;
+  display: grid; grid-template-columns: 1fr 1fr; gap: 0;
+  border: 1px solid var(--line-2);
+}
+.fx-grid .pair {
+  text-align: center; padding: var(--s4) 0;
+  border-right: 1px dashed var(--line);
+  border-bottom: 1px dashed var(--line);
+}
+.fx-grid .pair:nth-child(2n) { border-right: none; }
+.fx-grid .pair:nth-last-child(-n+2) { border-bottom: none; }
+.fx-grid .kicker { font-size: 10px; }
+.fx-grid .v {
+  font-family: var(--serif); font-size: 26px; font-weight: 300;
+  line-height: 1.05; margin-top: 4px;
+  font-variant-numeric: tabular-nums;
+}
+.fx-grid .sub { font-size: 11px; color: var(--ink-muted); margin-top: 2px; letter-spacing: 0.05em; }
+
+/* === MAP TAB === */
+.tab-pane#tab-map { display: none; flex-direction: column; height: 100vh; }
+.tab-pane#tab-map.active { display: flex; }
+.map-toolbar {
+  display: flex; gap: 4px; padding: 8px 12px;
+  background: var(--paper); border-bottom: 1px solid var(--line);
+}
+.map-toolbar button {
+  flex: 1; background: none; border: 1px solid var(--line-2);
+  color: var(--ink); font: inherit; font-size: 11px;
+  padding: 8px 12px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center; gap: 6px;
+  letter-spacing: 0.04em;
+}
+.map-toolbar button:active { background: var(--linen-2); }
+#map { flex: 1; width: 100%; min-height: 0; }
+.map-pad { padding: var(--s4) 20px; }
+.map-pad p { font-size: 13px; color: var(--ink-muted); margin: 0; }
+
+/* === NOTES TAB === */
+.notes-wrap { padding: var(--s5) 20px; }
+.notes-wrap .kicker { margin-bottom: var(--s3); }
+.notes-wrap textarea {
+  width: 100%; min-height: 240px;
+  border: 1px solid var(--line-2); background: var(--paper);
+  padding: var(--s4); font-family: var(--sans); font-size: 14px;
+  line-height: 1.6; color: var(--ink); resize: vertical;
+  outline: none;
+}
+.notes-wrap textarea:focus { border-color: var(--ink); }
+.notes-wrap .hint { font-size: 11px; color: var(--ink-faint); margin-top: var(--s2); }
+
+/* === BOTTOM TABS === */
+nav.bottom {
+  position: fixed; bottom: 0; left: 0; right: 0; z-index: 9999;
+  background: var(--ink-deep);
+  border-top: 1px solid rgba(243,238,231,0.06);
+  display: flex;
+  padding: 6px 0 max(6px, env(safe-area-inset-bottom)) 0;
+  pointer-events: auto;
+}
+nav.bottom button {
+  flex: 1; background: none; border: none;
+  color: rgba(243,238,231,0.5);
+  font: inherit; font-size: 9px;
+  padding: 8px 4px; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; gap: 4px;
+  letter-spacing: 0.16em; text-transform: uppercase;
+}
+nav.bottom button::before {
+  content: ''; width: 4px; height: 4px; background: transparent;
+}
+nav.bottom button.on { color: var(--linen); }
+nav.bottom button.on::before { background: var(--gold); }
+
+/* === BOTTOM SHEET (dropdown) === */
+.sheet-bg {
+  position: fixed; inset: 0; z-index: 60;
+  background: rgba(14,13,10,0.5);
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.2s;
+}
+.sheet-bg.open { opacity: 1; pointer-events: auto; }
+
+.sheet {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 61;
+  background: var(--linen);
+  max-height: 80vh;
+  transform: translateY(100%);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex; flex-direction: column;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.sheet.open { transform: translateY(0); }
+.sheet-handle {
+  width: 36px; height: 4px; background: var(--ink-faint);
+  margin: 8px auto 4px; flex-shrink: 0;
+}
+.sheet-head {
+  padding: var(--s3) 20px var(--s4);
+  border-bottom: 1px solid var(--line);
+  display: flex; align-items: baseline; justify-content: space-between;
+  gap: var(--s3);
+  flex-shrink: 0;
+}
+.sheet-head h3 {
+  font-family: var(--serif); font-size: 22px; font-weight: 400;
+  margin: 0; line-height: 1.2;
+}
+.sheet-head .sub {
+  font-size: 11px; color: var(--ink-muted);
+  margin-top: 2px; font-style: italic;
+}
+.sheet-close {
+  background: none; border: 1px solid var(--line-2);
+  width: 32px; height: 32px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 14px; color: var(--ink-muted);
+}
+.sheet-body {
+  flex: 1; overflow-y: auto; padding: var(--s4) 20px var(--s6);
+  -webkit-overflow-scrolling: touch;
+}
+.sheet-section { margin-bottom: var(--s5); }
+.sheet-section:last-child { margin-bottom: 0; }
+.sheet-section .kicker { margin-bottom: var(--s2); }
+.sheet-section p { font-size: 14px; line-height: 1.6; color: var(--ink-soft); margin: 0 0 var(--s2); }
+.sheet-section p:last-child { margin-bottom: 0; }
+.sheet-section em { font-style: italic; color: var(--gold-deep); }
+
+.sheet-map {
+  height: 180px; background: var(--bone);
+  margin-bottom: var(--s3);
+  border: 1px solid var(--line);
+}
+
+/* Toast */
+.toast {
+  position: fixed; top: max(80px, env(safe-area-inset-top));
+  left: 50%; transform: translateX(-50%);
+  background: var(--ink-deep); color: var(--linen);
+  padding: 10px 18px; font-size: 12px; letter-spacing: 0.05em;
+  z-index: 100; opacity: 0;
+  animation: toast 2s forwards;
+}
+@keyframes toast {
+  0% { opacity: 0; transform: translate(-50%, -8px); }
+  15% { opacity: 1; transform: translate(-50%, 0); }
+  85% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+/* Loading state */
+.loading { padding: var(--s7) 20px; text-align: center; color: var(--ink-muted); font-style: italic; font-family: var(--serif); font-size: 18px; }
+
+/* Empty / no notes */
+.empty {
+  padding: var(--s6) 20px; text-align: center;
+  color: var(--ink-faint); font-style: italic;
+  font-family: var(--serif); font-size: 16px;
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="row1">
+    <div class="mark">Tokyo<small>ACC · October 2026</small></div>
+    <div class="actions">
+      <button class="icon-btn" id="refresh" title="Refresh live data">↻</button>
+    </div>
+  </div>
+  <div class="row2">
+    <div class="stat">
+      <div class="kicker">Tokyo Time</div>
+      <div class="val tab-num" id="tokyo-time">—</div>
+    </div>
+    <div class="stat">
+      <div class="kicker">Weather</div>
+      <div class="val" id="hdr-weather">—</div>
+    </div>
+    <div class="stat">
+      <div class="kicker">JPY / HKD</div>
+      <div class="val tab-num" id="hdr-fx">—</div>
+    </div>
+    <div class="stat">
+      <div class="kicker">Trip Status</div>
+      <div class="val" id="hdr-status">—</div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- ============ PLAN TAB ============ -->
+  <section class="tab-pane active" id="tab-plan">
+    <div id="schedule-list"><div class="loading">Loading itinerary…</div></div>
+  </section>
+
+  <!-- ============ PLACES TAB ============ -->
+  <section class="tab-pane" id="tab-places">
+    <div id="places-list"><div class="loading">Loading places…</div></div>
+  </section>
+
+  <!-- ============ WEATHER TAB ============ -->
+  <section class="tab-pane" id="tab-weather">
+    <div id="weather-content"><div class="loading">Loading weather…</div></div>
+  </section>
+
+  <!-- ============ MAP TAB ============ -->
+  <section class="tab-pane" id="tab-map">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <div class="map-toolbar">
+      <button id="map-locate">⌖ Locate me</button>
+      <button id="map-fit">⊕ Fit all</button>
+      <button id="map-toggle-user" style="display:none">⊘ You are here</button>
+    </div>
+    <div id="map"></div>
+  </section>
+
+  <!-- ============ NOTES TAB ============ -->
+  <section class="tab-pane" id="tab-notes">
+    <div class="notes-wrap">
+      <div class="kicker">Journal</div>
+      <textarea id="journal" placeholder="What's on your mind…"></textarea>
+      <div class="hint">Auto-saved locally on this device.</div>
+    </div>
+  </section>
+
+  <!-- ============ SAVED TAB ============ -->
+  <section class="tab-pane" id="tab-saved">
+    <div id="saved-content"><div class="loading">Loading saved places…</div></div>
+  </section>
+</main>
+
+<!-- ============ BOTTOM TABS ============ -->
+<nav class="bottom">
+  <button data-tab="plan" class="on">Plan</button>
+  <button data-tab="places">Places</button>
+  <button data-tab="weather">Weather</button>
+  <button data-tab="map">Map</button>
+  <button data-tab="saved">Saved</button>
+  <button data-tab="notes">Notes</button>
+</nav>
+
+<!-- ============ BOTTOM SHEET (for venue/event details) ============ -->
+<div class="sheet-bg" id="sheet-bg"></div>
+<aside class="sheet" id="sheet">
+  <div class="sheet-handle"></div>
+  <div class="sheet-head">
+    <div>
+      <h3 id="sheet-title">Title</h3>
+      <div class="sub" id="sheet-sub">Subtitle</div>
+    </div>
+    <button class="sheet-close" id="sheet-close">×</button>
+  </div>
+  <div class="sheet-body" id="sheet-body"></div>
+</aside>
+
+<script>
+/* === TOKYO APP v4 — APP LOGIC === */
+const DATA = null; // loaded from venues.json
+const STATE = { notes: '', done: {} };
+
+const STORAGE_KEY = 'tokyo-v4';
+function loadState() {
+  try {
+    const s = localStorage.getItem(STORAGE_KEY);
+    if (s) Object.assign(STATE, JSON.parse(s));
+  } catch {}
+}
+function saveState() {
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(STATE)); } catch {}
+}
+
+async function init() {
+  loadState();
+
+  // Load data
+  const res = await fetch('venues.json');
+  const data = await res.json();
+  window.SCHEDULE = data.schedule;
+  window.VENUES = data.venues;
+  window.SAVED = data.saved || { items: [], note: '' };
+  window.TRIP = data.trip || null;
+
+  // Render plan
+  renderPlan();
+  // Render places
+  renderPlaces();
+  // Render weather
+  fetchWeather();
+  // Render saved tab
+  renderSaved();
+  // Notes
+  document.getElementById('journal').value = STATE.notes;
+  document.getElementById('journal').addEventListener('input', e => {
+    STATE.notes = e.target.value; saveState();
+  });
+  // Map
+  initMap();
+  // Tabs
+  initTabs();
+  // Live clock
+  startClock();
+  // Trip status
+  updateTripStatus();
+}
+
+/* === PLAN TAB === */
+function renderPlan() {
+  const host = document.getElementById('schedule-list');
+  const titles = [
+    ['I', 'Wednesday, Arrival', 'Soft landing. No alarms until evening. Sunset 17:13.'],
+    ['II', 'Thursday, ACC Day 1', 'Full day on stage. The small hours belong to you. Sunset 17:11.'],
+    ['III', 'Friday, Day 2 and Late Flight', 'You co-facilitate. The city sends you off. Sunset 17:10.'],
+  ];
+  const dayKeys = ['day1','day2','day3'];
+  const dayMeta = window.TRIP?.day_meta || {};
+  host.innerHTML = dayKeys.map((d, i) => {
+    const items = window.SCHEDULE[d];
+    const meta = dayMeta[d] || {};
+    const pace = meta.pace || 'balanced';
+    const paceEmoji = pace === 'busy' ? '◉' : pace === 'leisure' ? '◌' : '◐';
+    return `
+      <div class="day-block">
+        <div class="day-head">
+          <div class="num">${titles[i][0]}</div>
+          <div style="flex:1">
+            <h3>${titles[i][1]}</h3>
+            <div class="sub">${titles[i][2]}</div>
+          </div>
+          <div class="pace-badge pace-${pace}">
+            <span>${paceEmoji}</span>
+            <span>${pace}</span>
+          </div>
+        </div>
+        ${items.map(item => {
+          const done = STATE.done[item.id];
+          const tag = item.tag ? `<span class="tag ${tagClassFor(item.tag)}">${item.tag}</span>` : '';
+          const energy = item.energy || 0;
+          const energyDots = energy > 0 ? `<span class="energy energy-${energy}" title="Energy cost: ${energy}/5"></span>` : '';
+          const meta_bits = [];
+          if (item.travel) meta_bits.push(`<span class="meta-bit">↔ ${escapeHtml(item.travel)}</span>`);
+          if (item.duration) meta_bits.push(`<span class="meta-bit">⏱ ${escapeHtml(item.duration)}</span>`);
+          const meta_html = meta_bits.length ? `<div class="item-meta">${meta_bits.join('')}</div>` : '';
+          return `
+            <div class="item ${done ? 'item-done' : ''} ${item.you ? 'you' : ''}" data-id="${item.id}">
+              <div class="time">
+                ${item.time}
+                ${energyDots}
+              </div>
+              <div class="body">
+                <div class="name">${escapeHtml(item.name)}</div>
+                ${item.concierge ? `<div class="desc">${escapeHtml(item.concierge)}</div>` : ''}
+                ${meta_html}
+                ${tag}
+              </div>
+              <button class="check ${done ? 'on' : ''}" data-toggle="${item.id}">${done ? '✓' : ''}</button>
+            </div>
+          `;
+        }).join('')}
+      </div>
+    `;
+  }).join('');
+
+  // Bind taps
+  host.querySelectorAll('.item').forEach(el => {
+    const id = el.dataset.id;
+    el.addEventListener('click', e => {
+      if (e.target.closest('.check')) return; // check click handled separately
+      const item = findScheduleItem(id);
+      if (item) openEventSheet(item);
+    });
+    el.querySelector('.check').addEventListener('click', e => {
+      e.stopPropagation();
+      STATE.done[id] = !STATE.done[id];
+      saveState();
+      renderPlan(); // re-render to update check state
+    });
+  });
+}
+
+function findScheduleItem(id) {
+  for (const d of Object.keys(window.SCHEDULE)) {
+    const found = window.SCHEDULE[d].find(i => i.id === id);
+    if (found) return found;
+  }
+  return null;
+}
+
+function tagClassFor(tag) {
+  const t = tag.toLowerCase();
+  if (t.includes('flight') || t.includes('transit') || t.includes('dinner')) return 'gold';
+  if (t.includes('hotel') || t.includes('yours') || t.includes('rest') || t.includes('home')) return 'green';
+  if (t.includes('stage') || t.includes('on stage')) return 'gold';
+  if (t.includes('workshop') || t.includes('session')) return 'blue';
+  if (t.includes('pre-flight')) return 'muted';
+  return 'muted';
+}
+
+/* === PLACES TAB === */
+function renderPlaces() {
+  const host = document.getElementById('places-list');
+  const byCategory = {};
+  for (const v of window.VENUES) {
+    if (!byCategory[v.category]) byCategory[v.category] = [];
+    byCategory[v.category].push(v);
+  }
+  const labels = {
+    hotel: 'Hotels', transit: 'Transit', venue: 'Conference',
+    park: 'Parks & Gardens', nightlife: 'Nightlife',
+    ramen: 'Ramen', yakiniku: 'Yakiniku', shopping: 'Shopping'
+  };
+  const order = ['hotel','transit','venue','shopping','park','ramen','yakiniku','nightlife'];
+  host.innerHTML = order
+    .filter(cat => byCategory[cat])
+    .map(cat => `
+      <div class="category-band">
+        <div class="head">
+          <h3>${labels[cat] || cat}</h3>
+          <div class="count">${byCategory[cat].length}</div>
+        </div>
+        ${byCategory[cat].map(v => `
+          <div class="venue-row" data-venue="${v.id}">
+            <div class="icon" style="color:${v.color}">${v.icon}</div>
+            <div>
+              <div class="name">${escapeHtml(v.name)}</div>
+              <div class="sub">${escapeHtml(v.subtitle)}</div>
+            </div>
+            <div class="arrow">›</div>
+          </div>
+        `).join('')}
+      </div>
+    `).join('');
+
+  // Bind taps
+  host.querySelectorAll('.venue-row').forEach(el => {
+    el.addEventListener('click', () => {
+      const venue = window.VENUES.find(v => v.id === el.dataset.venue);
+      if (venue) openVenueSheet(venue);
+    });
+  });
+}
+
+/* === SAVED TAB === */
+function renderSaved() {
+  const host = document.getElementById('saved-content');
+  const items = (window.SAVED && window.SAVED.items) ? window.SAVED.items : [];
+  const note = (window.SAVED && window.SAVED.note) || '';
+  const real = items.filter(it => it.id !== 'saved-1');
+  const empty = real.length === 0;
+
+  if (empty) {
+    host.innerHTML = `
+      <div class="saved-empty">
+        <div class="num">★</div>
+        <p style="margin-top:8px">No saved places yet.</p>
+        <p style="font-size:12px;color:var(--ink-faint);margin-top:8px">
+          Tell me "save [name] — [reason]" via Telegram, and I'll add it here with hours, station, Maps link, and price.
+        </p>
+      </div>
+    `;
+    return;
+  }
+
+  host.innerHTML = `
+    <div class="saved-intro">
+      <div class="kicker">Saved</div>
+      <div class="sub">${escapeHtml(note || 'Places you want to remember')}</div>
+    </div>
+    <button class="saved-add" id="saved-add-btn">
+      <span>Add new saved place</span>
+      <span class="plus">+</span>
+    </button>
+    ${real.map(item => {
+      const coords = item.coords || [0, 0];
+      const maps = (coords[0] !== 0)
+        ? `<a href="https://www.google.com/maps/search/?api=1&query=${coords[0]},${coords[1]}" target="_blank">Open in Maps</a>`
+        : '<span style="color:var(--ink-faint)">—</span>';
+      return `
+        <div class="saved-card">
+          <div class="row1">
+            <div class="name">${escapeHtml(item.name)}</div>
+            <div class="icon">${item.icon || '★'}</div>
+          </div>
+          <div class="sub">${escapeHtml(item.subtitle || '')}</div>
+          <div class="meta">
+            ${item.station ? `<div class="k">Station</div><div class="v">${escapeHtml(item.station)}</div>` : ''}
+            ${item.hours ? `<div class="k">Hours</div><div class="v">${escapeHtml(item.hours)}</div>` : ''}
+            ${item.price ? `<div class="k">Price</div><div class="v">${escapeHtml(item.price)}</div>` : ''}
+            <div class="k">Maps</div><div class="v">${maps}</div>
+          </div>
+          ${item.concierge ? `<div class="concierge">${escapeHtml(item.concierge)}</div>` : ''}
+          ${item.tip ? `<div class="tip">${escapeHtml(item.tip)}</div>` : ''}
+        </div>
+      `;
+    }).join('')}
+  `;
+  document.getElementById('saved-add-btn').addEventListener('click', () => {
+    alert('Tell me via Telegram: "save [place name] — [reason]". I\'ll add it here with hours, station, Maps link, and price.');
+  });
+}
+
+/* === WEATHER TAB === */
+async function fetchWeather() {
+  const url = 'https://api.open-meteo.com/v1/forecast?latitude=35.6762&longitude=139.6503&current=temperature_2m,weather_code,wind_speed_10m,relative_humidity_2m&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,weather_code&timezone=Asia%2FTokyo&forecast_days=5';
+  try {
+    const r = await fetch(url);
+    const w = await r.json();
+    renderWeather(w);
+  } catch (e) {
+    document.getElementById('weather-content').innerHTML = '<div class="empty">Could not load weather. Try again later.</div>';
+  }
+}
+
+function renderWeather(w) {
+  const c = w.current;
+  const cond = weatherCode(c.weather_code);
+  const host = document.getElementById('weather-content');
+  const days = ['Today','Tomorrow','In 2 days','In 3 days','In 4 days'];
+  host.innerHTML = `
+    <div class="weather-now">
+      <div class="city">Tokyo · Shinjuku</div>
+      <div class="temp">${Math.round(c.temperature_2m)}°</div>
+      <div class="cond">${cond}</div>
+      <div class="stats">
+        <div class="stat"><div class="kicker">Wind</div><div class="v tab-num">${c.wind_speed_10m} km/h</div></div>
+        <div class="stat"><div class="kicker">Humidity</div><div class="v tab-num">${c.relative_humidity_2m}%</div></div>
+      </div>
+    </div>
+    <div>
+      ${w.daily.time.map((d, i) => `
+        <div class="forecast-day">
+          <div class="day">${days[i]}</div>
+          <div class="desc">${weatherCode(w.daily.weather_code[i])}</div>
+          <div class="hi tab-num">${Math.round(w.daily.temperature_2m_max[i])}°</div>
+          <div class="lo tab-num">${w.daily.temperature_2m_min[i]}°</div>
+          <div class="rain">${w.daily.precipitation_probability_max[i]}%</div>
+        </div>
+      `).join('')}
+    </div>
+    <div id="fx-mount"></div>
+  `;
+  fetchFX();
+  // Update header
+  document.getElementById('hdr-weather').textContent = `${Math.round(c.temperature_2m)}° ${cond.slice(0, 4)}`;
+}
+
+function weatherCode(code) {
+  const map = {
+    0: 'Clear', 1: 'Mostly clear', 2: 'Partly cloudy', 3: 'Overcast',
+    45: 'Foggy', 48: 'Rime fog', 51: 'Light drizzle', 53: 'Drizzle',
+    55: 'Heavy drizzle', 61: 'Light rain', 63: 'Rain', 65: 'Heavy rain',
+    71: 'Light snow', 73: 'Snow', 75: 'Heavy snow', 77: 'Snow grains',
+    80: 'Rain showers', 81: 'Heavy showers', 82: 'Violent showers',
+    85: 'Snow showers', 86: 'Heavy snow showers', 95: 'Thunderstorm',
+    96: 'Thunderstorm + hail', 99: 'Severe thunderstorm'
+  };
+  return map[code] || 'Unknown';
+}
+
+async function fetchFX() {
+  try {
+    const r = await fetch('https://api.exchangerate-api.com/v4/latest/JPY');
+    const f = await r.json();
+    const hkd = f.rates.HKD;
+    const usd = f.rates.USD;
+    const mount = document.getElementById('fx-mount');
+    if (mount) {
+      mount.innerHTML = `
+        <div class="fx-grid">
+          <div class="pair">
+            <div class="kicker">1 JPY</div>
+            <div class="v tab-num">${(1 * hkd).toFixed(4)}</div>
+            <div class="sub">HKD</div>
+          </div>
+          <div class="pair">
+            <div class="kicker">1 HKD</div>
+            <div class="v tab-num">${(1/hkd).toFixed(2)}</div>
+            <div class="sub">JPY</div>
+          </div>
+          <div class="pair">
+            <div class="kicker">1 JPY</div>
+            <div class="v tab-num">${(1 * usd).toFixed(5)}</div>
+            <div class="sub">USD</div>
+          </div>
+          <div class="pair">
+            <div class="kicker">1 USD</div>
+            <div class="v tab-num">${(1/usd).toFixed(2)}</div>
+            <div class="sub">JPY</div>
+          </div>
+        </div>
+      `;
+    }
+    document.getElementById('hdr-fx').textContent = `¥${(1/hkd).toFixed(1)}`;
+  } catch (e) {
+    document.getElementById('hdr-fx').textContent = '—';
+  }
+}
+
+/* === MAP TAB === */
+let map = null;
+let userMarker = null;
+let userCircle = null;
+
+function initMap() {
+  // Only init when shown
+  const mapEl = document.getElementById('map');
+  if (!mapEl || map) return;
+  setTimeout(() => {
+    try {
+      map = L.map('map', { zoomControl: true }).setView([35.6909, 139.7006], 13);
+
+      // Use CartoDB Voyager tiles — English labels, clean design
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+        attribution: '© OpenStreetMap, © CARTO',
+        maxZoom: 19,
+        subdomains: 'abcd'
+      }).addTo(map);
+
+      // Venue markers with English popups
+      const accents = ['#8b2c2c','#a4894f','#4a5d3e','#1f3a5f','#d97706','#c1272d','#7a5a1f','#a16207','#f59e0b','#4a5d3e','#313131','#585858'];
+      window.VENUES.forEach((v, i) => {
+        const m = L.marker(v.coords, { icon: makeMapIcon(v.icon, accents[i % accents.length]) }).addTo(map);
+        m.bindPopup(
+          '<div style="font-family:Inter,sans-serif;min-width:180px">' +
+          '<strong style="font-size:14px">' + escapeHtml(v.name) + '</strong><br>' +
+          '<em style="color:#585858;font-size:12px">' + escapeHtml(v.subtitle) + '</em></div>'
+        );
+        m.on('click', () => openVenueSheet(v));
+      });
+
+      // Try to get user location
+      if (navigator.geolocation) {
+        map.locate({ setView: false, maxZoom: 16, enableHighAccuracy: true, timeout: 8000 });
+        map.on('locationfound', e => {
+          if (!userMarker) {
+            // Pulsing dot for user
+            const userIcon = L.divIcon({
+              className: 'user-pin',
+              html: '<div style="width:18px;height:18px;background:#4285f4;border:3px solid #fff;border-radius:50%;box-shadow:0 0 0 2px #4285f4,0 0 8px rgba(66,133,244,0.6)"></div>',
+              iconSize: [18, 18],
+              iconAnchor: [9, 9]
+            });
+            userMarker = L.marker(e.latlng, { icon: userIcon, zIndexOffset: 1000 }).addTo(map)
+              .bindPopup('<strong>You are here</strong>');
+            userCircle = L.circle(e.latlng, { radius: e.accuracy / 2, color: '#4285f4', fillOpacity: 0.08, weight: 1 }).addTo(map);
+            // Auto-fit to show user + nearby venues
+            const bounds = L.latLngBounds([e.latlng, ...window.VENUES.map(v => v.coords)]);
+            map.fitBounds(bounds, { padding: [50, 50], maxZoom: 15 });
+          }
+        });
+        map.on('locationerror', e => {
+          console.log('Geolocation denied or failed:', e.message);
+        });
+      }
+    } catch (e) {
+      mapEl.innerHTML = '<div class="map-pad"><p>Map could not load. Check internet connection.</p></div>';
+    }
+  }, 200);
+}
+
+function recenterOnUser() {
+  if (userMarker && map) {
+    map.setView(userMarker.getLatLng(), 15);
+  } else if (navigator.geolocation && map) {
+    map.locate({ setView: true, maxZoom: 15 });
+  }
+}
+
+function makeMapIcon(symbol, color) {
+  return L.divIcon({
+    className: 'map-pin',
+    html: `<div style="width:32px;height:32px;background:${color};color:#f3eee7;border:2px solid #f3eee7;display:flex;align-items:center;justify-content:center;font-size:14px;box-shadow:0 2px 6px rgba(0,0,0,0.3);font-family:Inter,sans-serif">${symbol}</div>`,
+    iconSize: [32, 32],
+    iconAnchor: [16, 16]
+  });
+}
+
+
+/* === TABS === */
+function initTabs() {
+  const tabs = document.querySelectorAll('nav.bottom button');
+  const panes = document.querySelectorAll('.tab-pane');
+  tabs.forEach(b => {
+    b.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.toggle('on', t === b));
+      panes.forEach(p => p.classList.toggle('active', p.id === 'tab-' + b.dataset.tab));
+      if (b.dataset.tab === 'map' && map) {
+        setTimeout(() => map.invalidateSize(), 100);
+      }
+      window.scrollTo(0, 0);
+    });
+  });
+}
+
+/* === BOTTOM SHEETS === */
+const sheet = document.getElementById('sheet');
+const sheetBg = document.getElementById('sheet-bg');
+const sheetTitle = document.getElementById('sheet-title');
+const sheetSub = document.getElementById('sheet-sub');
+const sheetBody = document.getElementById('sheet-body');
+const sheetClose = document.getElementById('sheet-close');
+
+function openSheet(title, sub, bodyHtml) {
+  sheetTitle.textContent = title;
+  sheetSub.textContent = sub;
+  sheetBody.innerHTML = bodyHtml;
+  sheet.classList.add('open');
+  sheetBg.classList.add('open');
+}
+function closeSheet() {
+  sheet.classList.remove('open');
+  sheetBg.classList.remove('open');
+}
+sheetClose.addEventListener('click', closeSheet);
+sheetBg.addEventListener('click', closeSheet);
+// Swipe down to close
+let touchStartY = 0;
+sheet.addEventListener('touchstart', e => { touchStartY = e.touches[0].clientY; });
+sheet.addEventListener('touchend', e => {
+  if (e.changedTouches[0].clientY - touchStartY > 80) closeSheet();
+});
+
+function openEventSheet(item) {
+  const venue = item.venue ? window.VENUES.find(v => v.id === item.venue) : null;
+  let body = '';
+  body += section('Time', `<p>${escapeHtml(item.time)}</p>`);
+  if (item.tag) body += section('Tag', `<p><span class="tag ${tagClassFor(item.tag)}">${item.tag}</span></p>`);
+  if (item.concierge) body += section('Concierge', `<p>${escapeHtml(item.concierge)}</p>`);
+  if (venue) {
+    body += section('Location', `<p class="serif">${escapeHtml(venue.name)}<br>${escapeHtml(venue.subtitle)}</p>`);
+    if (venue.tip) body += section('Tip', `<p>${escapeHtml(venue.tip)}</p>`);
+  }
+  openSheet(item.name, item.time, body);
+}
+
+function openVenueSheet(venue) {
+  let body = '';
+  body += section('Subtitle', `<p class="serif">${escapeHtml(venue.subtitle)}</p>`);
+  if (venue.concierge) body += section('Concierge', `<p>${escapeHtml(venue.concierge)}</p>`);
+  if (venue.tip) body += section('Tip', `<p>${escapeHtml(venue.tip)}</p>`);
+  if (venue.coords) {
+    body += section('Coordinates', `<p class="tab-num" style="font-size:12px">${venue.coords[0].toFixed(4)}, ${venue.coords[1].toFixed(4)}</p>`);
+  }
+  openSheet(venue.name, venue.category, body);
+}
+
+function section(label, html) {
+  return `<div class="sheet-section"><div class="kicker">${label}</div>${html}</div>`;
+}
+
+/* === CLOCK + TRIP STATUS === */
+function startClock() {
+  const update = () => {
+    const now = new Date();
+    const tokyo = new Date(now.toLocaleString('en-US', { timeZone: 'Asia/Tokyo' }));
+    const hh = tokyo.getHours().toString().padStart(2, '0');
+    const mm = tokyo.getMinutes().toString().padStart(2, '0');
+    document.getElementById('tokyo-time').textContent = `${hh}:${mm}`;
+  };
+  update();
+  setInterval(update, 30 * 1000);
+}
+
+function updateTripStatus() {
+  const start = new Date('2026-10-14T00:00:00+09:00');
+  const end = new Date('2026-10-16T23:59:59+09:00');
+  const now = new Date();
+  let label;
+  if (now < start) {
+    const days = Math.ceil((start - now) / 86400000);
+    label = `In ${days}d`;
+  } else if (now >= start && now <= end) {
+    const dayNum = Math.floor((now - start) / 86400000) + 1;
+    label = `Day ${dayNum}`;
+  } else {
+    label = 'Past';
+  }
+  document.getElementById('hdr-status').textContent = label;
+}
+
+function escapeHtml(s) {
+  return String(s || '').replace(/[&<>"']/g, c => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+  }[c]));
+}
+
+// Refresh button
+document.getElementById('refresh').addEventListener('click', () => {
+  init();
+  toast('Refreshed');
+});
+
+// Map toolbar buttons
+document.addEventListener('DOMContentLoaded', () => {
+  const locateBtn = document.getElementById('map-locate');
+  if (locateBtn) {
+    locateBtn.addEventListener('click', () => {
+      if (userMarker && map) {
+        map.setView(userMarker.getLatLng(), 15, { animate: true });
+        userMarker.openPopup();
+      } else if (navigator.geolocation && map) {
+        map.locate({ setView: true, maxZoom: 15, enableHighAccuracy: true });
+        toast('Finding your location…');
+      } else {
+        toast('Map not ready');
+      }
+    });
+  }
+  const fitBtn = document.getElementById('map-fit');
+  if (fitBtn) {
+    fitBtn.addEventListener('click', () => {
+      if (!map || !window.VENUES) return;
+      const points = userMarker ? [userMarker.getLatLng(), ...window.VENUES.map(v => v.coords)] : window.VENUES.map(v => v.coords);
+      const bounds = L.latLngBounds(points);
+      map.fitBounds(bounds, { padding: [50, 50], maxZoom: 15 });
+      toast('Showing all locations');
+    });
+  }
+});
+
+function toast(msg) {
+  const t = document.createElement('div');
+  t.className = 'toast';
+  t.textContent = msg;
+  document.body.appendChild(t);
+  setTimeout(() => t.remove(), 2100);
+}
+
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>

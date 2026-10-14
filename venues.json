@@ -1,0 +1,1802 @@
+{
+  "venues": [
+    {
+      "id": "wpue_hotel",
+      "category": "hotel",
+      "name": "WPUE Hotel Shinjuku",
+      "subtitle": "Home for three nights",
+      "coords": [
+        35.6948,
+        139.692
+      ],
+      "color": "#1f3a5f",
+      "icon": "◆",
+      "concierge": "Ask for a high-floor room facing east.",
+      "tip": "Front desk speaks English. Email the upgrade request in advance."
+    },
+    {
+      "id": "opera_city",
+      "category": "venue",
+      "name": "Tokyo Opera City Tower, 30F",
+      "subtitle": "Manulife conference — Galapagos & Nazca Rooms",
+      "coords": [
+        35.6855,
+        139.6904
+      ],
+      "color": "#7a5a1f",
+      "icon": "◇",
+      "concierge": "Take the B2 elevator from Shinjuku Station concourse.",
+      "tip": "Conference room coffee is necessary, not good. Plan accordingly."
+    },
+    {
+      "id": "hatsudai_station",
+      "category": "transit",
+      "name": "Hatsudai Station",
+      "subtitle": "Keio Line (closest stop to Opera City)",
+      "coords": [
+        35.6817,
+        139.6856
+      ],
+      "color": "#585858",
+      "icon": "⏚",
+      "concierge": "Save 13 minutes vs walking.",
+      "tip": "08:08 sharp-departure train lands you at the venue door by 08:24."
+    },
+    {
+      "id": "nex_shinjuku",
+      "category": "transit",
+      "name": "NEX Shinjuku Station",
+      "subtitle": "Narita Express",
+      "coords": [
+        35.6896,
+        139.7006
+      ],
+      "color": "#585858",
+      "icon": "⏚",
+      "concierge": "Buy round-trip at the JR East counter on arrival.",
+      "tip": "Window seat on the return. Tokyo at dusk from the express is the gentlest way to leave."
+    },
+    {
+      "id": "narita_t2",
+      "category": "transit",
+      "name": "Narita Airport Terminal 2",
+      "subtitle": "Cathay Pacific hub",
+      "coords": [
+        35.772,
+        140.3879
+      ],
+      "color": "#585858",
+      "icon": "⏚",
+      "concierge": "B1F has the JR East counter for NEX tickets.",
+      "tip": "Allow 2h 20m before flight."
+    },
+    {
+      "id": "hkg_airport",
+      "category": "transit",
+      "name": "Hong Kong International Airport T1",
+      "subtitle": "Departure point",
+      "coords": [
+        22.308,
+        113.9185
+      ],
+      "color": "#585858",
+      "icon": "⏚",
+      "concierge": "90 minutes is the right buffer.",
+      "tip": "Skip Plaza Premium. The Cathay Pacific lounge at Gate 16 is better and quieter."
+    },
+    {
+      "id": "cat_bus",
+      "category": "transit",
+      "name": "Cathay Pacific CX 504 / CX 501",
+      "subtitle": "Long-haul",
+      "coords": [
+        22.308,
+        113.9185
+      ],
+      "color": "#585858",
+      "icon": "⏚",
+      "concierge": "Pre-order the noodle on the outbound.",
+      "tip": "The eye mask in the amenity kit is the real prize."
+    },
+    {
+      "id": "shinjuku_gyoen",
+      "category": "park",
+      "name": "Shinjuku-gyoen National Garden",
+      "subtitle": "Open 9:00–16:30 (October)",
+      "coords": [
+        35.6852,
+        139.71
+      ],
+      "color": "#4a5d3e",
+      "icon": "❀",
+      "concierge": "Enter at the Shinjuku Gate.",
+      "tip": "Bring nothing. No phone, no schedule. The maple leaves are turning by mid-October."
+    },
+    {
+      "id": "golden_gai",
+      "category": "nightlife",
+      "name": "Golden Gai",
+      "subtitle": "200+ micro-bars",
+      "coords": [
+        35.6938,
+        139.7048
+      ],
+      "color": "#c1272d",
+      "icon": "✦",
+      "concierge": "Pick a bar with English on the door.",
+      "tip": "Try Alacarte. Hostess speaks English, classic jazz, no cover after 21:00."
+    },
+    {
+      "id": "raamen_shima",
+      "category": "ramen",
+      "name": "Raa Menya Shima",
+      "subtitle": "Top-rated ramen in Nishi-Shinjuku",
+      "coords": [
+        35.6961,
+        139.6914
+      ],
+      "color": "#d97706",
+      "icon": "▼",
+      "concierge": "The shoyu niboshi ramen is the dish.",
+      "tip": "Cash only. Arrive 17:55 to skip the queue."
+    },
+    {
+      "id": "wagyu_waigaya",
+      "category": "yakiniku",
+      "name": "Wagyu Shokudo waigaya",
+      "subtitle": "Kuroge Wagyu specialty",
+      "coords": [
+        35.693,
+        139.692
+      ],
+      "color": "#a16207",
+      "icon": "▼",
+      "concierge": "The Wagyu Shokudo Course is the signature.",
+      "tip": "Reserve 24h ahead. Walk-in is usually full."
+    },
+    {
+      "id": "yakiniku_like",
+      "category": "yakiniku",
+      "name": "Yakiniku Like Shinjuku West",
+      "subtitle": "Solo-friendly fast yakiniku",
+      "coords": [
+        35.6928,
+        139.69
+      ],
+      "color": "#f59e0b",
+      "icon": "▼",
+      "concierge": "One grill per seat, smokeless.",
+      "tip": "Try the harami skirt cut with garlic rice."
+    },
+    {
+      "id": "jins_lumine",
+      "category": "shopping",
+      "name": "JINS LUMINE Shinjuku",
+      "subtitle": "Prescription glasses from ¥6,600 (30 min pickup)",
+      "coords": [
+        35.6909,
+        139.6989
+      ],
+      "color": "#585858",
+      "icon": "◔",
+      "concierge": "Tax-free for tourists. Eye exam free in-store. Get the night voucher (free lens cloth) if shopping after 17:00.",
+      "tip": "1 min walk from Shinjuku Stn. Lumine 1, 6F. Frames ¥5,500–¥19,800. Pickup 30 min, longer 18:00+."
+    },
+    {
+      "id": "jins_flagship",
+      "category": "shopping",
+      "name": "JINS Shinjuku Flagship",
+      "subtitle": "Largest JINS, AI frame matcher, multilingual staff",
+      "coords": [
+        35.6921,
+        139.7036
+      ],
+      "color": "#585858",
+      "icon": "◔",
+      "concierge": "Bigger selection. AI tool recommends frames. Multilingual staff. Open until 21:30.",
+      "tip": "8 min walk from hotel. AVOID afternoon — peak wait. Best before 12:00 or after 19:00."
+    },
+    {
+      "id": "aoki_nishiguchi",
+      "category": "shopping",
+      "name": "AOKI Shinjuku West Main",
+      "subtitle": "Business suits, tax-free, 1 min from Shinjuku Stn",
+      "coords": [
+        35.6905,
+        139.6991
+      ],
+      "color": "#1f3a5f",
+      "icon": "▥",
+      "concierge": "Quality suits at value prices. Business + casual + formal. 1 min walk from Shinjuku Stn West Exit.",
+      "tip": "Hours 10:00-21:00 daily. Quick-order suits. Tax-free with passport. Sign-language service."
+    },
+    {
+      "id": "ginza_tailor_fukuoka",
+      "category": "shopping",
+      "name": "Ginza Tailor Fukuoka",
+      "subtitle": "Order-made suits from ¥30,000-40,000",
+      "coords": [
+        35.6923,
+        139.6966
+      ],
+      "color": "#1f3a5f",
+      "icon": "▥",
+      "concierge": "Made-to-measure including big/tall. Fabric + tailoring + tax all-in. Shinjuku West Exit Center MB1F.",
+      "tip": "Hours 10:00-19:30 daily. Best for custom if you have 2-3 days turnaround in Tokyo."
+    },
+    {
+      "id": "rebirth_kamata",
+      "category": "shopping",
+      "name": "Re:Birth Baseball (Kamata)",
+      "subtitle": "Refurbished Mizuno/Zett/Wilson gloves, Ota Ward",
+      "coords": [
+        35.5628,
+        139.7158
+      ],
+      "color": "#4a5d3e",
+      "icon": "⚾",
+      "concierge": "200+ revived gloves from top brands. Unique designs, low prices, eco-friendly. Appointment recommended.",
+      "tip": "30 min from Shinjuku via JR Keihin-Tohoku Line to Kamata, then 20 min walk. Phone ahead to confirm hours + which location (Kamata vs Setagaya)."
+    },
+    {
+      "id": "baseman_tachikawa",
+      "category": "shopping",
+      "name": "Baseman Tachikawa",
+      "subtitle": "Major baseball goods store, 155 reviews, 4.3★",
+      "coords": [
+        35.714,
+        139.4139
+      ],
+      "color": "#4a5d3e",
+      "icon": "⚾",
+      "concierge": "Larger selection than Re:Birth. New + used. Located in Tachikawa (35 min west of Shinjuku by Chuo Line).",
+      "tip": "If you want mainstream baseball gear (bats, gloves, accessories) — this is the easy pick."
+    },
+    {
+      "id": "pokemon_mega",
+      "category": "shopping",
+      "name": "Pokémon Center MEGA TOKYO",
+      "subtitle": "Largest Pokémon Center in Kanto + Pikachu Sweets café",
+      "coords": [
+        35.7295,
+        139.7188
+      ],
+      "color": "#d97706",
+      "icon": "◉",
+      "concierge": "Sunshine City Alpa 2F, 3-1-2 Higashi-Ikebukuro. Open daily 10:00-20:00. Tax-free in-store.",
+      "tip": "3 min from Higashi-Ikebukuro Stn (Yurakucho Line) / 8 min from Ikebukuro Stn. Phone: 03-5927-9290. Mega Pikachu plush ¥2,200 is the souvenir."
+    },
+    {
+      "id": "pokemon_dx",
+      "category": "shopping",
+      "name": "Pokémon Center Tokyo DX",
+      "subtitle": "Tokyo's biggest by official measure (397 tsubo)",
+      "coords": [
+        35.6861,
+        139.7742
+      ],
+      "color": "#d97706",
+      "icon": "◉",
+      "concierge": "Nihonbashi Takashimaya S.C. East Bldg 5F. Open 10:30-21:00. Has the only Kanto café (reservation-only).",
+      "tip": "5 min walk from Tokyo Stn Yaesu North exit. Zero-weather via Nihombashi Stn B2 exit (Ginza/Tozai Lines) → direct into building. Tax-free."
+    },
+    {
+      "id": "pokemon_store_tokyo_stn",
+      "category": "shopping",
+      "name": "Pokémon Store Tokyo Station",
+      "subtitle": "Small souvenir kiosk inside the station",
+      "coords": [
+        35.6812,
+        139.7671
+      ],
+      "color": "#d97706",
+      "icon": "◉",
+      "concierge": "First Avenue Tokyo Stn 1F. Open 10:00-20:30. Last-day convenience stop on way to Narita.",
+      "tip": "1 min from Nihombashi exit of Tokyo Stn. NOT a full center — souvenir kiosk only."
+    },
+    {
+      "id": "narita_car_service",
+      "category": "transit",
+      "name": "Narita Car Service (colleague-arranged)",
+      "subtitle": "Private transfer NRT → WPUE Hotel (~1.5 hr)",
+      "coords": [
+        35.772,
+        140.3879
+      ],
+      "color": "#585858",
+      "icon": "⏚",
+      "concierge": "Driver meets at arrivals with your name. Confirm flight number + WhatsApp with driver 30 min before landing.",
+      "tip": "Sedan ~¥25,000-30,000 typical. 4-person van if traveling with colleague(s). Fixed price — confirm before pickup."
+    }
+  ],
+  "schedule": {
+    "day1": [
+      {
+        "id": "d1-1",
+        "time": "07:00 HKT",
+        "name": "Pack and head to HKG T1",
+        "tag": "Pre-flight",
+        "venue": "hkg_airport",
+        "concierge": "Pack the charged suit in your carry-on — overnight bag for the suit, not checked.",
+        "travel": "Cab to HKG ~30 min",
+        "energy": 2,
+        "weather": "Hot HK day"
+      },
+      {
+        "id": "d1-2",
+        "time": "09:05 HKT",
+        "name": "CX 504 HKG → NRT T2",
+        "tag": "In flight",
+        "venue": "cat_bus",
+        "concierge": "4h 25m flight. Pre-order the noodle (or the rice) — it cuts the perception of the flight by 30 min.",
+        "travel": "In flight",
+        "energy": 1,
+        "weather": "Cabin comfort"
+      },
+      {
+        "id": "d1-3",
+        "time": "14:30 JST",
+        "name": "Arrive Narita T2",
+        "tag": "Transit",
+        "venue": "narita_t2",
+        "concierge": "Immigration ~30 min. Bag drop confirmed. Use the bathroom before customs.",
+        "travel": "From gate to arrivals ~15 min",
+        "energy": 3
+      },
+      {
+        "id": "d1-3a",
+        "time": "15:15 JST",
+        "name": "Car service pickup at T2 arrivals",
+        "tag": "Transit",
+        "venue": "narita_car_service",
+        "concierge": "Driver meets at customs exit with your name. Confirm via WhatsApp 30 min before landing. ~1.5h drive (or up to 2h with traffic).",
+        "travel": "1.5h drive",
+        "energy": 1
+      },
+      {
+        "id": "d1-5",
+        "time": "16:30 JST",
+        "name": "Check in at WPUE",
+        "tag": "Hotel",
+        "venue": "wpue_hotel",
+        "concierge": "Front desk speaks English. Pre-arranged upgrade email — confirm at check-in. High-floor east-facing room = Fuji view on clear days.",
+        "travel": "From car to room ~10 min",
+        "energy": 4
+      },
+      {
+        "id": "d1-5a",
+        "time": "16:45",
+        "name": "Drop bags, freshen up",
+        "tag": "Hotel",
+        "venue": "wpue_hotel",
+        "concierge": "Hot shower, change into walking clothes. Hotel coin laundry if needed.",
+        "energy": 3
+      },
+      {
+        "id": "d1-5b",
+        "time": "17:00",
+        "name": "JINS LUMINE Shinjuku — get glasses",
+        "tag": "Shopping",
+        "venue": "jins_lumine",
+        "concierge": "1 min walk from hotel. Bring your prescription (or get exam in-store, free). Frame ¥6,600+ with lenses included. Tax-free with passport. Ask for the night voucher (free lens cloth) if you stay past 17:00.",
+        "travel": "1 min walk",
+        "energy": 2,
+        "duration": "30 min exam + 30 min wait"
+      },
+      {
+        "id": "d1-5c",
+        "time": "17:45",
+        "name": "Menswear at AOKI Shinjuku West",
+        "tag": "Shopping",
+        "venue": "aoki_nishiguchi",
+        "concierge": "Pick up a business shirt, casual jacket, or full suit. Quality Japanese tailoring at value prices. Walk-in welcome. Sign-language service. Tax-free.",
+        "travel": "1 min walk from JINS",
+        "energy": 2,
+        "duration": "30-45 min"
+      },
+      {
+        "id": "d1-5d",
+        "time": "18:30",
+        "name": "Pick up JINS glasses, head to dinner",
+        "tag": "Shopping",
+        "venue": "jins_lumine",
+        "concierge": "Quick fit check + case + cleaning cloth. Glasses in hand. Now go eat.",
+        "travel": "5 min back to hotel area",
+        "energy": 1
+      },
+      {
+        "id": "d1-single-o",
+        "time": "18:40",
+        "name": "Single O Shibuya (coffee bag #2 — gift/backup)",
+        "tag": "Coffee",
+        "venue": "saved-single-o",
+        "concierge": "5 min walk from AOKI area. Standing coffee bar (no seats = 5-10 min in/out). Aussie specialty roaster. **This is bag #2** — your main bag is Paul Bassett Day 2 morning. Pick up a 2nd bag here as a gift/backup or to try a different roaster's beans. Batch brew on tap + retail beans (¥1,200-2,000/bag).",
+        "energy": 1,
+        "duration": "10-15 min"
+      },
+      {
+        "id": "d1-sushiya",
+        "time": "19:30",
+        "name": "Namae no Nai Sushi-ya (locals-only walk-in sushi)",
+        "tag": "Dinner",
+        "venue": "saved-namae-sushi",
+        "concierge": "Locals-only sushi, ¥10/sushi (cheapest in Shinjuku). Backstreets of Kabukicho. No sign, no reservation. Arrive 16:50 to skip the queue. Cash only. The opposite of Hatsume: standing, fast, no ceremony — just very good cheap sushi. Opens 17:00 typical.",
+        "duration": "45-60 min",
+        "energy": 2
+      },
+      {
+        "id": "d1-6",
+        "time": "20:30 (after Namae)",
+        "name": "Golden Gai nightcap",
+        "tag": "Drinks",
+        "venue": "golden_gai",
+        "concierge": "After sushi, walk 5 min to Golden Gai for a drink. Pick a bar with English on the door. Try Alacarte. Order the highball. No cover after 21:00.",
+        "duration": "1-1.5h",
+        "energy": 1
+      },
+      {
+        "id": "d1-7a",
+        "time": "22:30 (optional)",
+        "name": "Asakusa Batting cages (if energy left)",
+        "tag": "Optional",
+        "venue": "saved-asakusa-batting",
+        "concierge": "Open until 01:00. 35 min from Shinjuku via Ginza Line to Asakusa. Speeds 70-150 km/h. ¥400/game, cash only. 2F with giant glove sign. Real Tokyo experience.",
+        "energy": 4
+      },
+      {
+        "id": "d1-8",
+        "time": "23:00",
+        "name": "Lights out",
+        "tag": "Rest",
+        "venue": "wpue_hotel",
+        "concierge": "Set 3 alarms (07:00, 07:10, 07:20). Jet lag will forgive you once. Tomorrow: full day on stage.",
+        "energy": 1
+      }
+    ],
+    "day2": [
+      {
+        "id": "d2-hero",
+        "time": "06:30",
+        "name": "Wake, breakfast, walk to Opera City",
+        "tag": "Day 2",
+        "venue": "wpue_hotel",
+        "concierge": "You're on stage today. Eat a real breakfast — the conference catering is not enough. Wear the suit. Hatsudai Station is 1 min walk from Opera City. Evening is company group dinner (scheduled) — no other plans.",
+        "energy": 3
+      },
+      {
+        "id": "d2-1",
+        "time": "07:30",
+        "name": "Breakfast at WPUE",
+        "venue": "wpue_hotel",
+        "concierge": "—",
+        "energy": 3
+      },
+      {
+        "id": "d2-paul-bassett",
+        "time": "07:45",
+        "name": "Paul Bassett (specialty coffee + buy beans bag #1)",
+        "tag": "Coffee",
+        "venue": "saved-paul-bassett",
+        "concierge": "4 min walk from hotel. 3x World Barista Champion's Tokyo shop. **This is bag #1 — your main personal bag** (200g, ¥1,500-2,500). Single-origin + blend espresso, fresh-roasted beans retail. Then walk back, then head to Hatsudai for the 9am conference. Coffee itself is the breakfast.",
+        "energy": 1,
+        "duration": "30 min total (4 min walk + 20 min visit + 4 min walk back)"
+      },
+      {
+        "id": "d2-2",
+        "time": "08:30",
+        "name": "Walk to Opera City",
+        "venue": "hatsudai_station",
+        "concierge": "—",
+        "energy": 3
+      },
+      {
+        "id": "d2-3",
+        "time": "09:00",
+        "name": "Welcome Sabrina Cheung",
+        "tag": "ACC Day 1",
+        "venue": "opera_city",
+        "concierge": "—",
+        "energy": 3
+      },
+      {
+        "id": "d2-4",
+        "time": "09:15",
+        "name": "Ask Brittany Anything Una Sung",
+        "tag": "Session",
+        "venue": "opera_city",
+        "energy": 4,
+        "concierge": "—"
+      },
+      {
+        "id": "d2-5",
+        "time": "10:15",
+        "name": "Global Comms Achievements Brittany Straughn",
+        "tag": "Session",
+        "venue": "opera_city",
+        "energy": 4,
+        "concierge": "—"
+      },
+      {
+        "id": "d2-6",
+        "time": "11:15",
+        "name": "Fireside with Asia CEO Steve Finch",
+        "tag": "Session",
+        "venue": "opera_city",
+        "energy": 4,
+        "concierge": "—"
+      },
+      {
+        "id": "d2-7",
+        "time": "11:45",
+        "name": "Financial Comms and IR Fulin Liang (virtual)",
+        "tag": "Session",
+        "venue": "opera_city",
+        "energy": 4,
+        "concierge": "—"
+      },
+      {
+        "id": "d2-8",
+        "time": "12:15",
+        "name": "Lunch",
+        "venue": "opera_city",
+        "concierge": "—",
+        "energy": 3
+      },
+      {
+        "id": "d2-9",
+        "time": "13:45",
+        "name": "Fireside Leadership and Comms Ryan Charland",
+        "tag": "Session",
+        "venue": "opera_city",
+        "energy": 4,
+        "concierge": "—"
+      },
+      {
+        "id": "d2-10",
+        "time": "14:15",
+        "name": "Better 100 Sandeep Chakraborty",
+        "tag": "Session",
+        "venue": "opera_city",
+        "energy": 4,
+        "concierge": "—"
+      },
+      {
+        "id": "d2-11",
+        "time": "15:00",
+        "name": "Japan Is Asia's Future Longevity Georoid Reidy and Yan Hai",
+        "tag": "Session",
+        "venue": "opera_city",
+        "energy": 4,
+        "concierge": "—"
+      },
+      {
+        "id": "d2-12",
+        "time": "15:45",
+        "name": "Issues and Crisis Best Practice Alice Li and Karyn McLean",
+        "tag": "Session",
+        "venue": "opera_city",
+        "energy": 4,
+        "concierge": "—"
+      },
+      {
+        "id": "d2-13",
+        "time": "16:35",
+        "name": "Matcha Workshop",
+        "tag": "Workshop",
+        "venue": "opera_city",
+        "concierge": "—",
+        "energy": 3
+      },
+      {
+        "id": "d2-14",
+        "time": "18:00-20:00",
+        "name": "Group Dinner",
+        "venue": "opera_city",
+        "concierge": "—",
+        "energy": 3
+      },
+      {
+        "id": "d2-back",
+        "time": "22:00",
+        "name": "Back to hotel, rest",
+        "tag": "Rest",
+        "venue": "wpue_hotel",
+        "concierge": "—",
+        "energy": 1
+      }
+    ],
+    "day3": [
+      {
+        "id": "d3-1",
+        "time": "07:30",
+        "name": "Early breakfast",
+        "tag": "On stage tomorrow",
+        "venue": "wpue_hotel",
+        "concierge": "Eat well — last conference day. Light on the grease; you want to be sharp.",
+        "energy": 2
+      },
+      {
+        "id": "d3-bag-forward",
+        "time": "08:00",
+        "name": "Drop bags at WPUE concierge (forward to NRT T2)",
+        "tag": "Hotel",
+        "venue": "wpue_hotel",
+        "concierge": "Ask concierge to ship bags to NRT T2 via takuhaibin (Japanese luggage forwarding). JPY 2,500-3,500 per bag, sameday delivery. Bags arrive at NRT T2 around 17:00-18:00. Pick up at NRT T2 Sagawa/Yamato counter on arrival. Eliminates the need to return to the hotel for checkout.",
+        "energy": 1
+      },
+      {
+        "id": "d3-2",
+        "time": "08:30",
+        "name": "Walk to Opera City",
+        "tag": "Transit",
+        "venue": "hatsudai_station",
+        "concierge": "Walk when weather is good. Architecture is the warmup.",
+        "energy": 2
+      },
+      {
+        "id": "d3-3",
+        "time": "08:30-10:00",
+        "name": "ACE Awards 1-5",
+        "tag": "On stage",
+        "venue": "opera_city",
+        "concierge": "You're on stage. The morning block. Pace yourself — the closing is at 14:25.",
+        "energy": 4
+      },
+      {
+        "id": "d3-4",
+        "time": "10:15-11:45",
+        "name": "ACE Awards 6-10",
+        "tag": "On stage",
+        "venue": "opera_city",
+        "concierge": "",
+        "energy": 4
+      },
+      {
+        "id": "d3-5",
+        "time": "11:45-12:15",
+        "name": "Working Lunch Manulife Tokyo",
+        "tag": "Lunch",
+        "venue": "opera_city",
+        "concierge": "Or skip to Tsukiji Shokudo Gen-chan in B1 of Opera City (1 min walk, fresh Toyosu sashimi ¥1,000-1,500).",
+        "energy": 2
+      },
+      {
+        "id": "d3-6",
+        "time": "12:15-12:45",
+        "name": "AI-Powered Colleague Experience David McDonald",
+        "tag": "Session",
+        "venue": "opera_city",
+        "concierge": "",
+        "energy": 3
+      },
+      {
+        "id": "d3-7",
+        "time": "12:45-14:25",
+        "name": "AI workshops Sabrina Chan",
+        "tag": "Workshop",
+        "venue": "opera_city",
+        "concierge": "",
+        "energy": 3
+      },
+      {
+        "id": "d3-8",
+        "time": "14:25-14:40",
+        "name": "Awards and Closing",
+        "tag": "On stage",
+        "venue": "opera_city",
+        "concierge": "",
+        "energy": 4
+      },
+      {
+        "id": "d3-late-lunch",
+        "time": "14:40",
+        "name": "Quick lunch on the way out (or skip if conference fed you)",
+        "tag": "Lunch",
+        "concierge": "Eat light. Or skip — ramen is too heavy before 4h+ transit. If hungry: onigiri from convenience store or B1 of Opera City.",
+        "energy": 2
+      },
+      {
+        "id": "d3-ameyoko-loop",
+        "time": "15:00",
+        "name": "Ameyoko loop: HINOYA × 3 + JBJ + Sasugaya",
+        "tag": "Shopping",
+        "venue": "wpue_hotel",
+        "concierge": "JR from Opera City → JR Ueno (15 min). Walk Ameyoko block (everything within 2 min): HINOYA flagship → HINOYA ONE → HINOYA PLUS MART → JBJ Ueno (4-8-22) → Sasugaya Outlet (6-4-7, Ameyoko Welcome Mall 1F). Tax-free at all stops. 60 min focused.",
+        "energy": 3
+      },
+      {
+        "id": "d3-walk-to-nex",
+        "time": "16:50",
+        "name": "JR Shinjuku → JR Tokyo Stn → Pokémon Store → NEX platform",
+        "tag": "Transit",
+        "concierge": "JR Yamanote Shinjuku → Tokyo Stn (15 min). Pokémon Store Tokyo Station in First Avenue B1 (5 min walk from JR Tokyo Stn). 15-min focused browse. Then walk to JR Tokyo Stn NEX platform (5 min). NO hotel return — bags forwarded to NRT T2 this morning.",
+        "energy": 1
+      },
+      {
+        "id": "d3-13",
+        "time": "17:30",
+        "name": "NEX Tokyo Stn → NRT T2",
+        "tag": "Transit",
+        "venue": "narita_t2",
+        "concierge": "NEX 23 or similar from JR Tokyo Stn direct to NRT T2 (~1h 14m). Bags already at NRT T2 waiting. Alternative: if you finish the Pokémon Store early, NEX 21 at 18:00 also works. Either way, you're at NRT by 19:14 latest. Board at the JR Tokyo Stn NEX platform.",
+        "energy": 1
+      },
+      {
+        "id": "d3-14",
+        "time": "18:45",
+        "name": "Arrive NRT T2 — pick up bags + check in",
+        "tag": "Transit",
+        "venue": "narita_t2",
+        "concierge": "FIRST: collect your forwarded bags from the takuhaibin counter (Sagawa or Yamato, near arrivals hall). Then Cathay Pacific check-in counters on 4F (T2). Have passport + e-ticket. Allow 1h 15m for bag drop + immigration.",
+        "energy": 2
+      },
+      {
+        "id": "d3-15",
+        "time": "20:00",
+        "name": "Past security (2h before flight)",
+        "tag": "Transit",
+        "concierge": "Pick up Press Butter Sand boxes at duty-free (NRT T2, 4F after security). IASS Executive Lounge (T2) if you want to sit (Amex Plat + Priority Pass). Duty-free: matcha kit + Tokyo Banana. Last meal: Sushi Kyotatsu on 4F (better than airport ramen).",
+        "energy": 1
+      },
+      {
+        "id": "d3-16",
+        "time": "22:00 JST",
+        "name": "CX 501 NRT to HKG departs",
+        "tag": "In flight",
+        "venue": "cat_bus",
+        "concierge": "4h 55m flight. Dinner served. Pre-order the noodles if you can. Eye mask in amenity kit.",
+        "energy": 1
+      },
+      {
+        "id": "d3-17",
+        "time": "01:55 HKT (Sat)",
+        "name": "Land HKG T1 — trip complete",
+        "tag": "Home",
+        "concierge": "Immigration + bag + cab home. You're back.",
+        "energy": 1
+      }
+    ]
+  },
+  "saved": {
+    "note": "Places you asked to save before Tokyo — Hinoya + 9 other denim shops, 4 specialty coffee shops, 6 breakfast backups, 3 wife souvenirs (Imabari towels, Press Butter Sand, LUMINE), Sasugaya outlet.",
+    "items": [
+      {
+        "id": "saved-hatsume",
+        "name": "Sushi Hatsume (BACKUP — not in current plan)",
+        "subtitle": "⚠️ BOOK TONIGHT — 22-course omakase ¥9,900 / premium ¥23,000",
+        "category": "saved",
+        "coords": [
+          35.6909,
+          139.7035
+        ],
+        "color": "#c1272d",
+        "icon": "🍣",
+        "station": "Shinjuku-gyoenmae Stn (5 min) / Shinjuku Stn (7 min)",
+        "hours": "Dinner only. Typical seatings 18:00, 20:00, 22:00. Closed irregularly — check calendar.",
+        "price": "¥9,900 omakase (22 courses) / ¥23,000 premium. Tax + service separate.",
+        "concierge": "Michelin 2-star chef background. Charcoal + flash-smoking technique. Reservation required, 3+ days ahead — you have 1 day. Book tonight or pivot to walk-in spots.",
+        "tip": "⚠️ NOT IN CURRENT DAY 1 PLAN. Replaced by Namae no Nai Sushi-ya (walk-in, no booking, ¥10/sushi). Hatsume would need 3+ day booking lead time; you only have 1.5 days. Saved here only as a future-trip reference. If you're flexible: try Hatsume on a future Tokyo trip when you book 1 week ahead."
+      },
+      {
+        "id": "saved-namae-sushi",
+        "name": "Namae no Nai Sushi-ya (CURRENT Day 1 dinner plan)",
+        "subtitle": "Locals-only walk-in, ¥10/sushi (cheapest in Shinjuku)",
+        "category": "saved",
+        "coords": [
+          35.694,
+          139.7055
+        ],
+        "color": "#c1272d",
+        "icon": "🍣",
+        "station": "Shinjuku Stn (5 min) / Higashi-Shinjuku Stn (8 min)",
+        "hours": "Evenings, typically 17:00–23:00. Walk-in, no reservation.",
+        "price": "~¥10/sushi (cheapest in Shinjuku).",
+        "concierge": "No-sign hidden gem. Backstreets of Kabukicho. Locals-only, very few tourists find it. Cash only. No reservation, so arrive 16:50 to skip the queue.",
+        "tip": "Best pivot if Hatsume is full. The experience is the opposite of Hatsume: standing, fast, no ceremony — just very good cheap sushi."
+      },
+      {
+        "id": "saved-yocchokoya",
+        "name": "Yocchokoya",
+        "subtitle": "Super-local izakaya, ¥390 portions, 3F tiny entrance",
+        "category": "saved",
+        "coords": [
+          35.6918,
+          139.7011
+        ],
+        "color": "#f59e0b",
+        "icon": "🍶",
+        "station": "Shinjuku Stn East Exit (3 min)",
+        "hours": "Evenings, typically 17:00–24:00. No reservation.",
+        "price": "¥390 per portion — very cheap.",
+        "concierge": "Tiny 3F entrance (look up for the sign). Super-local standing-style izakaya. No reservation, cash only.",
+        "tip": "Best for Day 1 dinner if Hatsume booking fails. Fast service, walk-in friendly, eats in 30 min."
+      },
+      {
+        "id": "saved-curry-imasa",
+        "name": "Curry House 11 Imasa",
+        "subtitle": "Fast spicy curry, ¥400, no reservation",
+        "category": "saved",
+        "coords": [
+          35.692,
+          139.701
+        ],
+        "color": "#f59e0b",
+        "icon": "🍛",
+        "station": "Shinjuku Stn East Exit (2 min)",
+        "hours": "11:00–22:00 typical. No reservation.",
+        "price": "¥400 per plate.",
+        "concierge": "Cheap, fast, spicy. Japanese curry house. No reservation, walk-in.",
+        "tip": "Best pre-event meal (light, fast, gets you fed in 15 min). Good if you need to be somewhere by 19:00."
+      },
+      {
+        "id": "saved-golden-gai",
+        "name": "Golden Gai",
+        "subtitle": "200+ micro-bars, casual, opens 18:00",
+        "category": "saved",
+        "coords": [
+          35.6938,
+          139.7048
+        ],
+        "color": "#c1272d",
+        "icon": "✦",
+        "station": "Shinjuku Stn East Exit (5 min)",
+        "hours": "18:00–late (most bars)",
+        "price": "¥1,000–1,500 cover at most bars. Drinks ¥500–1,000.",
+        "concierge": "Pick a bar with English on the door. Try Alacarte — hostess speaks English, classic jazz, no cover after 21:00.",
+        "tip": "Best for Wed Oct 14 evening when you have free time. Already in your Day 1 plan. Walk the alleys slowly."
+      },
+      {
+        "id": "saved-asakusa-batting",
+        "name": "Asakusa Batting Stadium",
+        "subtitle": "Batting cages with NPB pitcher speeds, ¥400/game",
+        "category": "saved",
+        "coords": [
+          35.7117,
+          139.7967
+        ],
+        "color": "#4a5d3e",
+        "icon": "⚾",
+        "station": "Asakusa Stn (Tsukuba Express, 3 min walk)",
+        "hours": "10:30–01:00 daily",
+        "price": "¥400 per game (20 pitches). Cash only.",
+        "concierge": "2F with giant glove sign. Speeds 70–150 km/h — choose NPB pitcher simulations. Cash only, no cards.",
+        "tip": "Open until 01:00 — could fit on Wed Oct 14 evening if you want to swing. 35 min from Shinjuku via Ginza Line to Asakusa."
+      },
+      {
+        "id": "saved-rebirth-kamata",
+        "name": "Re-Birth Baseball — Kamata (flagship)",
+        "subtitle": "Used/refurbished gloves, sales + repair",
+        "category": "saved",
+        "coords": [
+          35.5628,
+          139.7158
+        ],
+        "color": "#4a5d3e",
+        "icon": "⚾",
+        "station": "JR Kamata Stn (20 min walk or 5 min bus)",
+        "hours": "11:00–19:00. CLOSED Tue/Wed.",
+        "price": "Refurbished gloves ~¥5,000–15,000. New Mizuno/Zett/Wilson also stocked.",
+        "concierge": "Flagship location. Sales + repair. Best for unique one-of-a-kind designs. Eco-friendly mission: collect, repair, resell secondhand gloves.",
+        "tip": "Plan on Day 3 free window (Fri 14:40–17:00) but check day-of: CLOSED Tue/Wed. Fri Oct 16 is open."
+      },
+      {
+        "id": "saved-rebirth-futako",
+        "name": "Re-Birth Baseball — Futako-Tamagawa",
+        "subtitle": "Used/refurbished gloves, sales + repair",
+        "category": "saved",
+        "coords": [
+          35.6034,
+          139.6266
+        ],
+        "color": "#4a5d3e",
+        "icon": "⚾",
+        "station": "Futako-Tamagawa Stn (Den-en-toshi Line, 8 min walk)",
+        "hours": "13:00–19:00. CLOSED Mon/Wed/Thu.",
+        "price": "Same as Kamata flagship.",
+        "concierge": "Sales + repair. Closer to Shinjuku than Kamata (20 min vs 30 min).",
+        "tip": "CLOSED Mon/Wed/Thu. Fri Oct 16 — open! Easier than Kamata."
+      },
+      {
+        "id": "saved-rebirth-tama",
+        "name": "Re-Birth Baseball — Tama-Nagayama",
+        "subtitle": "Used/refurbished gloves, sales + repair",
+        "category": "saved",
+        "coords": [
+          35.6386,
+          139.4133
+        ],
+        "color": "#4a5d3e",
+        "icon": "⚾",
+        "station": "Tama-Nagayama Stn (Seibu Haijima Line, 12 min walk)",
+        "hours": "13:00–19:00. CLOSED Tue/Thu.",
+        "price": "Same as other Re-Birth locations.",
+        "concierge": "Sales + repair. Far west Tokyo (45 min from Shinjuku).",
+        "tip": "Fri Oct 16 — open! But long trek. Kamata or Futako is easier."
+      },
+      {
+        "id": "saved-rebirth-koenji",
+        "name": "Re-Birth Baseball — Koenji",
+        "subtitle": "Repair/remake ONLY, no sales",
+        "category": "saved",
+        "coords": [
+          35.7056,
+          139.6497
+        ],
+        "color": "#4a5d3e",
+        "icon": "⚾",
+        "station": "Koenji Stn (JR Chuo, 6 min walk)",
+        "hours": "Varies. CLOSED Tue/Wed.",
+        "price": "Repair pricing varies — bring your glove.",
+        "concierge": "Repair + remake only, no glove sales. If you brought a glove from home and need work, this is your stop.",
+        "tip": "Closest Re-Birth to Shinjuku (15 min). Fri Oct 16 — check if open."
+      },
+      {
+        "id": "saved-baseman-iidabashi",
+        "name": "Baseman Iidabashi",
+        "subtitle": "Biggest specialty baseball store in Tokyo, 2000+ gloves",
+        "category": "saved",
+        "coords": [
+          35.7017,
+          139.745
+        ],
+        "color": "#4a5d3e",
+        "icon": "⚾",
+        "station": "Iidabashi Stn (JR + Metro, 5 min walk)",
+        "hours": "11:00–20:00 typical",
+        "price": "New gloves ¥10,000–50,000. Wide selection.",
+        "concierge": "2000+ gloves in stock. Biggest specialty store. Easy to reach from Shinjuku (15 min via JR Chuo).",
+        "tip": "If you can't reach Tachikawa (35 min west), this is the best Tokyo alternative. 15 min east on JR."
+      },
+      {
+        "id": "saved-tokyo-dome-prism",
+        "name": "Tokyo Dome City PRISM HALL",
+        "subtitle": "Official MLB/NPB merchandise",
+        "category": "saved",
+        "coords": [
+          35.7058,
+          139.7535
+        ],
+        "color": "#4a5d3e",
+        "icon": "⚾",
+        "station": "Suidobashi Stn (JR, 3 min walk)",
+        "hours": "11:00–21:00 typical",
+        "price": "Caps ¥4,000–8,000. Jerseys ¥10,000–20,000.",
+        "concierge": "Official MLB + NPB licensed merch. If you want a Hanshin Tigers / Yomiuri Giants / Dodgers cap, this is the spot.",
+        "tip": "Combine with a Tokyo Dome visit if there's a game. 15 min from Shinjuku via JR Chuo."
+      },
+      {
+        "id": "saved-odakyu-dept",
+        "name": "Odakyu Department Store 5F",
+        "subtitle": "Hanshin Tigers corner + general sports",
+        "category": "saved",
+        "coords": [
+          35.6912,
+          139.7005
+        ],
+        "color": "#4a5d3e",
+        "icon": "⚾",
+        "station": "Shinjuku Stn (Odakyu exit, 1 min)",
+        "hours": "10:00–20:30 typical",
+        "price": "Tigers gear ¥2,000–10,000.",
+        "concierge": "Hanshin Tigers corner (5F, sports section). Best for Tigers fans. Also has general sports.",
+        "tip": "1 min from Shinjuku Stn — easy to hit on any walk past. Wed Oct 14 free evening or Day 1 menswear swing."
+      },
+      {
+        "id": "saved-uniqlo-ginza",
+        "name": "Uniqlo Ginza Flagship (12F)",
+        "subtitle": "Suits + same-day Re.UNIQLO Studio tailoring",
+        "category": "saved",
+        "coords": [
+          35.6717,
+          139.7656
+        ],
+        "color": "#1f3a5f",
+        "icon": "▥",
+        "station": "Ginza Stn (Marunouchi Line, 1 min)",
+        "hours": "11:00–21:00",
+        "price": "Suits ¥9,900–19,900. Washable Stretch line.",
+        "concierge": "Re.UNIQLO Studio alterations in-house. Drop suit + collect 1–2 hrs same day. 'Washable Stretch' line is the move for travel.",
+        "tip": "12F of the Ginza flagship. If you want quick suit pickup + same-day alteration, this is the cleanest option. 15 min from Shinjuku via Marunouchi Line."
+      },
+      {
+        "id": "saved-uniqlo-shinjuku-east",
+        "name": "Uniqlo Shinjuku East",
+        "subtitle": "Suits + same-day tailoring, closer to hotel",
+        "category": "saved",
+        "coords": [
+          35.6935,
+          139.7047
+        ],
+        "color": "#1f3a5f",
+        "icon": "▥",
+        "station": "Shinjuku-sanchome Stn (1 min) / Shinjuku Stn East (5 min)",
+        "hours": "11:00–22:00",
+        "price": "Same as Ginza flagship.",
+        "concierge": "Closer to hotel than Ginza. Re.UNIQLO Studio alterations available.",
+        "tip": "Easier than Ginza if you're on a tight schedule. Drop off on Day 1 shopping, pick up on Day 2."
+      },
+      {
+        "id": "saved-aoyama-casual",
+        "name": "Beams / United Arrows / Tomorrowland / Ships — Aoyama",
+        "subtitle": "Casual menswear, nicer fabric, no same-day alt",
+        "category": "saved",
+        "coords": [
+          35.6645,
+          139.715
+        ],
+        "color": "#1f3a5f",
+        "icon": "▥",
+        "station": "Omotesando Stn (5 min) / Aoyama-itchome Stn (8 min)",
+        "hours": "11:00–20:00 typical per store",
+        "price": "Shirts ¥8,000–25,000. Jackets ¥20,000–60,000.",
+        "concierge": "4 brand flagships in Aoyama area. Better fabric than Uniqlo, no same-day alterations. Beams = streetwear, United Arrows = classic, Tomorrowland = Euro-style, Ships = preppy.",
+        "tip": "Plan 2h+ to walk all 4. Combine with Omotesando Hills for one-stop shopping. 25 min from Shinjuku via Ginza Line."
+      },
+      {
+        "id": "saved-zoff",
+        "name": "Zoff (multiple Shinjuku locations)",
+        "subtitle": "Same-day RX, walk-in exams, no booking",
+        "category": "saved",
+        "coords": [
+          35.6906,
+          139.7003
+        ],
+        "color": "#585858",
+        "icon": "◔",
+        "station": "Shinjuku Stn (1–5 min walk depending on location)",
+        "hours": "11:00–21:00 typical",
+        "price": "Frames ¥5,500–19,800. Standard single-vision ~1 hr same day. Progressive = next day.",
+        "concierge": "Walk-in eye exams, no booking. Multiple Shinjuku locations. Cheaper than JINS for some lines.",
+        "tip": "Backup to JINS. Standard single-vision done in 1 hr. Pick the closest location to where you'll be."
+      },
+      {
+        "id": "saved-owndays",
+        "name": "OWNDAYS (multiple Shinjuku locations)",
+        "subtitle": "Same-day RX, walk-in exams, no booking",
+        "category": "saved",
+        "coords": [
+          35.6912,
+          139.7004
+        ],
+        "color": "#585858",
+        "icon": "◔",
+        "station": "Shinjuku Stn (1–5 min walk depending on location)",
+        "hours": "11:00–21:00 typical",
+        "price": "Frames ¥4,900–19,800. Standard single-vision ~20 min same day (fastest of the 3).",
+        "concierge": "Fastest turnaround of the big 3. Walk-in exams. Standard single-vision done in 20 min.",
+        "tip": "If JINS/Zoff have a 1-hr wait, OWNDAYS is the speed pick. All 3 do tax-free with passport."
+      },
+      {
+        "id": "saved-matcha-workshop",
+        "name": "Japanese Matcha Workshop",
+        "subtitle": "⚠️ Already in Day 2 schedule — Thu Oct 15, 16:35–17:45",
+        "category": "saved",
+        "coords": [
+          35.6855,
+          139.6904
+        ],
+        "color": "#4a5d3e",
+        "icon": "🍵",
+        "station": "Hatsudai Stn (3 min walk) / Opera City basement",
+        "hours": "Thu Oct 15, 16:35–17:45 (in-conference)",
+        "price": "Free (included in conference)",
+        "concierge": "No extra booking. Just show up at Opera City. Learn to whisk matcha properly.",
+        "tip": "Already on Day 2 schedule. Don't double-book."
+      },
+      {
+        "id": "saved-shibuya-sky",
+        "name": "Shibuya Sky",
+        "subtitle": "Rooftop observation deck, best Tokyo sunset view",
+        "category": "saved",
+        "coords": [
+          35.6584,
+          139.7019
+        ],
+        "color": "#a16207",
+        "icon": "🗼",
+        "station": "Shinjuku Stn → JR Yamanote to Shibuya Stn (6 min), 5 min walk",
+        "hours": "10:00–22:30. Last entry 21:10.",
+        "price": "¥2,500 adults. Book timed entry online.",
+        "concierge": "Open-air rooftop on top of Shibuya Scramble Square. 230m above ground. Best sunset in Tokyo.",
+        "tip": "Best on a clear day. 30 min from Shinjuku. 2h+ if you want the full experience + Shibuya Crossing below."
+      },
+      {
+        "id": "saved-shibuya-crossing",
+        "name": "Shibuya Crossing",
+        "subtitle": "World's busiest pedestrian crossing, free to watch",
+        "category": "saved",
+        "coords": [
+          35.6595,
+          139.7004
+        ],
+        "color": "#a16207",
+        "icon": "🗼",
+        "station": "Shibuya Stn (1 min walk)",
+        "hours": "24/7. Best at peak hours (18:00–19:00 weekdays, 16:00–18:00 weekends).",
+        "price": "Free to watch. Starbucks above for the iconic view (¥500+ for a coffee).",
+        "concierge": "The world's busiest pedestrian crossing. Get the view from Starbucks 2F, or Shibuya Sky rooftop (¥2,500), or the second-floor walkway of Shibuya Station.",
+        "tip": "Pair with Shibuya Sky for the full Shibuya experience. 6 min from Shinjuku via JR Yamanote."
+      },
+      {
+        "id": "saved-skytreetown",
+        "name": "Tokyo Skytree Town",
+        "subtitle": "Tallest tower in Japan, observation + shopping",
+        "category": "saved",
+        "coords": [
+          35.7101,
+          139.8107
+        ],
+        "color": "#a16207",
+        "icon": "🗼",
+        "station": "Tokyo Skytree Stn (Tobu Skytree Line, 1 min) / Oshiage Stn (3 min)",
+        "hours": "10:00–22:00. Last entry 21:00.",
+        "price": "Tembo Deck ¥2,100. Tembo Galleria (top) extra ¥1,000.",
+        "concierge": "634m tall. Tembo Deck (350m) + Tembo Galleria (450m). Solamachi shopping/dining complex at base.",
+        "tip": "Has its own Pokémon Center Skytree Town inside Solamachi. Could replace Ikebukuro if you want the Skytree experience. 40 min from Shinjuku via JR + Tobu."
+      },
+      {
+        "id": "saved-hinoya-main",
+        "name": "HINOYA 本店 (Denim Institution)",
+        "subtitle": "65+ year denim shop in Ueno Ameyoko — Buzz Rickson's, Sugar Cane, Momotaro, Pure Blue Japan",
+        "category": "saved",
+        "coords": [
+          35.7088,
+          139.7742
+        ],
+        "color": "#1f3a5f",
+        "icon": "◑",
+        "station": "JR Ueno Station (5 min walk through Ameyoko)",
+        "hours": "Daily 10:30–20:10",
+        "price": "Jeans ¥15,000–60,000+. Heritage workwear varies.",
+        "concierge": "One of Tokyo's oldest denim shops, est. 1949. Carries Big John, Momotaro, Sugar Cane, Pure Blue Japan, ONI Denim. Open facade covered in denim — hard to miss. The flagship of the Hinoya family.",
+        "tip": "Pair with Ameyoko market walk (¥1 store snacks, fresh fish, more vintage shops). 20 min from Shinjuku via JR Yamanote."
+      },
+      {
+        "id": "saved-hinoya-one",
+        "name": "HINOYA ONE (Ueno)",
+        "subtitle": "Boncoura, Old Joe, Warehouse — sister store across the street",
+        "category": "saved",
+        "coords": [
+          35.7088,
+          139.7743
+        ],
+        "color": "#1f3a5f",
+        "icon": "◑",
+        "station": "JR Ueno Station (5 min walk)",
+        "hours": "Daily 10:30–20:10",
+        "price": "Same range as flagship.",
+        "concierge": "Sister store to HINOYA main, across the street. Focuses on Boncoura, Old Joe Brand, Blue Blue, A Vontade, Buzz Rickson's, Warehouse, REMI RELIEF.",
+        "tip": "Visit HINOYA main first, then walk across the alley to HINOYA ONE for the curated subset. 10 min browse total."
+      },
+      {
+        "id": "saved-hinoya-plus-mart",
+        "name": "HINOYA PLUS MART (Ueno)",
+        "subtitle": "Warehouse, ONI Denim, Studio D'Artisan + bar/café",
+        "category": "saved",
+        "coords": [
+          35.7087,
+          139.7745
+        ],
+        "color": "#1f3a5f",
+        "icon": "◑",
+        "station": "JR Ueno Station (5 min walk)",
+        "hours": "Daily 10:30–20:10",
+        "price": "Same as flagship.",
+        "concierge": "3rd Hinoya store, the warehouse outlet. Carries Warehouse, ONI Denim, Studio D'Artisan, Universal Overall, Momotaro, Buzz Rickson's, BARNS. Often has floor-stock at lower prices.",
+        "tip": "Best for finding a bargain — slightly off the main drag, so quieter. 5 min walk from the main HINOYA."
+      },
+      {
+        "id": "saved-sun-house",
+        "name": "SUN HOUSE 神南 (Shibuya)",
+        "subtitle": "Hinoya sister store — Engineered Garments, Needles, Visvim, nanamica",
+        "category": "saved",
+        "coords": [
+          35.662,
+          139.6979
+        ],
+        "color": "#1f3a5f",
+        "icon": "◑",
+        "station": "JR Shibuya Station (Hachiko Exit, 8 min walk)",
+        "hours": "Daily 11:00–20:30",
+        "price": "Higher-end Japanese heritage. ¥20,000–100,000+ for jackets, ¥15,000–50,000 for shirts.",
+        "concierge": "Hinoya's Shibuya outpost — 'home' concept. Carries the more fashion-forward, premium tier: Engineered Garments, Needles, PORTER CLASSIC, Visvim, Gold, Post O'Alls, Kaptain Sunshine, nanamica, Sun Surf, Tailor Toyo.",
+        "tip": "Closer to your hotel than Ueno (15 min walk from Shinjuku). Pair with Shibuya Sky or Crossing. Best for higher-end heritage than the Ueno stores."
+      },
+      {
+        "id": "saved-acid-coffee",
+        "name": "Acid Coffee Tokyo",
+        "subtitle": "Single-origin pour-over specialist — visited last time, tasted really good, in Uehara",
+        "category": "saved",
+        "coords": [
+          35.6701,
+          139.6795
+        ],
+        "color": "#7a5a1f",
+        "icon": "✦",
+        "station": "Odakyu Line / Tokyo Metro Chiyoda Line — Yoyogi-Uehara Stn (4 min walk)",
+        "hours": "Daily 8:00–19:00 (lunch break 13:00–14:00 typical)",
+        "price": "¥600–900 for pour-over. Beans sold by the bag too.",
+        "concierge": "Specialty single-origin pour-over. Small, minimalist space — counter seating + a few tables. Bit 代々木上原 101. Closes for lunch. Cash + card.",
+        "tip": "Far from Shinjuku (~20 min via Odakyu Line) but worth the trip if you loved it last time. Pair with the Yoyogi-Uehara neighborhood walk. Open early for breakfast."
+      },
+      {
+        "id": "saved-single-o",
+        "name": "Single O Shibuya (Aussie-style)",
+        "subtitle": "Standing coffee bar, Aussie specialty, batch brew on tap",
+        "category": "saved",
+        "coords": [
+          35.6591,
+          139.7042
+        ],
+        "color": "#a16207",
+        "icon": "✦",
+        "station": "JR Shibuya Station (Hachiko Exit, 3 min walk)",
+        "hours": "Mon–Fri 8:00–19:00, Sat–Sun 9:00–19:00",
+        "price": "¥450–650 for batch brew. Beans sold retail.",
+        "concierge": "Australian coffee shop chain (originally from Sydney) — Shibuya AXSH 1F. Standing/takeaway bar with 4 batch-brew options on tap rotating house blends + single origin + iced oat latte.",
+        "tip": "Easiest of the 3 specialty stops — 6 min from Shinjuku via JR Yamanote. Standing bar (no seats) = quick in-and-out. Great morning coffee before/after Shibuya Sky."
+      },
+      {
+        "id": "saved-glitch-ginza",
+        "name": "Glitch Coffee & Roasters (Ginza)",
+        "subtitle": "Single-origin only, sleek Ginza outpost — easier access than the original",
+        "category": "saved",
+        "coords": [
+          35.6711,
+          139.7645
+        ],
+        "color": "#a16207",
+        "icon": "✦",
+        "station": "Higashi-Ginza Station (Asakusa Line / Hibiya Line, 3 min walk)",
+        "hours": "Daily 8:00–18:00 (some sources say 9:00–18:00)",
+        "price": "¥500–800 for pour-over/espresso. Beans retail.",
+        "concierge": "4th location in Japan, 2nd in Tokyo. Single-origin only (no blends) — Vort Ginza-Isto III, 1F, 4-13-8 Ginza. Phone: 03-6260-6638. Sleek minimalist design, espresso + pour-over + retail beans.",
+        "tip": "Closest to WPUE of the 3 specialty coffee stops (15 min via Marunouchi Line). Pair with Ginza shopping (Uniqlo flagship, Tokyu Plaza, Pokemon Center DX). Open 8 AM — early stop works."
+      },
+      {
+        "id": "saved-leaves-coffee",
+        "name": "Leaves Coffee Roasters",
+        "subtitle": "Town roastery est. 2019, very popular, long waiting time — Sumida",
+        "category": "saved",
+        "coords": [
+          35.7097,
+          139.7987
+        ],
+        "color": "#a16207",
+        "icon": "✦",
+        "station": "JR Kinshicho Stn (8 min walk) or JR/Metro Ryogoku (12 min walk)",
+        "hours": "Thu–Mon 10:00–17:00 (CLOSED Tue & Wed)",
+        "price": "¥500–900 for pour-over. Beans retail.",
+        "concierge": "Standalone roastery in Sumida, est. 2019. 49K Instagram followers. Famous for seasonal single-origin + their house blends. Roastery attached to the café — beans roasted on-site. Phone: 03-5637-8718.",
+        "tip": "Far from Shinjuku (~25 min via JR Chuo-Sobu + walk). VERY popular on weekends — arrive 15 min before opening (10:00) to avoid 30-45 min line. Best on a weekday morning if you can fit it in. Closes Tue/Wed."
+      },
+      {
+        "id": "saved-jbj-uenoyokocho",
+        "name": "Japan Blue Jeans Ueno",
+        "subtitle": "Flagship — same block as HINOYA, 6-8-22 Ueno",
+        "category": "saved",
+        "coords": [
+          35.709,
+          139.7745
+        ],
+        "color": "#1f3a5f",
+        "icon": "◑",
+        "station": "JR Ueno Stn (4 min walk through Ameyoko)",
+        "hours": "Daily 11:00–19:00",
+        "price": "Jeans ¥15,000–50,000. Momotaro line ¥30,000+.",
+        "concierge": "Brand store of the Okayama-based Japan Blue Jeans (parent of Momotaro, also operates Momotaro stores). Carries JBJ + Momotaro Jeans + Japan Blue lineup. Same block as HINOYA — combine into one walk.",
+        "tip": "Visit alongside the 3 HINOYA stores in one Ameyoko loop. 4 min walk from JR Ueno Stn Okachimachi exit. Open until 19:00 — start at 16:00 if Day 1 evening is light."
+      },
+      {
+        "id": "saved-jbj-shibuya",
+        "name": "Japan Blue Jeans Shibuya",
+        "subtitle": "Harajuku-side branch — 5-28-7 Jingumae",
+        "category": "saved",
+        "coords": [
+          35.669,
+          139.703
+        ],
+        "color": "#1f3a5f",
+        "icon": "◑",
+        "station": "Meiji-Jingumae / Harajuku Stn (3 min walk)",
+        "hours": "Daily 11:00–19:00",
+        "price": "Same as Ueno flagship.",
+        "concierge": "Shibuya/Harajuku-side Japan Blue Jeans store. Modern fits, distinctive blue stitching. Right in the heart of the Harajuku denim corridor.",
+        "tip": "Pair with Pure Blue Japan Harajuku (2 min walk) and Studio D'Artisan Harajuku (5 min walk) for a single Ura-Harajuku denim loop."
+      },
+      {
+        "id": "saved-jbj-asakusa",
+        "name": "Japan Blue Jeans Asakusa",
+        "subtitle": "Near Sensō-ji — perfect Day 1 evening detour",
+        "category": "saved",
+        "coords": [
+          35.7117,
+          139.7974
+        ],
+        "color": "#1f3a5f",
+        "icon": "◑",
+        "station": "Asakusa Stn (Tsukuba Express, 3 min walk)",
+        "hours": "Daily 11:00–20:00",
+        "price": "Same as Ueno flagship.",
+        "concierge": "Japan Blue Jeans Asakusa — visitor-friendly location near Sensō-ji. Offers hemming services. Sometimes has rare or discontinued items in remaining stock.",
+        "tip": "Pair with Sensō-ji visit. Phone: 03-6802-7300. Open until 20:00."
+      },
+      {
+        "id": "saved-pure-blue-japan",
+        "name": "Pure Blue Japan (Harajuku)",
+        "subtitle": "Distinctive slubby indigo selvedge — flagship store, Ura-Harajuku",
+        "category": "saved",
+        "coords": [
+          35.6685,
+          139.7072
+        ],
+        "color": "#1f3a5f",
+        "icon": "◑",
+        "station": "Meiji-Jingumae / Harajuku Stn (5 min walk)",
+        "hours": "Daily 11:00–18:30",
+        "price": "Jeans ¥25,000–80,000+. Premium indigo.",
+        "concierge": "Famous for the 'slubby' texture and unique indigo-dye fading. Founded in Kurashiki, Okayama. Discreet side-street entrance in Ura-Harajuku — easy to miss, worth seeking. Phone: 03-3408-6644. Instagram: @pbj_harajuku.",
+        "tip": "Combine with Japan Blue Jeans Shibuya (3 min) + Studio D'Artisan Harajuku (5 min) for a 30-min Ura-Harajuku denim walk. 12 min from Shinjuku via JR Yamanote."
+      },
+      {
+        "id": "saved-studio-d-artisan",
+        "name": "Studio D'Artisan (Harajuku)",
+        "subtitle": "One of the Osaka Five — hank-dyed denim, Harajuku store",
+        "category": "saved",
+        "coords": [
+          35.6695,
+          139.706
+        ],
+        "color": "#1f3a5f",
+        "icon": "◑",
+        "station": "Meiji-Jingumae / Harajuku Stn (4 min walk)",
+        "hours": "Daily 11:00–20:00 (typical)",
+        "price": "Jeans ¥25,000–60,000+.",
+        "concierge": "One of the legendary 'Osaka Five' (Studio D'Artisan, Denime, Evisu, Full Count, Warehouse). Famous for 'hank dyeing' — multi-day dye process creating deeper, more textured indigo. Harajuku store has full range.",
+        "tip": "3 min from Pure Blue Japan, 5 min from Japan Blue Jeans Shibuya. Plan a 30-min Ura-Harajuku loop: PBJ → Studio D'Artisan → JBJ Shibuya."
+      },
+      {
+        "id": "saved-edwin-tokyo",
+        "name": "EDWIN Tokyo (Harajuku)",
+        "subtitle": "Japan's only specialized EDWIN shop — heritage raw denim + 生機",
+        "category": "saved",
+        "coords": [
+          35.67,
+          139.705
+        ],
+        "color": "#1f3a5f",
+        "icon": "◑",
+        "station": "Meiji-Jingumae / Harajuku Stn (5 min walk)",
+        "hours": "Daily 11:00–20:00 (typical)",
+        "price": "Jeans ¥15,000–50,000+.",
+        "concierge": "EDWIN is the Japanese denim OG (founded 1947 in Okayama). The Harajuku store is the only specialized EDWIN concept store — high-end products only, knowledgeable staff, focus on traditional raw denim + '生機' (raw fabric) jeans. Staff explain aging + product differences in detail.",
+        "tip": "Last stop on the Ura-Harajuku denim walk (8 min from Pure Blue Japan). Pairs well with the others if you want to compare one of the oldest Japanese denim houses vs the boutique labels."
+      },
+      {
+        "id": "saved-momotaro-aoyama",
+        "name": "Momotaro Jeans Aoyama",
+        "subtitle": "Tokyo flagship — Japan Blue's premium Zimbabwe cotton line",
+        "category": "saved",
+        "coords": [
+          35.6645,
+          139.715
+        ],
+        "color": "#1f3a5f",
+        "icon": "◑",
+        "station": "Tokyo Metro Ginza Line / Hanzomon Line / Chiyoda Line — Aoyama-itchome Stn (5 min walk)",
+        "hours": "Daily 11:00–20:00",
+        "price": "Jeans ¥25,000–60,000+.",
+        "concierge": "Momotaro Jeans Tokyo flagship (Ao Bldg 2F, 3-11-7 Kita-Aoyama). Made with Zimbabwe cotton, signature pink selvedge line. Shows fade examples so you can see how your jeans will evolve. Entry restrictions for a relaxed browsing experience. Phone: 03-6427-9721.",
+        "tip": "Pairs with the Beams/United Arrows/Tomorrowland/Ships Aoyama menswear cluster (all 5 in walking distance). 25 min from Shinjuku via Ginza Line. The 'temple' of the Okayama denim houses."
+      },
+      {
+        "id": "saved-kapital",
+        "name": "KAPITAL (Ebisu flagship)",
+        "subtitle": "Manual-process denim, 100-year jeans, 'TH Zipang Real Indigo'",
+        "category": "saved",
+        "coords": [
+          35.6488,
+          139.71
+        ],
+        "color": "#1f3a5f",
+        "icon": "◑",
+        "station": "JR Ebisu Stn East Exit (5 min walk)",
+        "hours": "Daily 11:00–20:00 (typical)",
+        "price": "Jeans ¥30,000–150,000+ (TH Zipang in paulownia box)",
+        "concierge": "KAPITAL from Kojima, Okayama. All manual processes — thread-dyeing, weaving, sewing, washing, decoration. Flagship store + 4 other branches in Ebisu/Roppongi area. Hemming + repair service available.",
+        "tip": "If you have serious denim energy: KAPITAL flagship in Ebisu, then walk 5 min to Denime/Eliminator next door. 25 min from Shinjuku via JR Yamanote. The 'art denim' tier."
+      },
+      {
+        "id": "saved-junky-special",
+        "name": "Junky Special (Shinjuku)",
+        "subtitle": "Multi-brand Toyo Enterprise — Buzz Rickson's, Sugar Cane, Sun Surf",
+        "category": "saved",
+        "coords": [
+          35.6935,
+          139.7035
+        ],
+        "color": "#1f3a5f",
+        "icon": "◑",
+        "station": "JR Shinjuku Stn East Exit (5 min walk) / Seibu-Shinjuku (3 min)",
+        "hours": "Daily 12:00–20:00 (typical)",
+        "price": "Denim + heritage workwear, varies widely.",
+        "concierge": "Multi-brand Toyo Enterprise house — Sugar Cane, Buzz Rickson's, Tailor Toyo, Sun Surf all under one roof. Denim sits alongside aloha shirts and repro outerwear, so it's a broader Americana stop than a jeans-only shop.",
+        "tip": "5 min from WPUE. PERFECT Day 1 evening stop — easy walk, broad selection, less precious/specialized than HINOYA. Great first denim browse to calibrate what you like."
+      },
+      {
+        "id": "saved-verve-newoman",
+        "name": "VERVE COFFEE (NeWoman Shinjuku)",
+        "subtitle": "California specialty roaster, opens 7am, 2F NeWoman — best hotel-adjacent",
+        "category": "saved",
+        "coords": [
+          35.686,
+          139.701
+        ],
+        "color": "#a16207",
+        "icon": "✦",
+        "station": "JR Shinjuku Stn South Exit / New South Exit (2 min walk)",
+        "hours": "Daily 7:00–22:00",
+        "price": "¥550–700 for pour-over. Beans retail.",
+        "concierge": "First overseas outpost of the California-based roaster. Sleek, modern, opens at 7 AM sharp. 2F NeWoman Shinjuku. Good espresso + pour-over. Phone: 03-6380-1178.",
+        "tip": "Best morning option near your hotel — 2 min walk, 7am open, reliable specialty coffee. Great for Day 2/3 before the conference."
+      },
+      {
+        "id": "saved-paul-bassett",
+        "name": "Paul Bassett Nishi-Shinjuku",
+        "subtitle": "Australian world-champion barista's Tokyo shop — 7:30am open",
+        "category": "saved",
+        "coords": [
+          35.6925,
+          139.6912
+        ],
+        "color": "#a16207",
+        "icon": "✦",
+        "station": "JR Shinjuku Stn West Exit (4 min walk) / Nishi-Shinjuku Stn (3 min)",
+        "hours": "Daily 7:30–20:30",
+        "price": "¥500–700.",
+        "concierge": "Paul Bassett is a 3-time World Barista Champion. This Nishi-Shinjuku location is his Tokyo outpost — single-origin + blend espresso, fresh-roasted beans to go. Inside the Shinjuku NS Building (NS Bldg 1F, 2-4-1 Nishi-Shinjuku).",
+        "tip": "CLOSEST specialty option to your hotel — 4 min walk, in your neighborhood. Open by 7:30 — perfect for a Day 2 morning espresso before Hatsudai walk."
+      },
+      {
+        "id": "saved-komeda-shingykoen",
+        "name": "Komeda's Coffee Shinjuku Gyoen",
+        "subtitle": "Nagoya-based chain, opens 7am, free breakfast with coffee",
+        "category": "saved",
+        "coords": [
+          35.6913,
+          139.706
+        ],
+        "color": "#a16207",
+        "icon": "✦",
+        "station": "Shinjuku-gyoenmae Stn (2 min walk)",
+        "hours": "Daily 7:00–20:00",
+        "price": "¥500–600 for coffee. Free toast + egg breakfast with any morning coffee.",
+        "concierge": "Japanese kissaten-style chain. Free breakfast (toast + boiled egg + bean paste) included with any morning coffee 7:00–11:00. Comfy, retro, loud-welcome.",
+        "tip": "Solid reliable morning option — 7am, includes free breakfast, 2 min from Shinjuku-gyoenmae Stn. Not specialty-tier but solid day-starter if you want a real meal with your coffee."
+      },
+      {
+        "id": "saved-doutor-shinjuku-bldg",
+        "name": "Doutor Coffee (Shinjuku Bldg B2F)",
+        "subtitle": "Reliable chain, opens 6:30 weekdays — earliest option",
+        "category": "saved",
+        "coords": [
+          35.6925,
+          139.6955
+        ],
+        "color": "#a16207",
+        "icon": "✦",
+        "station": "JR Shinjuku Stn West Exit (2 min walk, underground)",
+        "hours": "Mon-Fri 6:30–20:00, Sat 7:30–20:00, Sun 7:30–18:00",
+        "price": "¥300–500 for coffee. Cheap eats.",
+        "concierge": "Doutor is the most reliable Japanese chain coffee. Located underground (B2F) at the Shinjuku Building — directly connected to the West Exit of Shinjuku Station. Earliest-opening option near your hotel.",
+        "tip": "If you need coffee at 6:30 AM (very early), this is your only option. Walk underground from West Exit — no weather exposure."
+      },
+      {
+        "id": "saved-tsukiji-shokudo",
+        "name": "Tsukiji Shokudo Gen-chan (Opera City B1)",
+        "subtitle": "Toyosu-market fresh sashimi — quick conference-area lunch",
+        "category": "saved",
+        "coords": [
+          35.6853,
+          139.6904
+        ],
+        "color": "#d97706",
+        "icon": "▼",
+        "station": "Hatsudai Stn (1 min, direct to Opera City)",
+        "hours": "Mon–Fri 11:00–14:30 (lunch) / 17:00–22:00 (dinner) — closed weekends",
+        "price": "¥1,000–1,500 for sashimi set lunch",
+        "concierge": "Sashimi izakaya chain located in Opera City B1 (the building you'll be at). Fresh fish from Toyosu Market every morning. Lunch sets are the move — chef's-choice sashimi bowl ¥1,000–1,500.",
+        "tip": "If you don't want the conference lunch, this is RIGHT THERE. 1 min walk from your session room."
+      },
+      {
+        "id": "saved-sasugaya-outlet",
+        "name": "SASUGAYA OUTLET (Ameyoko)",
+        "subtitle": "Wholesale outlet in Ueno Ameyoko — knives, leather bags, scissors, watches",
+        "category": "saved",
+        "coords": [
+          35.709,
+          139.7755
+        ],
+        "color": "#1f3a5f",
+        "icon": "◈",
+        "station": "JR Ueno Stn (4 min walk) / JR Okachimachi Stn (1 min)",
+        "hours": "Daily 10:00–19:00 (typical)",
+        "price": "Knives ¥1,500–8,000. Leather bags ¥3,000–15,000. Scissors ¥800–3,000. Outlet pricing vs retail.",
+        "concierge": "Wholesale outlet in Ameyoko Welcome Mall 1F, on the same street as the 3 HINOYA stores. Famous for Japanese knives (Seki, Sakai), leather goods, scissors, watches — outlet pricing vs the main Sasugaya stores. Phone: 03-6806-0577.",
+        "tip": "Combines PERFECTLY with the Ameyoko denim walk — Sasugaya + HINOYA × 3 + JBJ Ueno all in one block. Ask about tax-free for tourists."
+      },
+      {
+        "id": "saved-tajimaya",
+        "name": "Tajimaya Coffee House (kissaten)",
+        "subtitle": "Showa-era kissaten — cloth-drip coffee + thick toast + boiled egg (¥800 morning set)",
+        "category": "saved",
+        "coords": [
+          35.6927,
+          139.6997
+        ],
+        "color": "#a16207",
+        "icon": "✦",
+        "station": "JR Shinjuku Stn West Exit (5 min walk)",
+        "hours": "Daily 9:30–23:00 (verify Instagram for current hours — some sources say 10:00)",
+        "price": "¥800-1,200 for morning set. House blend ¥830, Blue Mountain ¥1,830. Cash.",
+        "concierge": "One of Tokyo's most famous kissaten (Showa-era coffee house). Cloth-drip siphon coffee, thick buttered shokupan toast, boiled egg. Sit at the bar counter to watch the pour-over. The quintessential Tokyo morning experience. Featured in Timeout Tokyo. Phone: 03-3342-0881.",
+        "tip": "NOT for early risers (opens 9:30/10am) — better for Day 2 Day 3 brunch. Truly authentic, locals + tourists both. No reservations, just walk in."
+      },
+      {
+        "id": "saved-bills-ginza",
+        "name": "bills Ginza (Australian brunch)",
+        "subtitle": "Famous ricotta hotcakes, full Aussie breakfast, opens 8:30 AM",
+        "category": "saved",
+        "coords": [
+          35.6721,
+          139.7626
+        ],
+        "color": "#a16207",
+        "icon": "✦",
+        "station": "Ginza Stn (Marunouchi / Hibiya / Ginza Line, 3 min walk)",
+        "hours": "Daily 8:30–23:00 (last food order 22:00)",
+        "price": "¥2,500-3,500 for full brunch. Ricotta hotcakes ¥1,800. Flat white ¥700.",
+        "concierge": "Bill Granger's Sydney-born restaurant, Ginza branch (also Omotesando, Daikanyama, Yokohama). World-famous ricotta hotcakes with banana + honeycomb butter. Full Aussie breakfast. The brunch spot for the in-the-know crowd. 4.4★ on Yelp. English menu.",
+        "tip": "Walk-in OK if you come right at 8:30 opening, otherwise expect a line. The hotcakes take 20 min to cook (it's worth it). Combine with Ginza shopping morning. 20 min from hotel via Marunouchi Line."
+      },
+      {
+        "id": "saved-sarabeths",
+        "name": "Sarabeth's LUMINE 2 Shinjuku",
+        "subtitle": "Queen of NYC breakfast — French toast, lemon ricotta pancakes, eggs benedict",
+        "category": "saved",
+        "coords": [
+          35.6892,
+          139.7006
+        ],
+        "color": "#a16207",
+        "icon": "✦",
+        "station": "JR Shinjuku Stn South Exit (2 min walk, above station)",
+        "hours": "Daily 9:00–21:00 (holidays may vary)",
+        "price": "¥1,800-3,200 for breakfast. Lemon ricotta pancakes ¥2,400. Eggs benedict ¥2,200.",
+        "concierge": "The 'Queen of Breakfast' in NYC, brought to Shinjuku. Located directly above the South Exit of Shinjuku Station in Lumine 2. Fluffy French toast, lemon ricotta pancakes, eggs benedict. Polished yet comfortable, 4.1★. English menu.",
+        "tip": "EASIEST option — 2 min walk, no train needed, sits above Shinjuku Station. Opens 9 AM so works for Day 2 (after Paul Bassett) or Day 3 (after conference close). No reservation needed at breakfast."
+      },
+      {
+        "id": "saved-berg-shinjuku",
+        "name": "BERG (Shinjuku Station)",
+        "subtitle": "In-station deli since 1970 — frankfurters, sandwiches, Japanese drip coffee, 15 sec from gates",
+        "category": "saved",
+        "coords": [
+          35.6896,
+          139.7006
+        ],
+        "color": "#a16207",
+        "icon": "✦",
+        "station": "INSIDE JR Shinjuku Stn (15 sec from ticket gates)",
+        "hours": "Daily 7:00–22:00 (typical)",
+        "price": "¥600-1,200 for sandwich + coffee. Frankfurters ¥600-900.",
+        "concierge": "Commuter staple since 1970, literally inside Shinjuku Station (15 seconds from the gates). German deli fare — frankfurters, sandwiches, pastries — paired with strong Japanese drip coffee. No fuss, no wait, no walking outside.",
+        "tip": "If you're running late, this is your backup. 7 AM open. The drip coffee is the move, not the pastries. Just walk in and point."
+      },
+      {
+        "id": "saved-royal-host-nishishinjuku",
+        "name": "Royal Host Nishi-Shinjuku",
+        "subtitle": "Japanese family restaurant, 7 AM open, omurice + Japanese/Western breakfast sets",
+        "category": "saved",
+        "coords": [
+          35.691,
+          139.696
+        ],
+        "color": "#a16207",
+        "icon": "✦",
+        "station": "JR Shinjuku Stn West Exit (3 min walk)",
+        "hours": "Daily 7:00–22:00",
+        "price": "¥900-1,800 for breakfast sets. Omurice ¥900, Japanese set ¥1,200.",
+        "concierge": "Japanese 'family restaurant' chain — reliable, generous portions, blends Japanese (omurice, grilled fish) and Western (omelet, pancakes). Photo menu in English. Right next to the Hilton and Hyatt Regency. Open earliest of the brunch options.",
+        "tip": "Most reliable 7 AM option if WPUE breakfast is closed. Not boutique, just solid. 3 min walk from hotel."
+      },
+      {
+        "id": "saved-coffee-kizoku",
+        "name": "Coffee Kizoku Edinburgh",
+        "subtitle": "Local-favorite kissaten near Shinjuku — best siphon coffee in the area",
+        "category": "saved",
+        "coords": [
+          35.692,
+          139.7042
+        ],
+        "color": "#a16207",
+        "icon": "✦",
+        "station": "Shinjuku-sanchome Stn (3 min walk)",
+        "hours": "Daily 8:00–22:00 (typical kissaten hours)",
+        "price": "¥700-1,200 for coffee. Morning toast set ¥500-800.",
+        "concierge": "Often cited by Tokyo locals as the 'best breakfast in Shinjuku' for siphon coffee + on-point service. The kind of kissaten where salary workers read newspapers at the counter. Quiet, focused, no tourists.",
+        "tip": "Less famous than Tajimaya but locals rate it higher. Try the siphon coffee (you watch the master make it). Toast set + coffee = ~¥1,200."
+      },
+      {
+        "id": "saved-imabari-towels",
+        "name": "Imabari Luxury Bath Towels (Isetan Shinjuku 5F)",
+        "subtitle": "Imabari towel — Japanese bath towel gold standard (5-second rule certification)",
+        "category": "saved",
+        "coords": [
+          35.691,
+          139.7056
+        ],
+        "color": "#a4894f",
+        "icon": "✦",
+        "station": "Shinjuku-sanchome Stn (1 min, Exit B5) or JR Shinjuku South Exit (5 min)",
+        "hours": "Isetan Daily 10:00-20:00",
+        "price": "Ikeuchi Organic bath towel ¥8,000-15,000. Uchino Marshmallow Gauze ¥5,000-12,000. Kontex ¥4,000-10,000.",
+        "concierge": "Imabari towels (今治タオル) from Ehime Prefecture are the gold standard for Japanese luxury bath towels. Certified by the '5-second rule' (sinks in water within 5 sec = extreme absorbency). Look for the iconic red, white, and blue certification tag. Isetan Shinjuku 5F (Living/Home) has a dedicated counter for Uchino + curated selection of Ikeuchi Organic + other certified Imabari. Staff will neatly box/ribbon package for tax-free gifting.",
+        "tip": "Top pick: IKEUCHI ORGANIC bath/body towel (70x140cm) — 100% wind-powered GOTS organic cotton, ultra-plush. Or UCHINO Marshmallow Gauze for weightless feel. Pack flat in cabin luggage (no liquid restrictions)."
+      },
+      {
+        "id": "saved-press-butter-sand",
+        "name": "Press Butter Sand (Shinjuku / NRT Duty Free)",
+        "subtitle": "Premium Hokkaido butter caramel cookies, boxed gift set — wife souvenir classic",
+        "category": "saved",
+        "coords": [
+          35.6896,
+          139.7006
+        ],
+        "color": "#a4894f",
+        "icon": "✦",
+        "station": "JR Shinjuku Station (multiple locations — station concourse, Lumine 1)",
+        "hours": "Most locations 9:00-21:00 (Shinjuku Stn underground concourse). NRT T2 duty-free: typically 6:00-22:00.",
+        "price": "9-piece box ¥1,200-1,500. 13-piece box ¥1,800-2,200. 20-piece box ¥2,800-3,200.",
+        "concierge": "The classic Tokyo souvenir — butter caramel cookies from Hokkaido. Crispy shortbread with smooth butter caramel. Beautiful presentation box. Pre-packaged, no customs issues, easy to pack. Available at Shinjuku Station concourse + LUMINE 1 (B1 sweet shop) + NRT T2 duty-free (best to grab on departure, no need to carry).",
+        "tip": "AVAILABLE AT BOTH: (1) Shinjuku Stn concourse / LUMINE on Day 1-3, (2) Tokyo Stn First Avenue B1 souvenir mall (Day 3 16:50-17:30 — combine with Pokémon + Tokyo Banana crawl), (3) NRT T2 duty-free (4F after security, Day 3 20:00). Best move: pick up at Tokyo Stn Day 3 afternoon — you don't need to carry it, just hand to NRT bag drop at check-in. All 3 locations same price, tax-free for tourists."
+      },
+      {
+        "id": "saved-lumine-classico",
+        "name": "LUMINE Shinjuku — Lifestyle & Home (Classico, Journal Standard Furniture)",
+        "subtitle": "Boxed Imabari towel sets + curated lifestyle goods — combines with your JINS visit",
+        "category": "saved",
+        "coords": [
+          35.6892,
+          139.7006
+        ],
+        "color": "#a4894f",
+        "icon": "✦",
+        "station": "JR Shinjuku Station (multiple entries)",
+        "hours": "Daily 11:00-21:00 (most stores)",
+        "price": "Boxed Imabari towel gift sets ¥3,000-8,000. Lifestyle goods vary.",
+        "concierge": "LUMINE Shinjuku has multiple buildings (LUMINE 1, 2, EST) connected directly to Shinjuku Station. During your Day 1 JINS appointment at LUMINE, check the interior/lifestyle floors (like Classico, Journal Standard Furniture) which stock boxed Imabari bath towel gift sets + curated lifestyle goods for women. 2-3 min walk from JINS LUMINE.",
+        "tip": "Most efficient option — combine with JINS visit on Day 1 evening (already in plan). One stop, two purchases. Walk from JINS to Classico/Journal Standard Furniture on the same floor/wing of LUMINE."
+      }
+    ]
+  },
+  "trip": {
+    "title": "Tokyo · ACC Asia Comms Concierge",
+    "subtitle": "Manulife Japan, Oct 14-16 2026",
+    "dates": "Wed Oct 14 — Fri Oct 16 2026",
+    "hero": {
+      "stat_1": {
+        "label": "Venues",
+        "value": "22"
+      },
+      "stat_2": {
+        "label": "Saved Places",
+        "value": "22"
+      },
+      "stat_3": {
+        "label": "Schedule Items",
+        "value": "47"
+      },
+      "stat_4": {
+        "label": "Days",
+        "value": "3"
+      }
+    },
+    "weather_note": "Mid-October: 18-22°C, mostly sunny, low humidity. Pack one light layer for evening walks.",
+    "money_yen_budget": {
+      "meals": 18000,
+      "transport": 8000,
+      "shopping": 50000,
+      "saved_options": 35000,
+      "total": 111000
+    },
+    "key_windows": [
+      {
+        "day": "Wed Oct 14",
+        "label": "Soft landing",
+        "detail": "15:00 car pickup → 16:30 hotel. 6.5h of free evening."
+      },
+      {
+        "day": "Thu Oct 15",
+        "label": "Full day on stage",
+        "detail": "09:00–20:00 conference + group dinner. Free: 21:00+ for 1.5h"
+      },
+      {
+        "day": "Fri Oct 16",
+        "label": "2h golden afternoon",
+        "detail": "14:40 conference ends. 2h20m free before 17:00 checkout. 22:00 flight."
+      }
+    ],
+    "day_meta": {
+      "day1": {
+        "total_items": 13,
+        "on_stage_count": 0,
+        "free_count": 1,
+        "dinner_count": 2,
+        "avg_energy": 2.2,
+        "pace": "leisure"
+      },
+      "day2": {
+        "total_items": 17,
+        "on_stage_count": 9,
+        "free_count": 0,
+        "dinner_count": 0,
+        "avg_energy": 3.4,
+        "pace": "busy"
+      },
+      "day3": {
+        "total_items": 18,
+        "on_stage_count": 4,
+        "free_count": 2,
+        "dinner_count": 0,
+        "avg_energy": 2.6,
+        "pace": "balanced"
+      }
+    },
+    "friend_recommendations": {
+      "pre_arrival_hkg": [
+        "🥐 Breakfast: skip hotel breakfast, hit The Pier Business or Centurion Lounge at HKG T1 (already in lounge plan)",
+        "💴 Withdraw ¥10,000 from ATM at HKG T1 (better rate than NRT, and you'll need cash for Namae no Nai + Asakusa Batting)",
+        "📱 Download offline Google Maps of Tokyo before you lose signal at 35,000 ft",
+        "🎒 Pack a small day bag (collapsible tote) for Day 3 — your main luggage will be at the hotel until you ship it to NRT in the morning"
+      ],
+      "day_1_arrival": [
+        "🛁 Take a bath at the hotel first night — jet lag is real, and a 30-min onsen-style bath resets you faster than caffeine",
+        "🍶 Try a highball at Golden Gai with the bartender's recommendation — they're mixologists even in tiny bars",
+        "💡 Skip the HINOYA flagship on Day 1 evening (you're tired, eyes will glaze over denim) — it's much better Day 3 when you're awake and decisive"
+      ],
+      "day_2_conference": [
+        "💧 Bring a refillable water bottle — conference rooms are warm and dry, you'll dehydrate",
+        "🎤 Stand during your sessions if you can — Japan audiences respond 3x more to standing presenters",
+        "📸 Take 2-3 photos of the slides/speakers you reference later (most conferences don't share decks)",
+        "🍵 Matcha workshop 16:35 is the soft cap of the day — use it to network with the people you want to know, not random people"
+      ],
+      "day_3_ameyoko": [
+        "⏰ Start Ameyoko at exactly 15:00 — the HINOYA flagship closes at 20:10 but the most interesting denim stock moves to the back wall, so go early for first pick",
+        "💴 Tax-free needs ¥5,000+ minimum per store — combine denim purchases (HINOYA × 3 = same parent company = can probably combine; JBJ is separate; Sasugaya is separate)",
+        "🗡️ For Sasugaya knives: tell them you want a 'petty' (small chef's knife) or 'santoku' (all-purpose) — they speak English, the bigger knives need practice to use safely",
+        "🎁 Bring an extra tote bag for Sasugaya purchases (they provide shopping bags but a backpack is easier)",
+        "☕ If time allows, detour to Ameyoko's street food stalls (open mid-afternoon) for fresh wasabi peas + dried fruit — best airport snack alternative"
+      ],
+      "day_3_pokemon": [
+        "🐉 Go straight to the plush wall on the right side as you enter — that's where Mega Pikachu + exclusive Ikebukuro variants are. Most popular items sell out by 17:00.",
+        "💴 Tax-free needs ¥5,000+ in one purchase — combine Pokémon + any other kids' items (Tokyo Banana, gachapon capsules) to hit the threshold",
+        "🎁 If you can't hit the tax-free threshold, still pay with Amex Plat — you get 1.5% back as Membership Rewards"
+      ],
+      "day_3_flight_home": [
+        "💴 NRT T2 duty-free Press Butter Sand is on the 4F departure level AFTER security — don't try to buy it landside",
+        "🛁 If you want to freshen up before the 5h flight, NRT T2 has shower facilities (~¥1,500) on 4F — 30 min, worth it after 3 days of denim shopping",
+        "⏰ IASS Executive Lounge is on 4F near gate area — small but has showers, food, Wi-Fi, beer. Show Amex Plat + Priority Pass + CX boarding pass",
+        "🍱 Last meal: skip the airport ramen (overpriced, mediocre) — instead, try the Sushi Kyotatsu on 4F (decent conveyor sushi, ¥1,500 for a full meal)",
+        "📱 Before boarding: check your Amex app for FX rate on the day — record the conversion so you know what to expect on the statement"
+      ],
+      "hidden_gems_not_yet_in_plan": [
+        "🍵 Afuri Ebisu (ramen, yuzu shio) — if you want a Day 2 lunch not at the conference, 25 min from hotel. Worth it if you're tired of conference catering",
+        "🏯 Kagari Honten (chicken paitan ramen) — Ginza, near your return day hotel area. Michelin-recognized. 30 min wait but the best chicken ramen in Tokyo",
+        "🌃 New York Bar (Park Hyatt) — if you have a free evening (you don't this trip, but for next time) — Lost in Translation bar, jazz nightly, ¥1,500 cover",
+        "🏛️ Nezu Museum (Aoyama) — 10 min walk from Omotesando menswear cluster. Beautiful Japanese garden + rotating exhibitions. Calm 1h escape from city noise",
+        "🍶 Uogashi Nihon-Ichi (Shinjuku) — tiny standing sushi, ¥1,500 for 10 pieces including uni, cash only, 2 min from your hotel. Open until late. ONLY if you decide Namae no Nai is too crowded"
+      ]
+    }
+  }
+}
