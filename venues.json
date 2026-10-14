@@ -368,9 +368,9 @@
         "id": "d1-imabari-towel",
         "time": "17:00",
         "name": "LUMINE Classico (Imabari towel grab) — 20 min",
-        "venue": "lumine-classico",
-        "concierge": "LUMINE 1, 1F Classico. 5 min walk from WPUE. Stocks boxed Imabari bath towel sets (Uchino, Ikeuchi Organic) for wife gift. Tax-free with passport.",
-        "tip": "Decisive 20 min. Pre-decide: Uchino (¥5-12k, light + fluffy) OR Ikeuchi Organic (¥8-15k, the premium). Both have the red-white-blue Imabari tag. Ask staff to gift-wrap (otsuruibako).",
+        "venue": "lumine-shinjuku-1",
+        "concierge": "LUMINE Shinjuku 1, 1F Classico. Address: 1-1-5 Nishi-Shinjuku, Shinjuku-ku. 6-min walk / 750m from WPUE (5 min). Stocks boxed Imabari bath towel sets (Uchino, Ikeuchi Organic) for wife gift. Tax-free with passport. 11:00-21:00.",
+        "tip": "Decisive 20 min. Pre-decide: Uchino (¥5-12k, light + fluffy) OR Ikeuchi Organic (¥8-15k, the premium). Both have the red-white-blue Imabari tag. Ask staff to gift-wrap (otsuruibako). ALTERNATIVELY: do this AFTER dinner (open until 21:00) on the walk back from Shinjuku Stn — pass LUMINE on the way to hotel.",
         "energy": 1,
         "travel": "5 min walk each way",
         "duration": "20 min"
@@ -381,7 +381,7 @@
         "name": "Walk to Okamo Club Shinjuku (8-10 min)",
         "venue": "transit",
         "concierge": "WPUE is in Nishi-Shinjuku. Okamo Shinjuku is 3 min from Shinjuku-Sanchome Stn (Marunouchi/Fukutoshin/Shinjuku lines). Walk: 8-10 min via Shinjuku West Exit → through underground → Sanchome. OR cab: 5 min, ¥1,000.",
-        "tip": "Walk. 8-10 min. Address: 3 Chome area, Shinjuku (colleague will have exact).",
+        "tip": "WALK EVERYTHING: WPUE → LUMINE (6 min) → JINS LUMINE if doing pre-dinner (same building, 1F) → walk to Okamo (8-10 min total). OR do LUMINE + JINS LUMINE pre-dinner then 1.5h Okamo. OR current plan: LUMINE pre-dinner, JINS Shibuya PARCO post-dinner.",
         "energy": 1,
         "travel": "8-10 min walk",
         "duration": "10 min"
@@ -414,7 +414,7 @@
         "name": "JINS Shibuya PARCO 5F (40 min)",
         "venue": "jins-shibuya-parco",
         "concierge": "JINS Shibuya PARCO 5F. 10:00-21:00. Multilingual staff + free eye exam + 30-min same-day pickup. Tax-free with passport. Frame + standard 1.60 lens ¥6,600 (your prescription fits the free thin-lens upgrade).",
-        "tip": "Bring your HK prescription file (Jay_Ku_Glasses_Prescription_2026-05-04.txt) on phone. Show HK script → skip exam. Pick JINS standard frame FAST (5-6 styles on the wall, ¥6,600). Ask for 30-min pickup if you want to collect before leaving the building (you have 1h 10min so plenty). Polarized upgrade +¥3-5k if you want prescription sunglasses. Total: ~¥5,940 tax-free.",
+        "tip": "Bring your HK prescription file on phone. Show HK script → skip exam. Pick JINS standard frame (¥6,600+ with 1.60 thin lens, free for your prescription). Ask for 30-min pickup. Tax-free with passport. Net cost ~¥5,940. ALTERNATIVELY: JINS LUMINE Shinjuku is 6 min walk from WPUE (1F, same building as LUMINE Classico where you're grabbing the towel) — you could do BOTH JINS LUMINE + towel grab before dinner (1 hour, very tight) OR do JINS Shibuya PARCO after dinner (current plan, more relaxed).",
         "energy": 1,
         "travel": "Same building as PARCO 6F",
         "duration": "40 min"
