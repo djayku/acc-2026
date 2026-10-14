@@ -468,42 +468,35 @@
       {
         "id": "d2-hero",
         "time": "06:30",
-        "name": "Wake, breakfast, walk to Opera City",
+        "name": "Wake up, get ready, change into conference suit",
         "tag": "Day 2",
         "venue": "wpue_hotel",
-        "concierge": "You're on stage today. Eat a real breakfast — the conference catering is not enough. Wear the suit. Hatsudai Station is 1 min walk from Opera City. Evening is company group dinner (scheduled) — no other plans.",
-        "energy": 3
-      },
-      {
-        "id": "d2-jins",
-        "time": "07:00",
-        "name": "JINS LUMINE Shinjuku (eyeglasses)",
-        "venue": "jins-lumine",
-        "concierge": "Prescription exam free, 20-30 min. Frame selection 15-20 min. Frame + lenses from ¥6,600. Tax-free with passport. 30-min pickup available. 1 min walk from WPUE.",
-        "tip": "Bring your prescription (the file we just saved: Jay_Ku_Glasses_Prescription_2026-05-04.txt) on your phone. You can also just ask for a fresh exam — they re-check for free. If you want Rx sunglasses, ask for the polarized upgrade on top of the 1.56 UV grey tint base.",
-        "energy": 1,
-        "travel": "1 min walk",
-        "duration": "45 min"
+        "concierge": "Set 3 alarms for 06:30. 30 min to shower, get ready, dress for Day 1 of conference.",
+        "energy": 3,
+        "tip": "Plan: 06:30 wake, 06:30-07:15 get ready (45 min for conference outfit), 07:15-07:20 walk to Paul Bassett, 07:20-07:30 wait at door, 07:30-07:42 Paul Bassett express, 07:42-07:46 walk back, 07:46 arrive hotel lobby (1 min late to 7:45 — but colleagues are flexible)."
       },
       {
         "id": "d2-paul-bassett",
-        "time": "08:00",
-        "name": "Paul Bassett (specialty coffee + buy beans bag #1)",
+        "time": "07:30",
+        "name": "Paul Bassett Nishi-Shinjuku (ULTRA-FAST, 12 min)",
         "tag": "Coffee",
         "venue": "saved-paul-bassett",
-        "concierge": "4 min walk from hotel. 3x World Barista Champion's Tokyo shop. **This is bag #1 — your main personal bag** (200g, ¥1,500-2,500). Single-origin + blend espresso, fresh-roasted beans retail. Then walk back, then head to Hatsudai for the 9am conference. Coffee itself is the breakfast.",
+        "concierge": "Paul Bassett Shinjuku, 新宿野村ビルB1F, 1-26-2 Nishi-Shinjuku. 4 min walk from WPUE. Open 7:30 Mon-Fri. 3x World Barista Champion. Takeaway OK.",
         "energy": 1,
-        "duration": "20 min",
-        "travel": "10 min walk from LUMINE",
-        "tip": "Coffee + bag #1 of beans. Quick 20 min stop. Conference starts 09:00, you have 30 min buffer. 1F Nishi-Shinjuku, near Shinjuku NS Building."
+        "duration": "12 min in-store + 8 min walking",
+        "travel": "4 min walk each way",
+        "tip": "⚡ TIGHT 12 MIN. Paul Bassett opens 07:30 SHARP. Get there at 07:20-07:25, wait at door. Order espresso + 1 bag of beans (¥1,500-2,500) to-go. No time to sit. Exit 07:42, walk back 4 min, hotel lobby by 07:46. Back at hotel by 7:45 with 1 min buffer. Coffee in cab to Opera City."
       },
       {
         "id": "d2-2",
-        "time": "08:30",
-        "name": "Walk to Opera City",
+        "time": "07:45",
+        "name": "Meet colleagues at hotel lobby (7:45), cab to Opera City",
         "venue": "hatsudai_station",
-        "concierge": "—",
-        "energy": 3
+        "concierge": "Colleagues meet at WPUE lobby 7:45. Cab together to Opera City (Hatsudai). 8:00 cab, 8:20-8:30 arrive Opera City.",
+        "energy": 3,
+        "tip": "Bring your Paul Bassett coffee + beans on the cab. Conference opens 09:00 — you have 30 min buffer to settle in.",
+        "travel": "15 min cab to Opera City",
+        "duration": "—"
       },
       {
         "id": "d2-3",
@@ -639,6 +632,17 @@
         "venue": "wpue_hotel",
         "concierge": "Ask concierge to ship bags to NRT T2 via takuhaibin (Japanese luggage forwarding). JPY 2,500-3,500 per bag, sameday delivery. Bags arrive at NRT T2 around 17:00-18:00. Pick up at NRT T2 Sagawa/Yamato counter on arrival. Eliminates the need to return to the hotel for checkout.",
         "energy": 1
+      },
+      {
+        "id": "d3-paul-bassett",
+        "time": "07:00",
+        "name": "Paul Bassett Nishi-Shinjuku (proper 45 min, RETRY)",
+        "venue": "paul-bassett",
+        "concierge": "Paul Bassett Shinjuku, 1-26-2 Nishi-Shinjuku, B1F Shinjuku Nomura Bldg. 4 min walk from WPUE. Open 7:30 Mon-Fri (note: you arrive before open, wait at door or skip the early coffee).",
+        "tip": "If you couldn't get your bag of beans Day 2 morning (the 12-min TIGHT version), use this window. 07:00 leave hotel, 07:04 arrive (door closed until 7:30), 07:30 order coffee + buy bag of beans, 07:45 done, walk back by 07:50, hotel checkout 08:00, conference 08:30. Optional: if you got the bag Day 2, sleep in until 07:30.",
+        "energy": 1,
+        "travel": "4 min walk each way",
+        "duration": "30-45 min (open at 7:30)"
       },
       {
         "id": "d3-2",
