@@ -420,14 +420,14 @@
         "duration": "40 min"
       },
       {
-        "id": "d1-parco-6f",
+        "id": "d1-parco-4f-5f",
         "time": "20:00",
-        "name": "Shibuya PARCO 6F (1h — Pokémon + Nintendo)",
+        "name": "PARCO 4F (Hinoya-style menswear) + 5F (alternative souvenirs)",
         "venue": "shibuya-parco",
-        "concierge": "Shibuya PARCO 6F 'CYBERSPACE SHIBUYA': Nintendo TOKYO, Pokémon Center SHIBUYA (FULL Center, not Tokyo Stn Store), CAPCOM, JUMP SHOP, SEGA, Godzilla, JoJo. Open 10:00-21:00 SHARP. PARCO 6F closes 21:00.",
-        "tip": "🎯 TIGHT 1h WINDOW. Priority: (1) Pokémon Center Shibuya (30-40 min) — biggest selection + TCG. (2) Nintendo TOKYO (15-20 min) — exclusive merch. Skip everything else unless fan. Tax-free in Pokémon + CAPCOM.\n\n[Tip from earlier] If you want Hinoya-style menswear, JOHN LAWRENCE SULLIVAN is on 3F (not 4F) — 15-20 min browse. ¥15-30k typical.",
+        "concierge": "PARCO 4F: JOHN LAWRENCE SULLIVAN (vintage Americana workwear, 3F, ¥15-30k typical) — the Hinoya-style menswear in Shibuya. Also A.P.C. and C.P. COMPANY. PARCO 5F: Doraemon, Sylvanian Families, POP MART, Radio EVA Store, Torch Torch — alternative souvenirs if Poké is done. PARCO 6F: Poké Center Shibuya + Nintendo TOKYO — already done.",
+        "tip": "🎯 Since you've already done Poké Center Shibuya + Nintendo TOKYO earlier, use this hour differently: (1) PARCO 4F — JOHN LAWRENCE SULLIVAN (3F, vintage Americana workwear, ¥15-30k) — Hinoya-adjacent. (2) PARCO 5F — Doraemon, POP MART, Sylvanian if you want non-Poké souvenirs. (3) Walk Shibuya crossing (free, iconic, 2 min). (4) Tower Records Shibuya (5 min walk, open 22:00, music + character goods).",
         "energy": 2,
-        "travel": "1 floor up via escalator from JINS 5F",
+        "travel": "Already at PARCO",
         "duration": "1 hour"
       },
       {
@@ -625,15 +625,6 @@
         "energy": 1
       },
       {
-        "id": "d3-bag-forward",
-        "time": "08:00",
-        "name": "Drop bags at WPUE concierge (forward to NRT T2)",
-        "tag": "Hotel",
-        "venue": "wpue_hotel",
-        "concierge": "Ask concierge to ship bags to NRT T2 via takuhaibin (Japanese luggage forwarding). JPY 2,500-3,500 per bag, sameday delivery. Bags arrive at NRT T2 around 17:00-18:00. Pick up at NRT T2 Sagawa/Yamato counter on arrival. Eliminates the need to return to the hotel for checkout.",
-        "energy": 1
-      },
-      {
         "id": "d3-paul-bassett",
         "time": "07:00",
         "name": "Paul Bassett Nishi-Shinjuku (proper 45 min, RETRY)",
@@ -643,6 +634,15 @@
         "energy": 1,
         "travel": "4 min walk each way",
         "duration": "30-45 min (open at 7:30)"
+      },
+      {
+        "id": "d3-bag-forward",
+        "time": "08:00",
+        "name": "Drop bags at WPUE concierge (forward to NRT T2)",
+        "tag": "Hotel",
+        "venue": "wpue_hotel",
+        "concierge": "Ask concierge to ship bags to NRT T2 via takuhaibin (Japanese luggage forwarding). JPY 2,500-3,500 per bag, sameday delivery. Bags arrive at NRT T2 around 17:00-18:00. Pick up at NRT T2 Sagawa/Yamato counter on arrival. Eliminates the need to return to the hotel for checkout.",
+        "energy": 1
       },
       {
         "id": "d3-2",
@@ -726,16 +726,15 @@
         "tip": "⚠️  CRITICAL: Sasugaya Outlet closes 18:30 SHARP. Hit it FIRST before the other stores if you want knives (¥1,500-8,000) or bags. Tax-free needs ¥5,000+ at one store for tourist refund. Cash recommended (knife + scissor purchases can be cash-only). Tax-free threshold: ¥5,000+ in single receipt. For Sasugaya knives: ask for a 'petty' (small chef's knife) or 'santoku' (all-purpose) — bigger knives need practice to use safely."
       },
       {
-        "id": "d3-walk-to-nex",
+        "id": "d3-tokyo-stn-souvenirs",
         "time": "16:50",
-        "name": "Pokémon Center TOKYO DX (Nihonbashi)",
-        "tag": "Transit",
-        "concierge": "5F Nihonbashi Takashimaya S.C. East Building. 5-min walk from Tokyo Stn Yaesu North exit, OR zero weather via Nihombashi Stn B2 exit direct. Tax-free. Bigger store, station-exclusives PLUS the only Pokémon Cafe in eastern Japan (reservation-only).",
-        "energy": 3,
-        "tip": "Pokémon Store Tokyo Station is a small souvenir store (1F First Ave, closes 20:30). TOKYO DX is the real Center (5F Takashimaya, open 10:30-21:00). It has bigger plush wall, full TCG selection, station-exclusives, AND Pokémon Cafe next door. 5-min walk extra is worth it.",
-        "travel": "Tokyo Stn → Nihombashi 5 min",
-        "duration": "45 min",
-        "venue": "pokemon-center-tokyo-dx"
+        "name": "Tokyo Stn First Avenue B1 souvenir crawl (30 min, light)",
+        "venue": "tokyo-stn-first-ave",
+        "concierge": "Tokyo Station First Avenue B1 'Tokyo Souvenir Mall' (Yaesu side): 30+ character/regional food shops. Open 10:00-20:30. 5-min walk from NEX platform. If you've already done Poké, this is the lighter souvenir pass.",
+        "tip": "🎯 LIGHTER Day 3 since Poké is done. Quick 30-min pass for: Press Butter Sand cookies, Tokyo Banana (boxed), ROYCE' chocolate. Skip the deeper crawl if Poké took all your souvenir energy. If still in shopping mode after, do the 5F Daimaru Toy department for kid toys + Calbee+ snack sample.",
+        "energy": 1,
+        "travel": "5 min walk from Ameyoko → Tokyo Stn",
+        "duration": "30 min"
       },
       {
         "id": "d3-13",
