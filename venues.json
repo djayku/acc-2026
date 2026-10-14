@@ -1677,6 +1677,33 @@
         "price": "Boxed Imabari towel gift sets ¥3,000-8,000. Lifestyle goods vary.",
         "concierge": "LUMINE Shinjuku has multiple buildings (LUMINE 1, 2, EST) connected directly to Shinjuku Station. During your Day 1 JINS appointment at LUMINE, check the interior/lifestyle floors (like Classico, Journal Standard Furniture) which stock boxed Imabari bath towel gift sets + curated lifestyle goods for women. 2-3 min walk from JINS LUMINE.",
         "tip": "Most efficient option — combine with JINS visit on Day 1 evening (already in plan). One stop, two purchases. Walk from JINS to Classico/Journal Standard Furniture on the same floor/wing of LUMINE."
+      },
+      {
+        "id": "saved-sumibi-ginjirou",
+        "name": "Sumibi Yakitori Tori no Ginjirou Yaesu Nihonbashi",
+        "category": "Quick Bite",
+        "concierge": "Charcoal-grilled yakitori (Tosa binchotan), 7-min walk from Nihombashi Stn. Same-day reservation, all-you-can-drink from ¥4,400. Course from ¥4,000. 60 seats + private rooms. Open 11:00-00:00.",
+        "tip": "BEST CHOICE for Day 3 pre-airport yakitori. Reservations same-day via Tabelog. Order the signature charcoal-grilled chicken + fried chicken. The 'Ginjirou Course' (7 items + 2h all-you-can-drink) is the best value. If you're solo, counter seats let you watch the chefs grill.",
+        "hours": "11:00-00:00",
+        "rating": "4.0+ Tabelog, Tosa binchotan charcoal"
+      },
+      {
+        "id": "saved-tori-dori-nihonbashi",
+        "name": "Tori Dori Nihonbashi (鳥どり 日本橋店)",
+        "category": "Quick Bite",
+        "concierge": "Yakitori + izakaya + mizutaki, 3-min walk from Tokyo Stn Yaesu North Exit. ¥3,000-4,000 a la carte, ¥4,980-6,980 courses with all-you-can-drink. 120 seats, private rooms. Open Mon-Fri 11:30-14:30 + 17:00-23:00. Closed weekends.",
+        "tip": "Closer to Tokyo Stn than Ginjirou but CLOSED ON SATURDAYS (your Day 3 is Friday — so it's open). Friday lunch and pre-dinner available. If you want a private room and a quieter yakitori experience before the NEX, this is the spot. Counter seats available for solo.",
+        "hours": "Mon-Fri 11:30-14:30, 17:00-23:00; Closed Sat/Sun",
+        "rating": "3.5+ Tabelog, 120 seats, near Tokyo Stn"
+      },
+      {
+        "id": "saved-pokemon-cafe-tokyo",
+        "name": "Pokémon Cafe TOKYO (next to TOKYO DX)",
+        "category": "Cafe",
+        "concierge": "Reservation-only cafe on same 5F floor as Pokémon Center TOKYO DX. Themed menu (Pikachu curry, Eevee pancakes). Currently bookable 31 days ahead. ~90 min seating. ¥2,000-4,000/person.",
+        "tip": "If your kid is a Pokémon superfan, this is the splurge. Reservation opens exactly 31 days before your visit date at 18:00 JST — book the second you can if you want it. Otherwise skip — it's 90 min in the middle of your Day 3 shopping flow.",
+        "hours": "10:30-21:00 (reservation-only)",
+        "rating": "4.3+ Tabelog, reservation required"
       }
     ]
   },
@@ -1797,6 +1824,11 @@
         "🏛️ Nezu Museum (Aoyama) — 10 min walk from Omotesando menswear cluster. Beautiful Japanese garden + rotating exhibitions. Calm 1h escape from city noise",
         "🍶 Uogashi Nihon-Ichi (Shinjuku) — tiny standing sushi, ¥1,500 for 10 pieces including uni, cash only, 2 min from your hotel. Open until late. ONLY if you decide Namae no Nai is too crowded"
       ]
+    },
+    "day3_addendum": {
+      "pokemon_pivot": "Pokémon Store Tokyo Station (small) → Pokémon Center TOKYO DX (full Center, 5F Takashimaya Nihombashi)",
+      "yakitori_pick": "Sumibi Yakitori Tori no Ginjirou Yaesu Nihonbashi (charcoal grilled, Tosa binchotan, 7-min walk from Poké DX)",
+      "time_fit": "Poké 16:00-16:45 → walk 5 min to Ginjirou → yakitori 16:50-17:15 (express) → walk 10 min to Tokyo Stn NEX platform → NEX 17:30"
     }
   }
 }
