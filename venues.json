@@ -749,6 +749,17 @@
         "duration": "30 min"
       },
       {
+        "id": "d3-kantaro-standing-sushi",
+        "time": "17:00",
+        "name": "立喰い寿司 函太郎 (Kantaro) — STANDING SUSHI in Tokyo Stn",
+        "venue": "kantaro-tokyo-stn",
+        "concierge": "立喰い寿司 函太郎 (Hakodate Tachigui Sushi Kantaro Tokyo Station Ichibangai). B1F Tokyo Station Ichibangai A-7, 1-9-1 Marunouchi, Chiyoda-ku. Near Yaesu Underground Central Exit, in the 'Nippon Gourmet Street' area. Hours: 11:00-22:00 (L.O. 21:30). Open year-round. ALL STANDING (no chairs). Solo dining-friendly. Order by piece, ¥120-500/piece. Total: ¥2,000-3,500/pp for a satisfying meal. ★ 1-minute walk from NEX platform (Yaesu exit). Alternative nearby: 立鮨 すし横 (Sushi Yoko) in Yaechika — ¥1,050 for 12-piece set.",
+        "tip": "🎯 STANDING SUSHI. Famous Hakodate chain, all standing (fast turnover, no chairs). Order by piece: negitoro ¥120, salmon ¥180, yellowtail ¥200, lean tuna ¥380, anago ¥300. 5-7 pieces + miso soup = ¥1,500-2,000 total. ★ This is the right call: standing sushi near NEX = 1 min walk to platform. Walk to NEX at 17:25.",
+        "energy": 1,
+        "travel": "1 min walk to NEX platform",
+        "duration": "20-25 min"
+      },
+      {
         "id": "d3-13",
         "time": "17:30",
         "name": "NEX Tokyo Stn → NRT T2",
@@ -1840,6 +1851,24 @@
         "tip": "★ CLOSEST to Hinoya style inside PARCO Shibuya. Vintage Americana, workwear, military references. ¥15-30k typical per piece. Moved to London collection in 2017. Quick 15-20 min browse.",
         "hours": "11:00-21:00",
         "rating": "Vintage Americana, Hinoya-adjacent"
+      },
+      {
+        "id": "saved-kantaro-tokyo-stn",
+        "name": "立喰い寿司 函太郎 Tokyo Station Ichibangai (Standing Sushi)",
+        "category": "Dinner",
+        "concierge": "Tokyo Station Ichibangai A-7, B1F, 1-9-1 Marunouchi, Chiyoda-ku. Near Yaesu Underground Central Exit, 'Nippon Gourmet Street'. Hours: 11:00-22:00 (L.O. 21:30). Open year-round. ALL STANDING. Famous Hakodate chain. ¥120-500/piece, ¥2,000-3,500 total.",
+        "tip": "★ RECOMMENDED for Day 3 pre-NEX. 1 min walk to NEX platform from Yaesu exit. All standing, fast turnover, perfect for solo. Order by piece: negitoro ¥120, salmon ¥180, lean tuna ¥380, anago ¥300, Hokkaido scallop ¥380. 5-7 pieces + miso soup = ¥1,500-2,000.",
+        "hours": "11:00-22:00 (L.O. 21:30)",
+        "rating": "Famous Hakodate standing sushi, ¥2-3.5k"
+      },
+      {
+        "id": "saved-sushi-yoko-yaechika",
+        "name": "立鮨 すし横 (Sushi Yoko) — Yaechika Tokyo Stn (Standing Sushi)",
+        "category": "Dinner",
+        "concierge": "八重洲地下街 (Yaechika basement), 中央区八重洲2-1. Inside Tokyo Stn Yaesu basement. Hours: Weekdays 11:00-22:30 (L.O. 22:00), Sat/Sun/holidays 11:00-21:30 (L.O. 21:00). Standing-style sushi counter, 1.5 min from Shinkansen gates.",
+        "tip": "BACKUP if Kantaro is full. Lunch set 12 pieces + roll = ¥1,050 ('1.5人前'). Standing-only at ¥1,050; sitting at counter adds ¥100 for chair. Sushi rolls out in 3-4 minutes. 11 min stay is typical.",
+        "hours": "Weekdays 11:00-22:30 / Sat-Sun 11:00-21:30",
+        "rating": "¥1,050 for 12-piece set, fast"
       }
     ]
   },
