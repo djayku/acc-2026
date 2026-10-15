@@ -638,11 +638,12 @@
       {
         "id": "d3-bag-forward",
         "time": "08:00",
-        "name": "Drop bags at WPUE concierge (forward to NRT T2)",
+        "name": "Drop bags at WPUE concierge (forward to NRT T2) — ROOM CHECKOUT BY 11:00",
         "tag": "Hotel",
         "venue": "wpue_hotel",
-        "concierge": "Ask concierge to ship bags to NRT T2 via takuhaibin (Japanese luggage forwarding). JPY 2,500-3,500 per bag, sameday delivery. Bags arrive at NRT T2 around 17:00-18:00. Pick up at NRT T2 Sagawa/Yamato counter on arrival. Eliminates the need to return to the hotel for checkout.",
-        "energy": 1
+        "concierge": "⚠️ CRITICAL: Hotel checkout time is 11:00 AM. You MUST have bags out of the room by 11:00. Drop bags at the concierge at 08:00 with takuhaibin forwarding (Sagawa or Yamato, ¥2,500-3,500/bag). Concierge stores them until courier picks up. Bags will be waiting at NRT T2 takuhaibin counter (Sagawa or Yamato) on arrival 18:45. Pick them up FIRST when you land at NRT.",
+        "energy": 1,
+        "tip": "🎯 ROOM CHECKOUT 11:00. You need to be back at WPUE by 11:00 to physically hand back the room key. BUT — if you drop bags at concierge at 08:00 (with takuhaibin forwarding) AND you don't need to physically return to the room (no toiletries, no laptop, etc.), you can leave your stuff at the concierge and skip the 11:00 checkout. Just confirm with front desk that bags are forwarded + you can collect key on departure from Opera City later. Most Tokyo business hotels allow this."
       },
       {
         "id": "d3-2",
@@ -670,6 +671,17 @@
         "venue": "opera_city",
         "concierge": "",
         "energy": 4
+      },
+      {
+        "id": "d3-checkout-1100",
+        "time": "11:00",
+        "name": "★ HOTEL CHECKOUT 11:00 — bags already at concierge (no need to return)",
+        "venue": "wpue_hotel",
+        "concierge": "Hotel checkout is 11:00 AM. Since you dropped bags at concierge at 08:00 with takuhaibin forwarding, you don't physically need to return. Just confirm with front desk and they'll mail the receipt to you or email it.",
+        "tip": "If you DO need to return (e.g., forgot something in the room), you have a 2.5-hour break at lunch 12:15-14:25 (but you'll miss 1.5 hrs of conference). Easier: skip the 11:00 checkout, pick up key on departure to NEX at 17:30 from Opera City via Keio Line direct.",
+        "energy": 1,
+        "travel": "—",
+        "duration": "—"
       },
       {
         "id": "d3-5",
