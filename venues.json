@@ -721,70 +721,71 @@
       },
       {
         "id": "d3-late-lunch",
-        "time": "14:40",
-        "name": "(Skip — already ate lunch, head straight to Ueno)",
+        "time": "16:00",
+        "name": "Leave Opera City, head to Ueno",
         "tag": "Lunch",
         "concierge": "Train: Hatsudai Stn (Keio Line) → JR Shinjuku Stn (3 min) → transfer to JR Yamanote/中央線 (Chuo Rapid) → JR Ueno Stn (15 min total). Exit Hirokōji Exit (広小路口) for Ameyoko.",
         "energy": 2,
-        "tip": "Lunch already done. Walk to Hatsudai Stn + JR train to Ueno."
+        "tip": "Train: Hatsudai Stn (Keio Line, 3 min) → JR Shinjuku Stn → transfer to JR Yamanote/中央線 (Chuo Rapid, 12 min) → JR Ueno Stn (15 min total). Exit Hirokōji Exit (広小路口) for direct Ameyoko."
       },
       {
         "id": "d3-ameyoko-loop",
-        "time": "14:55",
+        "time": "16:15",
         "name": "Ameyoko loop: HINOYA × 3 + JBJ + Sasugaya",
         "tag": "Shopping",
         "venue": "wpue_hotel",
-        "concierge": "JR from Opera City (Hatsudai Stn) → JR Ueno Stn (15 min via JR Yamanote/中央線).\n\n🚉 Ueno Stn exit: Hirokōji Exit (広小路口) — direct to Ameyoko\n\nAmeyoko block walk (5 stores within 2-3 min of each other):\n  1) ★ PRESS BUTTER SAND プレスバターサンド 上野マルイ店 (in-station, in Ueno Marui B1F — can stop here FIRST or on return)\n  2) HINOYA 本店: 6-10-14 Ueno, Taito-ku. 10:30-20:10. Heritage denim (Buzz Rickson's, Momotaro, Sugar Cane, Pure Blue Japan).\n  3) HINOYA ONE (SUN HOUSE 2nd): 6-10-22 Ueno. 10:30-20:10. Boncoura, Warehouse.\n  4) HINOYA PLUS MART (SUN HOUSE): 6-9-5 Ueno. 10:30-20:10. Outlet pricing.\n  5) Japan Blue Jeans (JBJ) Ueno: in same Ameyoko block. 10:00-20:00 typical. Momotaro parent company.\n  6) Sasugaya Outlet: 6-4-7 Ueno, Ameyoko Welcome Mall 1F. Phone 03-6806-0577. CLOSES 18:30 SHARP (11:00-18:30). Hit this FIRST if you want knives/bags.\n\n🚉 After loop: walk back to JR Ueno Stn (5 min), take JR Yamanote/京浜東北線 to JR Tokyo Stn (12 min), exit Yaesu side (八重洲北口 or 地下中央口) for NEX platform.",
+        "concierge": "JR Ueno Stn, Hirokōji Exit (広小路口) — direct to Ameyoko, 5-min walk.\n\n🚉 Ameyoko + Press Butter Sand loop (TIGHT 1h 45min schedule):\n\n  16:15 — Arrive JR Ueno Stn, exit Hirokōji\n  16:20 — PRESS BUTTER SAND プレスバターサンド 上野マルイ店 (B1F Ueno Marui, in-station, 10 min)\n  16:30-16:50 — ★ Sasugaya Outlet FIRST (6-4-7 Ueno, 20 min, 18:30 close)\n  16:55 — Walk to HINOYA block (5 min)\n  17:00-18:00 — HINOYA ×3 (1 hour, the priority)\n  18:00-18:30 — Japan Blue Jeans (JBJ) Ueno (30 min, in same block)\n  18:30 — Train Ueno → Tokyo Stn (12 min JR Yamanote)\n\nAll stops:\n  1) PRESS BUTTER SAND プレスバターサンド 上野マルイ店 (in-station, B1F Ueno Marui)\n  2) Sasugaya Outlet: 6-4-7 Ueno, Ameyoko Welcome Mall 1F. Phone 03-6806-0577. CLOSES 18:30 SHARP (11:00-18:30).\n  3) HINOYA 本店: 6-10-14 Ueno, Taito-ku. 10:30-20:10. Heritage denim.\n  4) HINOYA ONE (SUN HOUSE 2nd): 6-10-22 Ueno. 10:30-20:10.\n  5) HINOYA PLUS MART (SUN HOUSE): 6-9-5 Ueno. 10:30-20:10. Outlet.\n  6) Japan Blue Jeans (JBJ) Ueno: in same Ameyoko block. 10:00-20:00 typical.",
         "energy": 3,
-        "tip": "⚠️  CRITICAL: Sasugaya Outlet closes 18:30 SHARP. Hit it FIRST in the loop. \n\n★ PRESS BUTTER SAND: Hit on the way IN (15:00 right after arriving) OR on the way out (before Tokyo Stn). Conveniently located in Ueno Marui B1F (1-min walk from Ameyoko entrance). ¥1,000-1,800 for the boxed sets. \n\n💰 Coffee beans: None of the Ameyoko stores sell specialty coffee beans. Skip coffee here, do it on Day 2 morning (Paul Bassett) or Day 3 morning (Paul Bassett retry). \n\nFor Sasugaya knives: ask for 'petty' (small chef's knife) or 'santoku' (all-purpose). Tax-free needs ¥5,000+ in single receipt for tourist refund."
+        "tip": "⚠️  TIGHT 1h 45min: User can't leave office until 16:00. Sasugaya closes 18:30. \n\n🎯 PRIORITY ORDER (in this exact sequence):\n  16:20 PRESS BUTTER SAND (Ueno Marui B1F, 10 min) — box sets ¥900-1,950\n  16:30-16:50 Sasugaya (20 min) — get knives/bags before 18:30 close\n  17:00-18:00 HINOYA ×3 (1 hour) — your denim priority\n  18:00-18:30 JBJ Ueno (30 min) — bonus if time, skip if pressed\n\n💰 Coffee beans: SKIP — none sold in Ameyoko. Paul Bassett Day 2 morning only."
       },
       {
         "id": "d3-tokyo-stn-souvenirs",
-        "time": "16:45",
+        "time": "18:45",
         "name": "Tokyo Stn First Avenue B1 souvenir crawl (30 min, light)",
         "venue": "tokyo-stn-first-ave",
         "concierge": "🚉 Tokyo Stn exit: Yaesu North Exit (八重洲北口) or Yaesu Underground Central Exit (八重洲地下中央口) — direct access to First Avenue B1F.\n\nTokyo Station First Avenue B1 'Tokyo Souvenir Mall' (Yaesu side): 30+ character/regional food shops. Open 10:00-20:30. 5-min walk from NEX platform (Yaesu exit). Already got Press Butter Sand at Ueno — Tokyo Banana, ROYCE', Tokyo Rusk are the highlights here.",
-        "tip": "🎯 LIGHTER Day 3 since Poké is done + Press Butter Sand already at Ueno. Quick 30-min pass for: Tokyo Banana (boxed), ROYCE' chocolate, Tokyo Rusk. Skip the deeper crawl if Poké took all your souvenir energy. Optional: 5F Daimaru Toy for kid toys + Calbee+ snack sample.",
+        "tip": "🎯 LIGHTER Day 3 since Poké is done + Press Butter Sand already at Ueno. Quick 20-min pass for: Tokyo Banana (boxed), ROYCE' chocolate, Tokyo Rusk. Skip the deeper crawl — you're tight on time for NEX. Optional: 5F Daimaru Toy for kid toys + Calbee+ snack sample.",
         "energy": 1,
         "travel": "5 min walk from Ameyoko → Tokyo Stn",
         "duration": "30 min"
       },
       {
         "id": "d3-kantaro-standing-sushi",
-        "time": "16:55",
+        "time": "19:10",
         "name": "立喰い寿司 函太郎 (Kantaro) — STANDING SUSHI in Tokyo Stn",
         "venue": "kantaro-tokyo-stn",
         "concierge": "🚉 Tokyo Stn exit: Yaesu Underground Central Exit (八重洲地下中央口) → Ichibangai B1F. 立喰い寿司 函太郎 (Hakodate Tachigui Sushi Kantaro Tokyo Station Ichibangai). B1F Tokyo Station Ichibangai A-7, 1-9-1 Marunouchi, Chiyoda-ku. In the 'Nippon Gourmet Street' area, 1-min walk from Yaesu exit. Hours: 11:00-22:00 (L.O. 21:30). Open year-round. ALL STANDING (no chairs). Solo dining-friendly. Order by piece, ¥120-500/piece. Total: ¥2,000-3,500/pp for a satisfying meal. ★ 1-minute walk from NEX platform (Yaesu exit).",
-        "tip": "🎯 STANDING SUSHI. Famous Hakodate chain, all standing (fast turnover, no chairs). Order by piece: negitoro ¥120, salmon ¥180, yellowtail ¥200, lean tuna ¥380, anago ¥300. 5-7 pieces + miso soup = ¥1,500-2,000 total. ★ This is the right call: standing sushi near NEX = 1 min walk to platform. Walk to NEX at 17:25.",
+        "tip": "🎯 STANDING SUSHI. Famous Hakodate chain, all standing (fast turnover, no chairs). Order by piece: negitoro ¥120, salmon ¥180, yellowtail ¥200, lean tuna ¥380, anago ¥300. 5-7 pieces + miso soup = ¥1,500-2,000 total. ★ 1-min walk to NEX platform. Walk to NEX at 19:30.",
         "energy": 1,
         "travel": "1 min walk to NEX platform",
-        "duration": "20-25 min"
+        "duration": "20 min"
       },
       {
         "id": "d3-13",
-        "time": "17:30",
+        "time": "19:43",
         "name": "NEX Tokyo Stn → NRT T2",
         "tag": "Transit",
         "venue": "narita_t2",
-        "concierge": "NEX 23 or similar from JR Tokyo Stn direct to NRT T2 (~1h 14m). Bags already at NRT T2 waiting. Alternative: if you finish the Pokémon Store early, NEX 21 at 18:00 also works. Either way, you're at NRT by 19:14 latest. Board at the JR Tokyo Stn NEX platform.",
+        "concierge": "🚉 NEX 19:43 or 20:13 from JR Tokyo Stn (Yaesu side, NEX 23 platform) → NRT T2 (~1h 14m). \n★ RECOMMENDED: 19:43 NEX — arrives NRT 20:57, 1h+3m before flight. \nAlternative: 20:13 NEX (arrive 21:27) — TIGHT, only 33 min before 22:00. Skip this. \nAfter Kantaro sushi, walk 5 min to NEX platform (Yaesu side).",
         "energy": 1
       },
       {
         "id": "d3-14",
-        "time": "18:45",
+        "time": "20:57",
         "name": "Arrive NRT T2 — pick up bags + check in",
         "tag": "Transit",
         "venue": "narita_t2",
-        "concierge": "FIRST: collect your forwarded bags from the takuhaibin counter (Sagawa or Yamato, near arrivals hall). Then Cathay Pacific check-in counters on 4F (T2). Have passport + e-ticket. Allow 1h 15m for bag drop + immigration.",
+        "concierge": "FIRST: collect your forwarded bags from the takuhaibin counter (Sagawa or Yamato, near arrivals hall). Then Cathay Pacific check-in counters on 4F (T2). Have passport + e-ticket. Allow 30 min for bag drop + immigration + 30 min security + 3 min to gate. ★ TIGHT: 20:57 arrival → 22:00 flight = 1h 3m. NO buffer for delays. If anything goes wrong, the next CX flight is tomorrow.",
         "energy": 2
       },
       {
         "id": "d3-15",
-        "time": "20:00",
+        "time": "21:30",
         "name": "Past security (2h before flight)",
         "tag": "Transit",
         "concierge": "Pick up Press Butter Sand boxes at duty-free (NRT T2, 4F after security). IASS Executive Lounge (T2) if you want to sit (Amex Plat + Priority Pass). Duty-free: matcha kit + Tokyo Banana. Last meal: Sushi Kyotatsu on 4F (better than airport ramen).",
-        "energy": 1
+        "energy": 1,
+        "tip": "★ VERY TIGHT: 30 min before flight. Skip IASS lounge, skip duty-free browsing, go straight to gate. Press Butter Sand boxes at NRT T2 duty-free (4F after security) is still open if you want last-second gifts."
       },
       {
         "id": "d3-16",
