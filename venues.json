@@ -722,38 +722,39 @@
       {
         "id": "d3-late-lunch",
         "time": "14:40",
-        "name": "Quick lunch on the way out (or skip if conference fed you)",
+        "name": "(Skip — already ate lunch, head straight to Ueno)",
         "tag": "Lunch",
-        "concierge": "Eat light. Or skip — ramen is too heavy before 4h+ transit. If hungry: onigiri from convenience store or B1 of Opera City.",
-        "energy": 2
+        "concierge": "Train: Hatsudai Stn (Keio Line) → JR Shinjuku Stn (3 min) → transfer to JR Yamanote/中央線 (Chuo Rapid) → JR Ueno Stn (15 min total). Exit Hirokōji Exit (広小路口) for Ameyoko.",
+        "energy": 2,
+        "tip": "Lunch already done. Walk to Hatsudai Stn + JR train to Ueno."
       },
       {
         "id": "d3-ameyoko-loop",
-        "time": "15:00",
+        "time": "14:55",
         "name": "Ameyoko loop: HINOYA × 3 + JBJ + Sasugaya",
         "tag": "Shopping",
         "venue": "wpue_hotel",
-        "concierge": "JR from Opera City → JR Ueno (15 min). Ameyoko block walk (all 5 stores within 2-3 min of each other):\n  1) HINOYA 本店: 6-10-14 Ueno, Taito-ku. 10:30-20:10. Heritage denim institution (Buzz Rickson's, Momotaro, Sugar Cane, Pure Blue Japan).\n  2) HINOYA ONE (SUN HOUSE 2nd): 6-10-22 Ueno. 10:30-20:10. Boncoura, Warehouse brands.\n  3) HINOYA PLUS MART (SUN HOUSE): 6-9-5 Ueno. 10:30-20:10. Outlet pricing.\n  4) Japan Blue Jeans (JBJ) Ueno: in the same Ameyoko block. 10:00-20:00 typical. Momotaro parent company.\n  5) Sasugaya Outlet: 6-4-7 Ueno, Ameyoko Welcome Mall 1F. Phone 03-6806-0577. CLOSES 18:30 SHARP (11:00-18:30). Hit this FIRST if you want knives/bags.",
+        "concierge": "JR from Opera City (Hatsudai Stn) → JR Ueno Stn (15 min via JR Yamanote/中央線).\n\n🚉 Ueno Stn exit: Hirokōji Exit (広小路口) — direct to Ameyoko\n\nAmeyoko block walk (5 stores within 2-3 min of each other):\n  1) ★ PRESS BUTTER SAND プレスバターサンド 上野マルイ店 (in-station, in Ueno Marui B1F — can stop here FIRST or on return)\n  2) HINOYA 本店: 6-10-14 Ueno, Taito-ku. 10:30-20:10. Heritage denim (Buzz Rickson's, Momotaro, Sugar Cane, Pure Blue Japan).\n  3) HINOYA ONE (SUN HOUSE 2nd): 6-10-22 Ueno. 10:30-20:10. Boncoura, Warehouse.\n  4) HINOYA PLUS MART (SUN HOUSE): 6-9-5 Ueno. 10:30-20:10. Outlet pricing.\n  5) Japan Blue Jeans (JBJ) Ueno: in same Ameyoko block. 10:00-20:00 typical. Momotaro parent company.\n  6) Sasugaya Outlet: 6-4-7 Ueno, Ameyoko Welcome Mall 1F. Phone 03-6806-0577. CLOSES 18:30 SHARP (11:00-18:30). Hit this FIRST if you want knives/bags.\n\n🚉 After loop: walk back to JR Ueno Stn (5 min), take JR Yamanote/京浜東北線 to JR Tokyo Stn (12 min), exit Yaesu side (八重洲北口 or 地下中央口) for NEX platform.",
         "energy": 3,
-        "tip": "⚠️  CRITICAL: Sasugaya Outlet closes 18:30 SHARP. Hit it FIRST before the other stores if you want knives (¥1,500-8,000) or bags. Tax-free needs ¥5,000+ at one store for tourist refund. Cash recommended (knife + scissor purchases can be cash-only). Tax-free threshold: ¥5,000+ in single receipt. For Sasugaya knives: ask for a 'petty' (small chef's knife) or 'santoku' (all-purpose) — bigger knives need practice to use safely."
+        "tip": "⚠️  CRITICAL: Sasugaya Outlet closes 18:30 SHARP. Hit it FIRST in the loop. \n\n★ PRESS BUTTER SAND: Hit on the way IN (15:00 right after arriving) OR on the way out (before Tokyo Stn). Conveniently located in Ueno Marui B1F (1-min walk from Ameyoko entrance). ¥1,000-1,800 for the boxed sets. \n\n💰 Coffee beans: None of the Ameyoko stores sell specialty coffee beans. Skip coffee here, do it on Day 2 morning (Paul Bassett) or Day 3 morning (Paul Bassett retry). \n\nFor Sasugaya knives: ask for 'petty' (small chef's knife) or 'santoku' (all-purpose). Tax-free needs ¥5,000+ in single receipt for tourist refund."
       },
       {
         "id": "d3-tokyo-stn-souvenirs",
-        "time": "16:50",
+        "time": "16:45",
         "name": "Tokyo Stn First Avenue B1 souvenir crawl (30 min, light)",
         "venue": "tokyo-stn-first-ave",
-        "concierge": "Tokyo Station First Avenue B1 'Tokyo Souvenir Mall' (Yaesu side): 30+ character/regional food shops. Open 10:00-20:30. 5-min walk from NEX platform. If you've already done Poké, this is the lighter souvenir pass.",
-        "tip": "🎯 LIGHTER Day 3 since Poké is done. Quick 30-min pass for: Press Butter Sand cookies, Tokyo Banana (boxed), ROYCE' chocolate. Skip the deeper crawl if Poké took all your souvenir energy. If still in shopping mode after, do the 5F Daimaru Toy department for kid toys + Calbee+ snack sample.",
+        "concierge": "🚉 Tokyo Stn exit: Yaesu North Exit (八重洲北口) or Yaesu Underground Central Exit (八重洲地下中央口) — direct access to First Avenue B1F.\n\nTokyo Station First Avenue B1 'Tokyo Souvenir Mall' (Yaesu side): 30+ character/regional food shops. Open 10:00-20:30. 5-min walk from NEX platform (Yaesu exit). Already got Press Butter Sand at Ueno — Tokyo Banana, ROYCE', Tokyo Rusk are the highlights here.",
+        "tip": "🎯 LIGHTER Day 3 since Poké is done + Press Butter Sand already at Ueno. Quick 30-min pass for: Tokyo Banana (boxed), ROYCE' chocolate, Tokyo Rusk. Skip the deeper crawl if Poké took all your souvenir energy. Optional: 5F Daimaru Toy for kid toys + Calbee+ snack sample.",
         "energy": 1,
         "travel": "5 min walk from Ameyoko → Tokyo Stn",
         "duration": "30 min"
       },
       {
         "id": "d3-kantaro-standing-sushi",
-        "time": "17:00",
+        "time": "16:55",
         "name": "立喰い寿司 函太郎 (Kantaro) — STANDING SUSHI in Tokyo Stn",
         "venue": "kantaro-tokyo-stn",
-        "concierge": "立喰い寿司 函太郎 (Hakodate Tachigui Sushi Kantaro Tokyo Station Ichibangai). B1F Tokyo Station Ichibangai A-7, 1-9-1 Marunouchi, Chiyoda-ku. Near Yaesu Underground Central Exit, in the 'Nippon Gourmet Street' area. Hours: 11:00-22:00 (L.O. 21:30). Open year-round. ALL STANDING (no chairs). Solo dining-friendly. Order by piece, ¥120-500/piece. Total: ¥2,000-3,500/pp for a satisfying meal. ★ 1-minute walk from NEX platform (Yaesu exit). Alternative nearby: 立鮨 すし横 (Sushi Yoko) in Yaechika — ¥1,050 for 12-piece set.",
+        "concierge": "🚉 Tokyo Stn exit: Yaesu Underground Central Exit (八重洲地下中央口) → Ichibangai B1F. 立喰い寿司 函太郎 (Hakodate Tachigui Sushi Kantaro Tokyo Station Ichibangai). B1F Tokyo Station Ichibangai A-7, 1-9-1 Marunouchi, Chiyoda-ku. In the 'Nippon Gourmet Street' area, 1-min walk from Yaesu exit. Hours: 11:00-22:00 (L.O. 21:30). Open year-round. ALL STANDING (no chairs). Solo dining-friendly. Order by piece, ¥120-500/piece. Total: ¥2,000-3,500/pp for a satisfying meal. ★ 1-minute walk from NEX platform (Yaesu exit).",
         "tip": "🎯 STANDING SUSHI. Famous Hakodate chain, all standing (fast turnover, no chairs). Order by piece: negitoro ¥120, salmon ¥180, yellowtail ¥200, lean tuna ¥380, anago ¥300. 5-7 pieces + miso soup = ¥1,500-2,000 total. ★ This is the right call: standing sushi near NEX = 1 min walk to platform. Walk to NEX at 17:25.",
         "energy": 1,
         "travel": "1 min walk to NEX platform",
@@ -1869,6 +1870,33 @@
         "tip": "BACKUP if Kantaro is full. Lunch set 12 pieces + roll = ¥1,050 ('1.5人前'). Standing-only at ¥1,050; sitting at counter adds ¥100 for chair. Sushi rolls out in 3-4 minutes. 11 min stay is typical.",
         "hours": "Weekdays 11:00-22:30 / Sat-Sun 11:00-21:30",
         "rating": "¥1,050 for 12-piece set, fast"
+      },
+      {
+        "id": "saved-press-butter-sand-ueno",
+        "name": "PRESS BUTTER SAND プレスバターサンド 上野マルイ店 (Ueno Marui B1F)",
+        "category": "Souvenirs",
+        "concierge": "Ueno Marui B1F, near JR Ueno Stn Hirokōji Exit. Address: 6-15-1 Ueno, Taito-ku. Phone 03-5818-1231. Hours: 10:30-20:30 daily. Famous Hokkaido butter sandwich cookies, 'newly baked' or boxed sets.",
+        "tip": "★ DAY 3 STOP. Get here 15:00 right when you arrive in Ueno (before Ameyoko loop) or on the way out (16:30 before Tokyo Stn). Boxed sets: 6-piece ¥900, 9-piece ¥1,350, 13-piece ¥1,950, 24-piece ¥3,600. Tokyo-exclusive 'freshly baked' ¥150/piece. Tax-free for tourists with passport.",
+        "hours": "10:30-20:30",
+        "rating": "Most famous Tokyo souvenir, Hokkaido butter"
+      },
+      {
+        "id": "saved-press-butter-sand-shinjuku",
+        "name": "PRESS BUTTER SAND ルミネエスト新宿店 (Lumine Est Shinjuku B1F)",
+        "category": "Souvenirs",
+        "concierge": "Lumine Est Shinjuku B1F, 1-minute walk from JR Shinjuku Stn Central East Exit or East Exit. Address: 3-38-1 Shinjuku, Shinjuku-ku. Phone 03-6273-0142. Hours: Mon-Fri 11:00-21:00, Sat-Sun-Holidays 10:30-21:00.",
+        "tip": "★ DAY 1 or 2 STOP. If you can't make it to Ueno on Day 3, this is the Shinjuku branch. 1-min walk from WPUE. Same products, same prices. Boxed sets 6/9/13/24 pieces.",
+        "hours": "Mon-Fri 11:00-21:00 / Sat-Sun 10:30-21:00",
+        "rating": "Same as Ueno, easier access from Shinjuku"
+      },
+      {
+        "id": "saved-press-butter-sand-tokyo-stn",
+        "name": "PRESS BUTTER SAND Daimaru Tokyo B1F",
+        "category": "Souvenirs",
+        "concierge": "Daimaru Tokyo B1F, exit from JR Yaesu North Exit and proceed underground. Address: 1-9-1 Marunouchi, Chiyoda-ku. Phone 03-6895-2750. Hours: 10:00-20:00 daily (per building hours).",
+        "tip": "★ DAY 3 ALTERNATIVE. If you skip the Ueno branch, this is the easiest — inside Tokyo Stn, on the way to NEX. Same products.",
+        "hours": "10:00-20:00",
+        "rating": "Same as Ueno, in Tokyo Stn"
       }
     ]
   },
